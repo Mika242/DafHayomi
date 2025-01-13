@@ -37,6 +37,49 @@
             text-align: center;
             margin-top: 40px;
         }
+		        .tree {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+        }
+        ul {
+            list-style: none;
+            padding-left: 20px;
+            position: relative;
+        }
+        ul::before {
+            content: '';
+            border-left: 2px solid #ccc;
+            position: absolute;
+            top: 0;
+            left: 10px;
+            bottom: 0;
+        }
+        li {
+            margin: 10px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+        li::before {
+            content: '';
+            border-top: 2px solid #ccc;
+            position: absolute;
+            top: 10px;
+            left: 0;
+            width: 10px;
+        }
+        li::after {
+            content: '';
+            border-left: 2px solid #ccc;
+            position: absolute;
+            top: 10px;
+            left: 0;
+            height: 100%;
+        }
+        li:last-child::after {
+            display: none;
+        }
     </style>
 </head>
 <body>
@@ -134,5 +177,45 @@
             </tr>
         </tbody>
     </table>
+	<h1 class="main-title">Organigramme des relations disqualifiantes</h1>
+    <div class="tree">
+        <ul>
+            <li>
+                <span class="highlight">La personne impliquée</span>
+                <ul>
+                    <li>Son <span class="hebrew">אָח</span> (frère)</li>
+                    <li>
+                        Son <span class="hebrew">דּוֹד</span> (oncle)
+                        <ul>
+                            <li>Oncle paternel</li>
+                            <li>Oncle maternel</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Le mari de :
+                        <ul>
+                            <li>Sa sœur</li>
+                            <li>Sa tante paternelle</li>
+                            <li>Sa tante maternelle</li>
+                            <li>Sa mère</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Le <span class="hebrew">חָמִיו</span> (beau-père)
+                        <ul>
+                            <li>Le <span class="hebrew">גִּיס</span> (beau-frère)</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span class="highlight">Beau-fils</span> et ses descendants :
+                        <ul>
+                            <li>Ses fils</li>
+                            <li>Ses gendres</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
 </body>
 </html>
