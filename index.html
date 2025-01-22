@@ -1,25 +1,168 @@
-    <h1>DafHayomi</h1>
-    <p>Cliquez sur un lien pour accéder aux pages :</p>
-    <ul>
-        <li><a href="fr_Sanhedrin2.html">Sanhedrin daf 2 en francais (perek 1 - michna 1)</a></li>
-        <li><a href="he_Sanhedrin2.html">Sanhedrin daf 2 Ivrit (perek 2 - michna 1)</a></li>
-		<li><a href="fr_Sanhedrin3.html">Sanhedrin daf 2b et 3 en francais (Guemara)</a></li>
-		<li><a href="fr_Sanhedrin18.html">Sanhedrin daf 18 en francais (perek 2 - michna 2)</a></li>
-		<li><a href="he_Sanhedrin18.html">Sanhedrin daf 18 Ivrit (perek 2 - michna 2)</a></li>
-		<li><a href="fr_Sanhedrin20a.html">Sanhedrin daf 20a (perek 2 - michna 3)</a></li>
-		<li><a href="fr_Sanhedrin20b.html">Sanhedrin daf 20b (perek 2 - michna 4)</a></li>
-		<li><a href="fr_Sanhedrin21a.html">Sanhedrin daf 21a (perek 2 - michna 5)</a></li>
-		<li><a href="fr_Sanhedrin21b.html">Sanhedrin daf 21b (perek 2 - michna 6)</a></li>
-		<li><a href="fr_Sanhedrin22a.html">Sanhedrin daf 22a (perek 2 - michna 7)</a></li>
-		<li><a href="fr_Sanhedrin22_Guemara.html">Sanhedrin daf 22 en francais (Guemara - lien fort entre l'homme et sa première femme)</a></li>
-		<li><a href="fr_Sanhedrin23a.html">Sanhedrin daf 23a (perek 3 - michna 1)</a></li>
-		<li><a href="fr_Sanhedrin24a.html">Sanhedrin daf 24a (perek 3 - michna 2)</a></li>
-		<li><a href="fr_Sanhedrin24b.html">Sanhedrin daf 24a (perek 3 - michna 3)</a></li>
-		<li><a href="fr_Sanhedrin25a_Guemara.html">Sanhedrin daf 25a en francais (Guemara - Prêt avec intérêt ou jeu d'argent)</a></li>
-		<li><a href="fr_Sanhedrin27b.html">Sanhedrin daf 27b (perek 3 - michna 4)</a></li>
-		<li><a href="fr_Sanhedrin29a.html">Sanhedrin daf 29a (perek 3 - michna 5) (Examen des témoins)</a></li>
-		<li><a href="fr_Sanhedrin31a.html">Sanhedrin daf 31a (perek 3 - michna 6) (Validité des preuves et témoignages tardifs dans un procès)</a></li>
-		<li><a href="fr_Sanhedrin32a.html">Sanhedrin daf 32a (perek 4 - michna 1) (Différences entre jugements civils et jugements criminels en droit juif)</a></li>
-    </ul>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daf Hayomi - Étude du Talmud</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 20px;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .category {
+            background-color: #ddd;
+            padding: 10px;
+            margin: 10px 0;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .treatise {
+            margin-left: 20px;
+            background-color: #eee;
+            padding: 5px;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .chapter {
+            margin-left: 30px;
+            background-color: #eee;
+            padding: 5px;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .hidden {
+            display: none;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 40px;
+        }
+        li {
+            margin: 5px 0;
+        }
+        a {
+            text-decoration: none;
+            color: #007bff;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Daf Hayomi - Étude du Talmud</h1>
+    <p>Cliquez sur un livre ou un traité pour afficher/cacher les liens :</p>
+
+    <!-- Zeraïm -->
+    <div class="category" onclick="toggleVisibility('zeraim')">📖 Zeraïm (Graines) - Lois agricoles</div>
+    <div id="zeraim" class="hidden">
+        <p>📌 Pas encore de contenu ajouté.</p>
+    </div>
+
+    <!-- Moëd -->
+    <div class="category" onclick="toggleVisibility('moed')">📖 Moëd (Fêtes) - Lois des jours de fête</div>
+    <div id="moed" class="hidden">
+        <p>📌 Pas encore de contenu ajouté.</p>
+    </div>
+
+    <!-- Nashim -->
+    <div class="category" onclick="toggleVisibility('nashim')">📖 Nashim (Femmes) - Lois du mariage et des vœux</div>
+    <div id="nashim" class="hidden">
+        <p>📌 Pas encore de contenu ajouté.</p>
+    </div>
+
+    <!-- Nezikin -->
+    <div class="category" onclick="toggleVisibility('nezikin')">📖 Nezikin (Dommages) - Lois civiles et criminelles 🚧</div>
+<div id="nezikin" class="hidden">
+    <div class="treatise" onclick="toggleVisibility('bava_kama')">🔹 Bava Kama (Dommages et indemnisation)🔜</div>
+    <ul id="bava_kama" class="hidden"></ul>
+    <div class="treatise" onclick="toggleVisibility('bava_metzia')">🔹 Bava Metzia (Litiges civils et restitution)🔜</div>
+    <ul id="bava_metzia" class="hidden"></ul>
+    <div class="treatise" onclick="toggleVisibility('bava_batra')">🔹 Bava Batra (Propriété et succession)🔜</div>
+    <ul id="bava_batra" class="hidden"></ul>
+    <div class="treatise" onclick="toggleVisibility('sanhedrin')">🔹 Sanhédrin (Tribunal rabbinique) 🚧</div>
+    <div id="sanhedrin" class="hidden">
+        <div class="chapter" onclick="toggleVisibility('perek1')">📜 Perek 1🟢</div>
+        <ul id="perek1" class="hidden">
+            <li><a href="fr_Sanhedrin2.html">Sanhedrin daf 2 en français (Michna 1)</a></li>
+			<li><a href="he_Sanhedrin2.html">Sanhedrin daf 2 en hébreu (Michna 1)</a></li>
+        </ul>
+        <div class="chapter" onclick="toggleVisibility('perek2')">📜 Perek 2 🟢</div>
+        <ul id="perek2" class="hidden">
+            <li><a href="fr_Sanhedrin18.html">Sanhedrin daf 18a en français (Michna 1)</a></li>
+            <li><a href="he_Sanhedrin18.html">Sanhedrin daf 18a en hébreu (Michna 1)</a></li>
+            <li><a href="fr_Sanhedrin20a.html">Sanhedrin daf 20a (Michna 2)</a></li>
+            <li><a href="fr_Sanhedrin20b.html">Sanhedrin daf 20b (Michna 3)</a></li>
+            <li><a href="fr_Sanhedrin21a.html">Sanhedrin daf 21a (Michna 4)</a></li>
+            <li><a href="fr_Sanhedrin21b.html">Sanhedrin daf 21b (Michna 5)</a></li>
+            <li><a href="fr_Sanhedrin22a.html">Sanhedrin daf 22a (Michna 6)</a></li>
+            <li><a href="fr_Sanhedrin22_Guemara.html">Sanhedrin daf 22 en français (Guemara - lien fort entre l'homme et sa première femme)</a></li>
+        </ul>
+        <div class="chapter" onclick="toggleVisibility('perek3')">📜 Perek 3 🟢</div>
+        <ul id="perek3" class="hidden">
+            <li><a href="fr_Sanhedrin23a.html">Sanhedrin daf 23a (Michna 1)</a></li>
+            <li><a href="fr_Sanhedrin24a.html">Sanhedrin daf 24a (Michna 2)</a></li>
+            <li><a href="fr_Sanhedrin24b.html">Sanhedrin daf 24b (Michna 3)</a></li>
+            <li><a href="fr_Sanhedrin25a_Guemara.html">Sanhedrin daf 25a en français (Guemara - Prêt avec intérêt ou jeu d'argent)</a></li>
+            <li><a href="fr_Sanhedrin27b.html">Sanhedrin daf 27b (Michna 4)</a></li>
+            <li><a href="fr_Sanhedrin29a.html">Sanhedrin daf 29a (Michna 5) (Examen des témoins)</a></li>
+            <li><a href="fr_Sanhedrin31a.html">Sanhedrin daf 31a (Michna 6) (Validité des preuves et témoignages tardifs dans un procès)</a></li>
+        </ul>
+        <div class="chapter" onclick="toggleVisibility('perek4')">📜 Perek 4 🚧</div>
+        <ul id="perek4" class="hidden">
+            <li><a href="fr_Sanhedrin32a.html">Sanhedrin daf 32a (Michna 1) (Différences entre jugements civils et criminels en droit juif)</a></li>
+			<li><a href="fr_Sanhedrin36b37a.html">Sanhedrin daf 36a 37b(Michna 2) (Organisation et Fonctionnement du Sanhédrin)</a></li>
+        </ul>
+    </div>
+	<div class="treatise" onclick="toggleVisibility('makkot')">🔹 Makkot (Punitions corporelles) 🔜</div>
+    <ul id="makkot" class="hidden"></ul>
+    <div class="treatise" onclick="toggleVisibility('shevuot')">🔹 Shevuot (Serments)🔜</div>
+    <ul id="shevuot" class="hidden"></ul>
+    <div class="treatise" onclick="toggleVisibility('eduyot')">🔹 Eduyot (Témoignages)🔜</div>
+    <ul id="eduyot" class="hidden"></ul>
+    <div class="treatise" onclick="toggleVisibility('avoda_zara')">🔹 Avoda Zara (Idolâtrie)🔜</div>
+    <ul id="avoda_zara" class="hidden"></ul>
+    <div class="treatise" onclick="toggleVisibility('horayot')">🔹 Horayot (Erreurs judiciaires)🔜</div>
+    <ul id="horayot" class="hidden"></ul>
+</div>
+
+    <!-- Kodashim -->
+    <div class="category" onclick="toggleVisibility('kodashim')">📖 Kodashim (Saintetés) - Lois sur les sacrifices et le Temple</div>
+    <div id="kodashim" class="hidden">
+        <p>📌 Pas encore de contenu ajouté.</p>
+    </div>
+
+    <!-- Taharot -->
+    <div class="category" onclick="toggleVisibility('taharot')">📖 Taharot (Puretés) - Lois sur la pureté et l'impureté</div>
+    <div id="taharot" class="hidden">
+        <p>📌 Pas encore de contenu ajouté.</p>
+    </div>
+
+    <script>
+        function toggleVisibility(id) {
+            var element = document.getElementById(id);
+            if (element.classList.contains("hidden")) {
+                element.classList.remove("hidden");
+            } else {
+                element.classList.add("hidden");
+            }
+        }
+		document.addEventListener("DOMContentLoaded", function() {
+			document.querySelectorAll("a").forEach(function(link) {
+			link.setAttribute("target", "_blank");
+			});
+		});
+    </script>
+
 </body>
 </html>
