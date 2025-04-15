@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makkot daf 7a-7b (Perek 2 - Michna 1) (L’Exil pour Homicide Involontaire : Quand une Chute Devient Sentence  )</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 40px;
+            padding: 0;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 30px auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            text-align: center;
+            color: #7a2d82;
+			border-bottom: 2px solid #7a3da5;
+            padding-bottom: 5px;
+        }
+        p {
+            line-height: 1.6;
+            margin-bottom: 1em;
+			
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 20px;
+			
+        }
+        ul li::before {
+            content: "• ";
+            color: #0066cc;
+            font-weight: bold;
+			
+        }
+        blockquote {
+            background-color: #f9f9f9;
+            border-left: 4px solid #0066cc;
+            padding: 10px;
+            margin: 20px 0;
+            font-style: italic;
+        }
+        .highlight {
+            background-color: #f9f9f9;
+            padding: 5px;
+            border-radius: 4px;
+        }
+        .note {
+            font-size: 0.9em;
+            color: #555;
+            padding: 10px;
+            margin-top: 20px;
+            background-color: #e3f2fd;
+            border-left: 4px solid #2196f3;
+        }
+		.mishna-text-comment {
+            display: none; /* Cache la zone par défaut */
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1.2em;
+            color: #003366;
+            background-color: #f0f0f0;
+            padding: 15px;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        .toggle-button {
+            background-color: #0066cc;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .toggle-button:hover {
+            background-color: #0057a1;
+        }
+		.mishna {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1.2em;
+            color: #003366;
+            background-color: #f0f0f0;
+            padding: 15px;
+            margin-top: 10px;
+            border-radius: 5px;
+			text-align: right;
+        }
+    </style>
+	
+	<script>
+        function togglemishnaTextComment() {
+            var mishnaTextComment = document.getElementById("mishnaTextComment");
+            if (mishnaTextComment.style.display === "none") {
+                mishnaTextComment.style.display = "block";
+            } else {
+                mishnaTextComment.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+
+<div class="container">
+
+<button class="toggle-button" onclick="togglemishnaTextComment()">Afficher/Cacher la Mishna et les commentaires</button>
+
+<div id="mishnaTextComment" class="mishna-text-comment">
+
+		<div class="mishna">
+		
+			<ul>
+			  <li>אֵלּוּ הֵן הַגּוֹלִין: הַהוֹרֵג נֶפֶשׁ בִּשְׁגָגָה ⚖️</li>
+			  <li>הָיָה מְעַגֵּל בַּמַּעְגֵּילָה וְנָפְלָה עָלָיו וַהֲרָגַתּוּ 🪵</li>
+			  <li>הָיָה מְשַׁלְשֵׁל בֶּחָבִית וְנָפְלָה עָלָיו וַהֲרָגַתּוּ 🍶</li>
+			  <li>הָיָה יוֹרֵד בַּסּוּלָּם וְנָפַל עָלָיו וַהֲרָגוֹ 🪜➡️🧍‍♂️ – הֲרֵי זֶה גּוֹלֶה ⛓️</li>
+			  <li>אֲבָל אִם הָיָה מוֹשֵׁךְ בַּמַּעְגֵּילָה וְנָפְלָה עָלָיו וַהֲרָגַתּוּ ❌🪵</li>
+			  <li>הָיָה דּוֹלֶה בֶּחָבִית וְנִפְסַק הַחֶבֶל וְנָפְלָה עָלָיו וַהֲרָגַתּוּ ❌🍶</li>
+			  <li>הָיָה עוֹלֶה בַּסּוּלָּם וְנָפַל עָלָיו וַהֲרָגוֹ – הֲרֵי זֶה אֵינוֹ גּוֹלֶה 🚫🪜🧍‍♂️</li>
+			</ul>
+
+			<h3>📘 כלל:</h3>
+
+			<ul>
+			  <li>כׇּל שֶׁבְּדֶרֶךְ יְרִידָתוֹ – גּוֹלֶה ⬇️✅</li>
+			  <li>וְשֶׁלֹּא בְּדֶרֶךְ יְרִידָתוֹ – אֵינוֹ גּוֹלֶה ⬆️❌</li>
+			</ul>בָּן שִׁמְעוֹן בֶּן גַּמְלִיאֵל אוֹמֵר: אַף הֵן מַרְבִּין שׁוֹפְכֵי דָּמִים בְּיִשְׂרָאֵל 🩸</li>
+			</ul>
+			
+		</div>	
+		
+		<h1>Makkot daf 7a-7b (Perek 2 - Michna 1)</h1>
+		
+			<h3>📘 Michna : Les cas d'exil pour homicide involontaire</h3>
+
+			<ul>
+			  <li>⚖️ Ceux qui sont exilés : celui qui tue une personne par inadvertance.</li>
+			  <li>🪵 S'il était en train de lisser avec un rouleau, que le rouleau est tombé sur une personne et l’a tuée.</li>
+			  <li>🍶 S’il descendait une jarre avec une corde, et qu’elle est tombée sur une personne et l’a tuée.</li>
+			  <li>🪜➡️🧍‍♂️ S’il descendait une échelle et qu’il est tombé sur une personne et l’a tuée – il est exilé.</li>
+			  <li>❌🪵 Mais s’il tirait le rouleau vers lui, qu’il est tombé de ses mains et a tué – il n’est pas exilé.</li>
+			  <li>❌🍶 S’il remontait une jarre et que la corde s’est rompue, elle est tombée et a tué – il n’est pas exilé.</li>
+			  <li>🚫🪜🧍‍♂️ S’il montait une échelle, est tombé et a tué – il n’est pas exilé.</li>
+			</ul>
+
+			<h3>📜 Règle générale :</h3>
+
+			<ul>
+			  <li>⬇️✅ Tout cas où la mort est causée dans un mouvement descendant – il est exilé.</li>
+			  <li>⬆️❌ Si ce n’est pas lors d’un mouvement descendant – il n’est pas exilé.</li>
+			</ul>
+			
+		<h2 >📖 Analyse des Commentateurs</h2>
+
+
+
+			
+
+			<h3>TBD</h3>
+
+
+	
+</div>
+
+
+    <h1>Makkot daf 7a-7b (Perek 2 - Michna 1) -  L’Exil pour Homicide Involontaire : Quand une Chute Devient Sentence  </h1>
+    
+	<div class="mishna-explication">
+
+		<h3>🧾  Les règles d'exil pour homicide involontaire</h3>
+
+		<ul>
+		  <li>🧍‍♂️➡️🏃‍♂️ La Michna traite du cas d'une personne ayant tué quelqu’un par inadvertance — sans intention criminelle.</li>
+		  <li>⚖️ Dans ce cas, la Torah prévoit une peine d'exil dans une ville de refuge plutôt qu'une condamnation à mort.</li>
+		</ul>
+
+		<h3>🛠️ Exemples d’accidents menant à l’exil</h3>
+
+		<ul>
+		  <li>🔄 Utilisation d’un outil ou objet (comme un rouleau) dans un mouvement descendant, causant un accident mortel.</li>
+		  <li>📉 Descente d'une échelle suivie d’une chute involontaire sur une personne.</li>
+		  <li>🔗 Manipulation d’une jarre qui tombe accidentellement à cause d’un glissement ou d’un manque de contrôle.</li>
+		</ul>
+
+		<h3>🚫 Cas ne conduisant pas à l’exil</h3>
+
+		<ul>
+		  <li>🆙 Si la chute survient lors d’un mouvement vers le haut (comme monter une échelle), l’exil n’est pas appliqué.</li>
+		  <li>✂️ Si l’accident est dû à une rupture (comme une corde qui casse), ce n’est pas considéré comme assez négligent pour exiler.</li>
+		</ul>
+
+		<h3>📌 Principe fondamental</h3>
+
+		<ul>
+		  <li>📥 Si la mort est causée par un mouvement descendant – il y a exil, car c’est souvent signe de négligence partielle.</li>
+		  <li>📤 Si ce n’est pas le cas – il n’y a pas d’exil, car la responsabilité n’est pas assez directe ou évidente.</li>
+		</ul>
+
+    <h2>📜 Explication Synthétique des Halakhot</h2>		
+
+		<h3>⚖️ Principes généraux de l'exil pour homicide involontaire</h3>
+		<ul>
+		  <li>🛤️ Toute personne ayant tué par inadvertance doit s'exiler vers une <strong>ville de refuge</strong>.</li>
+		  <li>📖 C’est une <strong>mitsva positive</strong> fondée sur le verset : « Il y demeurera jusqu'à la mort du grand prêtre » (Nombres 35:25).</li>
+		  <li>🚫 Le tribunal <strong>ne peut accepter de rançon</strong> pour éviter l’exil (Nombres 35:32).</li>
+		</ul>
+
+		<h3>🧱 Cas d'accidents menant à l'exil</h3>
+		<ul>
+		  <li>🪜 Si une personne descend une échelle et tombe sur quelqu’un : <strong>exil obligatoire</strong>.</li>
+		  <li>🪣 Si une personne descend un objet lourd (baril, polissoir) et le fait tomber : <strong>exil obligatoire</strong>.</li>
+		</ul>
+
+		<h3>🎯 Cas ne menant pas à l’exil</h3>
+		<ul>
+		  <li>🧵 Si la corde casse de manière inattendue : <strong>cas de force majeure</strong>, pas d’exil.</li>
+		  <li>🪜 Si on monte une échelle et tombe : <strong>pas d’exil</strong>, car ce n’est pas une descente naturelle.</li>
+		</ul>
+
+		<h3>👨‍🏫 Détails complémentaires (Sefer Mitzvot Gadol)</h3>
+		<ul>
+		  <li>⏱️ L’exil n’est obligatoire que si la victime meurt <strong>immédiatement</strong>.</li>
+		  <li>🗡️ Si la mort est différée, ou incertaine, le tueur n’est <strong>pas exilé</strong>.</li>
+		  <li>👶 Père frappant son fils, maître corrigeant son élève, émissaire du tribunal : <strong>pas concernés par l’exil</strong> s’ils tuent accidentellement.</li>
+		</ul>
+
+		<h3>🧍‍♂️ Statut du meurtrier en exil</h3>
+		<ul>
+		  <li>📦 Le meurtrier reste en exil jusqu’à la mort du <strong>grand prêtre</strong>.</li>
+		  <li>👨‍🎓 Un rabbin exilé doit être accompagné de ses élèves, et vice-versa, pour <strong>poursuivre l'étude</strong>.</li>
+		  <li>🔁 Un Lévi qui tue dans sa ville se voit transféré dans une <strong>autre ville lévitique</strong>.</li>
+		</ul>
+
+		<h3>🩸 Rôle du Goeil Hadam (Vengeur du sang)</h3>
+		<ul>
+		  <li>🗡️ Si le meurtrier quitte la ville de refuge <strong>volontairement</strong>, le vengeur peut le tuer sans conséquence.</li>
+		  <li>🛡️ Si la sortie était <strong>involontaire</strong>, le tueur du tueur devra lui-même s’exiler.</li>
+		</ul>
+
+		<h3>📚 Cas particuliers</h3>
+		<ul>
+		  <li>👀 Un aveugle tuant par erreur : <strong>pas d’exil</strong> selon Rabbi Yehuda.</li>
+		  <li>🏠 Celui qui entre sans autorisation dans une propriété privée et est tué par mégarde : <strong>pas d’exil</strong>.</li>
+		  <li>⛏️ Boucher utilisant un couperet dans un mouvement normal de découpe : <strong>cas de descente = exil</strong>, <strong>remontée = non exilable</strong>.</li>
+		</ul>
+
+		<h3>🧱 Villes de refuge : critères de validité</h3>
+		<ul>
+		  <li>🏘️ Une ville ne peut servir de refuge si elle est <strong>déjà peuplée de meurtriers</strong>.</li>
+		  <li>👴 Une ville sans <strong>anciens (zekenim)</strong> n’est pas valide.</li>
+		  <li>🛑 L’exilé ne peut quitter la ville <strong>tant que le grand prêtre est vivant</strong>.</li>
+		</ul>
+
+
+
+</div>
+	
+</body>
+</html>
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
