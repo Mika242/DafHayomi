@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Traité Horayot - Synthèse des Michnayot</title>
+<style>
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f8f9fb;
+  color: #222;
+  line-height: 1.6;
+  margin: 20px;
+}
+h1 {
+  text-align: center;
+  color: #003366;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 2px #ccc;
+}
+.treatise {
+  background: linear-gradient(90deg, #e3f2fd, #bbdefb);
+  padding: 10px 15px;
+  font-weight: bold;
+  border-left: 6px solid #2196f3;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.chapter {
+  background: #e8f5e9;
+  color: #1b5e20;
+  padding: 8px 12px;
+  border-left: 5px solid #4caf50;
+  margin-top: 5px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+ul {
+  list-style: none;
+  padding-left: 20px;
+  margin: 5px 0 15px 0;
+}
+li {
+  margin: 6px 0;
+  padding: 5px 10px;
+  border-left: 3px solid #90caf9;
+  background: #ffffff;
+  border-radius: 4px;
+  transition: 0.2s;
+}
+li:hover {
+  background: #f1f8ff;
+  border-left: 3px solid #2196f3;
+}
+a {
+  text-decoration: none;
+  color: #0d47a1;
+  font-weight: bold;
+}
+a:hover {
+  color: #1565c0;
+}
+.hidden {
+  display: none;
+}
+.subject {
+  color: #555;
+  font-style: italic;
+  margin-left: 8px;
+}
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #777;
+  font-size: 0.9em;
+}
+</style>
+<script>
+function toggleVisibility(id) {
+  const section = document.getElementById(id);
+  section.classList.toggle('hidden');
+}
+</script>
+</head>
+<body>
+
+<h1>📘 Traité Horayot — Synthèse des Michnayot</h1>
+
+<div class="treatise" onclick="toggleVisibility('horayot')">🔹 Horayot (Priorités et erreurs du Tribunal) 🟢</div>
+
+<div id="horayot">
+
+  <div class="chapter" onclick="toggleVisibility('horayot_perek1')">📜 Perek 1 — Fautes collectives et responsabilités 🟢</div>
+  <ul id="horayot_perek1" class="hidden">
+    <li><a href="fr_horayot2a.html">Horayot 2a (Michna 1)</a><span class="subject"> — Responsabilité du Beit Din et du peuple en cas d’erreur</span></li>
+    <li><a href="fr_horayot3b.html">Horayot 3b (Michna 2)</a><span class="subject"> — Erreur du tribunal : ignorance ou détail caché</span></li>
+    <li><a href="fr_horayot4b1.html">Horayot 4b (Michna 3)</a><span class="subject"> — Validité du tribunal face à un jugement erroné</span></li>
+    <li><a href="fr_horayot4b2.html">Horayot 4b (Michna 4)</a><span class="subject"> — Offrandes collectives selon la nature de l’erreur</span></li>
+    <li><a href="fr_horayot5a.html">Horayot 5a (Michna 5)</a><span class="subject"> — Divergences d’opinion sur les sacrifices du peuple</span></li>
+  </ul>
+
+  <div class="chapter" onclick="toggleVisibility('horayot_perek2')">📜 Perek 2 — Fautes du Grand Prêtre et du Tribunal 🟡</div>
+  <ul id="horayot_perek2" class="hidden">
+    <li><a href="fr_horayot6b.html">Horayot 6b (Michna 1)</a><span class="subject"> — Faute du Grand Prêtre dans ses propres décisions</span></li>
+    <li><a href="fr_horayot7a.html">Horayot 7a (Michna 2)</a><span class="subject"> — Responsabilité du Grand Prêtre et du Sanhédrin</span></li>
+    <li><a href="fr_horayot7b.html">Horayot 7b (Michna 3)</a><span class="subject"> — Erreur d’interprétation et culpabilité juridique</span></li>
+    <li><a href="fr_horayot8a.html">Horayot 8a (Michna 4)</a><span class="subject"> — Responsabilité dans les fautes graves et l’idolâtrie</span></li>
+    <li><a href="fr_horayot8b1.html">Horayot 8b (Michna 5)</a><span class="subject"> — Offrandes liées à la pureté (nidda)</span></li>
+    <li><a href="fr_horayot8b2.html">Horayot 8b (Michna 6)</a><span class="subject"> — Faute involontaire du roi ou du tribunal</span></li>
+    <li><a href="fr_horayot9a.html">Horayot 9a (Michna 7)</a><span class="subject"> — Offrandes expiatoires : individus et dirigeants</span></li>
+  </ul>
+
+  <div class="chapter" onclick="toggleVisibility('horayot_perek3')">📜 Perek 3 — Hiérarchie spirituelle et sociale 🔵</div>
+  <ul id="horayot_perek3" class="hidden">
+    <li><a href="fr_horayot9b.html">Horayot 9b (Michna 1)</a><span class="subject"> — Statut du Grand Prêtre et du Roi face à la faute</span></li>
+    <li><a href="fr_horayot10a.html">Horayot 10a (Michna 2)</a><span class="subject"> — Faute avant ou après la nomination</span></li>
+    <li><a href="fr_horayot11b.html">Horayot 11b (Michna 3)</a><span class="subject"> — Statuts du Grand Prêtre et implications rituelles</span></li>
+    <li><a href="fr_horayot12b1.html">Horayot 12b (Michna 4)</a><span class="subject"> — Deuil du prêtre ordinaire vs grand prêtre</span></li>
+    <li><a href="fr_horayot12b2.html">Horayot 12b (Michna 5)</a><span class="subject"> — Priorité dans le service divin</span></li>
+    <li><a href="fr_horayot13a1.html">Horayot 13a (Michna 6)</a><span class="subject"> — Priorité entre homme et femme</span></li>
+    <li><a href="fr_horayot13a2.html">Horayot 13a (Michna 7)</a><span class="subject"> — Degrés de priorité dans la société d’Israël</span></li>
+  </ul>
+
+</div>
+
+<footer>
+📖 Page de synthèse du traité Horayot — Talmud de Babylone | Conception claire et interactive © 2025
+</footer>
+
+</body>
+</html>
