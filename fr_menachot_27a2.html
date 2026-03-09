@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menachot daf 27a (Perek 3 - Michna 9) (L'עִכּוּב universel : l'interdépendance dans toute la halakha)</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 40px;
+            padding: 0;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 30px auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            text-align: center;
+            color: #5a2d82;
+            border-bottom: 2px solid #7a3da5;
+            padding-bottom: 5px;
+        }
+        p {
+            line-height: 1.6;
+            margin-bottom: 1em;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+        ul li::before {
+            content: "• ";
+            color: #0066cc;
+            font-weight: bold;
+        }
+        blockquote {
+            background-color: #f9f9f9;
+            border-left: 4px solid #0066cc;
+            padding: 10px;
+            margin: 20px 0;
+            font-style: italic;
+        }
+        .mishna-text-comment {
+            display: none;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1.2em;
+            color: #003366;
+            background-color: #f0f0f0;
+            padding: 15px;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        .toggle-button {
+            background-color: #0066cc;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .toggle-button:hover {
+            background-color: #0057a1;
+        }
+        .mishna {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1.2em;
+            color: #003366;
+            background-color: #f0f0f0;
+            padding: 15px;
+            margin-top: 10px;
+            border-radius: 5px;
+            text-align: right;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table th {
+            background-color: #5a2d82;
+            color: white;
+            padding: 8px;
+        }
+        table td {
+            padding: 8px;
+            border: 1px solid #ccc;
+        }
+        table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .bloc-yom-kippur {
+            background-color: #fce4ec;
+            border-left: 4px solid #c62828;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .bloc-shavuot {
+            background-color: #e8f5e9;
+            border-left: 4px solid #388e3c;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .bloc-lechem {
+            background-color: #fff8e1;
+            border-left: 4px solid #f9a825;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .bloc-multiples {
+            background-color: #e3f2fd;
+            border-left: 4px solid #1565c0;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .bloc-hazayot {
+            background-color: #f3e5f5;
+            border-left: 4px solid #7b1fa2;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .principe-box {
+            background-color: #f3e5f5;
+            border-left: 4px solid #7b1fa2;
+            padding: 12px;
+            margin: 15px 0;
+            border-radius: 4px;
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+
+    <script>
+        function togglemishnaTextComment() {
+            var mishnaTextComment = document.getElementById("mishnaTextComment");
+            if (mishnaTextComment.style.display === "none") {
+                mishnaTextComment.style.display = "block";
+            } else {
+                mishnaTextComment.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<div class="container">
+
+<button class="toggle-button" onclick="togglemishnaTextComment()">Afficher/Cacher la Mishna et les commentaires</button>
+
+<div id="mishnaTextComment" class="mishna-text-comment">
+
+    <div class="mishna">
+
+        <h3>מַתְנִי׳</h3>
+
+        <h3>🐐 יוֹם הַכִּפּוּרִים וַעֲצֶרֶת</h3>
+        <ul>
+          <li>שְׁנֵי שְׂעִירֵי יוֹם הַכִּפּוּרִים מְעַכְּבִין זֶה אֶת זֶה. <span style="float:right;">🐐🐐</span></li>
+          <li>שְׁנֵי כִּבְשֵׂי עֲצֶרֶת מְעַכְּבִין זֶה אֶת זֶה. <span style="float:right;">🐑🐑</span></li>
+          <li>שְׁתֵּי חַלּוֹת מְעַכְּבוֹת זוֹ אֶת זוֹ. <span style="float:right;">🍞🍞</span></li>
+        </ul>
+
+        <h3>🫓 לֶחֶם הַפָּנִים</h3>
+        <ul>
+          <li>שְׁנֵי סְדָרִין מְעַכְּבִין זֶה אֶת זֶה. <span style="float:right;">📋📋</span></li>
+          <li>שְׁנֵי בָּזִיכִין מְעַכְּבִין זֶה אֶת זֶה. <span style="float:right;">🕯️🕯️</span></li>
+          <li>הַסְּדָרִין וְהַבָּזִיכִין מְעַכְּבִין זֶה אֶת זֶה. <span style="float:right;">📋🕯️</span></li>
+        </ul>
+
+        <h3>📜 מִינִים שׁוֹנִים</h3>
+        <ul>
+          <li>שְׁנֵי מִינִים שֶׁבַּנָּזִיר. <span style="float:right;">🧑‍🦱</span></li>
+          <li>שְׁלֹשָׁה שֶׁבַּפָּרָה. <span style="float:right;">🐄</span></li>
+          <li>אַרְבָּעָה שֶׁבַּתּוֹדָה. <span style="float:right;">🍞</span></li>
+          <li>אַרְבָּעָה שֶׁבַּלּוּלָב. <span style="float:right;">🌿</span></li>
+          <li>אַרְבָּעָה שֶׁבַּמְּצוֹרָע – מְעַכְּבִין זֶה אֶת זֶה. <span style="float:right;">🐦</span></li>
+        </ul>
+
+        <h3>💧 הַזָּאוֹת</h3>
+        <ul>
+          <li>שֶׁבַע הַזָּאוֹת שֶׁבַּפָּרָה מְעַכְּבוֹת זוֹ אֶת זוֹ. <span style="float:right;">🐄💧</span></li>
+          <li>שֶׁבַע הַזָּיוֹת שֶׁעַל בֵּין הַבַּדִּים מְעַכְּבוֹת זוֹ אֶת זוֹ. <span style="float:right;">📦💧</span></li>
+          <li>שֶׁעַל הַפָּרֹכֶת מְעַכְּבוֹת זוֹ אֶת זוֹ. <span style="float:right;">🪞💧</span></li>
+          <li>שֶׁעַל מִזְבַּח הַזָּהָב מְעַכְּבוֹת זוֹ אֶת זוֹ. <span style="float:right;">🏅💧</span></li>
+        </ul>
+
+    </div>
+
+    <h1>Menachot daf 27a (Perek 3 - Michna 9)</h1>
+
+        <h3>Traduction en français de la Michna</h3>
+
+            <h3>🐐 Yom Kippur et Chavouot</h3>
+            <div class="bloc-yom-kippur">
+              <ul>
+                <li>🐐🐐 Les deux <strong>boucs de Yom Kippur</strong> se bloquent mutuellement : l'absence de l'un empêche l'autre d'accomplir la mitzva.</li>
+              </ul>
+            </div>
+            <div class="bloc-shavuot">
+              <ul>
+                <li>🐑🐑 Les deux <strong>agneaux de Chavouot</strong> (accompagnant l'offrande des deux pains) se bloquent mutuellement.</li>
+                <li>🍞🍞 Les deux <strong>pains de Chavouot (Chtei HaLechem)</strong> se bloquent mutuellement.</li>
+              </ul>
+            </div>
+
+            <h3>🫓 Le Pain de Proposition (Lechem HaPanim)</h3>
+            <div class="bloc-lechem">
+              <ul>
+                <li>📋📋 Les deux <strong>rangées (Sdarim)</strong> du Pain de Proposition se bloquent mutuellement.</li>
+                <li>🕯️🕯️ Les deux <strong>coupes d'encens (Bazichim)</strong> qui accompagnent le Pain de Proposition se bloquent mutuellement.</li>
+                <li>📋🕯️ Les <strong>rangées et les coupes d'encens</strong> se bloquent mutuellement : l'absence de l'un invalide l'autre.</li>
+              </ul>
+            </div>
+
+            <h3>📜 Les groupes de composantes multiples</h3>
+            <div class="bloc-multiples">
+              <ul>
+                <li>🧑‍🦱 Les <strong>deux types de pains du Nazir</strong> (Nombres 6:15) se bloquent mutuellement.</li>
+                <li>🐄 Les <strong>trois composantes de la Vache Rousse</strong> : bois de cèdre, hysope, fil cramoisi (Nombres 19:6) se bloquent mutuellement.</li>
+                <li>🍞 Les <strong>quatre types de pains de la Toda</strong> (offrande de reconnaissance) : pains, galettes, pains trempés, pain levé (Lévitique 7:12) se bloquent mutuellement.</li>
+                <li>🌿 Les <strong>quatre espèces du Loulav</strong> : loulav, etrog, myrte, saule (Lévitique 23:40) se bloquent mutuellement.</li>
+                <li>🐦 Les <strong>quatre composantes de la purification du Metsora</strong> : bois de cèdre, hysope, fil cramoisi, oiseaux (Lévitique 14:4) se bloquent mutuellement.</li>
+              </ul>
+            </div>
+
+            <h3>💧 Les aspersions (Hazayot)</h3>
+            <div class="bloc-hazayot">
+              <ul>
+                <li>🐄💧 Les <strong>sept aspersions de la Vache Rousse</strong> vers l'entrée du Sanctuaire (Nombres 19:4) se bloquent mutuellement.</li>
+                <li>📦💧 Les <strong>sept aspersions entre les bâtons de l'Arche</strong> (Lévitique 16:14-15) se bloquent mutuellement.</li>
+                <li>🪞💧 Les <strong>sept aspersions sur le Rideau (Parochet)</strong> se bloquent mutuellement.</li>
+                <li>🏅💧 Les <strong>aspersions sur l'autel d'or</strong> à Yom Kippur se bloquent mutuellement.</li>
+              </ul>
+            </div>
+
+    <h2>📖 Analyse des Commentateurs</h2>
+
+        <h3>TBC</h3>
+
+</div>
+
+
+    <h1>Menachot daf 27a (Perek 3 - Michna 9) — L'עִכּוּב universel : l'interdépendance dans toute la halakha</h1>
+
+    <div class="mishna-explication">
+
+        <h3>📌 Explication de la Michna</h3>
+
+            <h3>🧠 Principe général de la michna</h3>
+            <ul>
+              <li>📌 Cette Michna est la <strong>conclusion du chapitre 3</strong> et la suite directe de la Michna 8 : après avoir établi le principe de l'עִכּוּב (ikouv) dans le cadre des Menahot, la Mishna l'étend à l'ensemble de la halakha du Temple et des mitzvot.</li>
+              <li>📌 La Mishna démontre que l'ikouv — l'interdépendance des composantes d'une mitzva — est un <strong>principe universel</strong>, valable dans tous les domaines du service divin.</li>
+              <li>📌 La structure est une liste encyclopédique : des paires, des groupes de trois, quatre, cinq, et même des séries de sept actes successifs — tous soumis au même principe.</li>
+            </ul>
+
+            <div class="principe-box">
+              ⚖️ Principe universel : toute mitzva dont la Torah a prescrit plusieurs composantes ou plusieurs actes exige leur accomplissement <strong>intégral et solidaire</strong>. L'absence de l'une invalide les autres.
+            </div>
+
+            <h3>🐐 Bloc 1 : Yom Kippur et Chavouot</h3>
+
+                <h3>🐐🐐 Les deux boucs de Yom Kippur</h3>
+                <div class="bloc-yom-kippur">
+                  <ul>
+                    <li>📜 Source : Lévitique 16:5 — « Il prendra deux boucs pour offrande pour le péché. »</li>
+                    <li>🐐 Le premier bouc est offert en sacrifice sur l'autel.</li>
+                    <li>🏜️ Le second est le bouc « pour Azazel », envoyé dans le désert portant les péchés d'Israël.</li>
+                    <li>⚖️ Les deux constituent ensemble un service unique et indivisible : si l'un est mort, invalide, ou introuvable, le service de Yom Kippur ne peut pas être accompli avec le seul autre bouc.</li>
+                    <li>🔗 La Torah les présente comme une paire fonctionnelle — l'un n'a de sens que par rapport à l'autre.</li>
+                  </ul>
+                </div>
+
+                <h3>🐑🐑 Les deux agneaux de Chavouot</h3>
+                <div class="bloc-shavuot">
+                  <ul>
+                    <li>📜 Source : Lévitique 23:19 — « Vous offrirez deux agneaux d'un an en sacrifice de paix. »</li>
+                    <li>🐑 Ces deux agneaux sont offerts avec les deux pains (Chtei HaLechem) lors de la fête de Chavouot.</li>
+                    <li>⚖️ L'un ne peut être offert sans l'autre : ils forment une paire rituelle prescrite par la Torah.</li>
+                  </ul>
+                </div>
+
+                <h3>🍞🍞 Les deux pains de Chavouot (Chtei HaLechem)</h3>
+                <div class="bloc-shavuot">
+                  <ul>
+                    <li>📜 Source : Lévitique 23:17 — « Vous apporterez de vos demeures deux pains d'offrande. »</li>
+                    <li>🍞 Ces deux pains de blé levé sont une offrande unique de la communauté d'Israël à Chavouot.</li>
+                    <li>⚖️ La Torah en prescrit deux ; un seul ne constitue pas l'offrande requise.</li>
+                    <li>🔗 Ils se bloquent mutuellement, et ils bloquent également les agneaux (la Mishna ne le dit pas ici explicitement mais c'est la conclusion de la Guemara).</li>
+                  </ul>
+                </div>
+
+            <h3>🫓 Bloc 2 : Le Pain de Proposition (Lechem HaPanim)</h3>
+
+                <div class="bloc-lechem">
+                  <ul>
+                    <li>📜 Source : Lévitique 24:5-7 — Douze pains disposés en deux rangées de six sur la Table sacrée.</li>
+                  </ul>
+                </div>
+
+                <h3>📋📋 Les deux rangées (Sdarim)</h3>
+                <div class="bloc-lechem">
+                  <ul>
+                    <li>🍞 Douze pains = 2 rangées de 6 pains chacune.</li>
+                    <li>⚖️ Les deux rangées forment ensemble le service du Lechem HaPanim. Si l'une est manquante, l'autre ne constitue pas un service valide.</li>
+                  </ul>
+                </div>
+
+                <h3>🕯️🕯️ Les deux coupes d'encens (Bazichim)</h3>
+                <div class="bloc-lechem">
+                  <ul>
+                    <li>📜 Lévitique 24:7 — « Tu placeras sur chaque rangée de l'encens pur. »</li>
+                    <li>🕯️ Deux coupes d'encens pur sont posées sur les deux rangées et brûlées chaque Chabbat lors du renouvellement des pains.</li>
+                    <li>⚖️ Les deux coupes se bloquent mutuellement.</li>
+                  </ul>
+                </div>
+
+                <h3>📋🕯️ Les rangées et les coupes : ikouv réciproque</h3>
+                <div class="bloc-lechem">
+                  <ul>
+                    <li>⚖️ La Mishna va plus loin : non seulement chaque rangée bloque l'autre, et chaque coupe bloque l'autre, mais les <strong>rangées et les coupes se bloquent mutuellement</strong>.</li>
+                    <li>🔗 Le service du Lechem HaPanim est un tout : pains + encens = service complet. Sans encens, les pains ne constituent pas un service valide ; sans pains, les coupes n'ont pas de sens.</li>
+                  </ul>
+                </div>
+
+            <h3>📜 Bloc 3 : Les groupes de composantes multiples</h3>
+
+                <div class="bloc-multiples">
+
+                  <h3>🧑‍🦱 Les 2 types de pains du Nazir</h3>
+                  <ul>
+                    <li>📜 Nombres 6:15 — À la fin de son vœu de naziréat, le Nazir apporte deux types de pains non levés : des <em>challot</em> (pains) et des <em>rékikim</em> (galettes).</li>
+                    <li>⚖️ Les deux types se bloquent mutuellement : l'absence de l'un invalide l'offrande de l'autre.</li>
+                  </ul>
+
+                  <h3>🐄 Les 3 composantes de la Vache Rousse (Para Adouma)</h3>
+                  <ul>
+                    <li>📜 Nombres 19:6 — Le prêtre jette dans le bûcher de la Vache Rousse : du bois de cèdre, de l'hysope, et un fil de laine cramoisi.</li>
+                    <li>⚖️ Ces trois éléments sont prescrits ensemble par la Torah : l'absence de l'un invalide l'ensemble du rite.</li>
+                  </ul>
+
+                  <h3>🍞 Les 4 types de pains de la Toda (offrande de reconnaissance)</h3>
+                  <ul>
+                    <li>📜 Lévitique 7:12 — La Toda est accompagnée de quatre types de pains : pains non levés (challot), galettes (rékikim), pains trempés dans l'huile (revukot), et pain levé (hamets).</li>
+                    <li>⚖️ Les quatre types se bloquent mutuellement.</li>
+                  </ul>
+
+                  <h3>🌿 Les 4 espèces du Loulav (Arba Minim)</h3>
+                  <ul>
+                    <li>📜 Lévitique 23:40 — « Vous prendrez le fruit d'un bel arbre [etrog], des branches de palmier [loulav], du rameau de myrte [hadas], et des saules de rivière [arava]. »</li>
+                    <li>⚖️ Les quatre espèces se bloquent mutuellement — c'est la halakha classique de Souccot : sans l'une des quatre, la mitzva n'est pas accomplie.</li>
+                    <li>📌 Ce cas est particulièrement célèbre car il touche une mitzva pratiquée chaque année par tout Israël.</li>
+                  </ul>
+
+                  <h3>🐦 Les 4 composantes de la purification du Metsora (lépreux)</h3>
+                  <ul>
+                    <li>📜 Lévitique 14:4 — La purification du Metsora utilise : bois de cèdre, fil cramoisi, hysope, et deux oiseaux vivants.</li>
+                    <li>⚖️ Les quatre éléments se bloquent mutuellement.</li>
+                  </ul>
+
+                </div>
+
+            <h3>💧 Bloc 4 : Les séries de sept aspersions (Hazayot)</h3>
+
+                <div class="bloc-hazayot">
+
+                  <h3>🐄💧 Les 7 aspersions de la Vache Rousse</h3>
+                  <ul>
+                    <li>📜 Nombres 19:4 — Le prêtre asperge du sang de la Vache Rousse sept fois en direction de l'entrée de la Tente d'assignation.</li>
+                    <li>⚖️ Les sept aspersions constituent un acte unique : chaque aspersion bloque les autres. Sans les sept, le rite est invalide.</li>
+                  </ul>
+
+                  <h3>📦💧 Les 7 aspersions entre les bâtons de l'Arche</h3>
+                  <ul>
+                    <li>📜 Lévitique 16:14 — Le Grand Prêtre asperge le sang du taureau entre les bâtons porteurs de l'Arche, dans le Saint des Saints, à Yom Kippur.</li>
+                    <li>⚖️ Les sept aspersions se bloquent mutuellement.</li>
+                  </ul>
+
+                  <h3>🪞💧 Les 7 aspersions sur le Rideau (Parochet)</h3>
+                  <ul>
+                    <li>📜 Lévitique 16:15 — Le Grand Prêtre asperge aussi le sang du bouc sur le Parochet (rideau séparant le Sanctuaire et le Saint des Saints).</li>
+                    <li>⚖️ Les sept aspersions se bloquent mutuellement.</li>
+                  </ul>
+
+                  <h3>🏅💧 Les aspersions sur l'autel d'or</h3>
+                  <ul>
+                    <li>📜 Lévitique 16:18 — Le Grand Prêtre asperge le sang sur les cornes de l'autel d'or (autel des parfums intérieur) à Yom Kippur.</li>
+                    <li>⚖️ Toutes les aspersions requises sur cet autel se bloquent mutuellement.</li>
+                  </ul>
+
+                </div>
+
+            <h3>🔑 Portée universelle du principe d'עִכּוּב</h3>
+            <ul>
+              <li>📌 La Mishna 9 démontre que l'ikouv n'est pas une règle spécifique aux Menahot : c'est un <strong>principe structurant de toute la halakha du Temple et des mitzvot</strong>.</li>
+              <li>🔢 La progression de la liste est significative : paires (2), triplets (3), quadruplets (4), et séries de sept — montrant que le principe s'applique quel que soit le nombre de composantes.</li>
+              <li>🌿 L'inclusion des quatre espèces du Loulav est remarquable : c'est une mitzva pratiquée <em>en dehors</em> du Temple, par tout le peuple — preuve que l'ikouv dépasse le cadre du service sacerdotal.</li>
+              <li>⚖️ La raison fondamentale : quand la Torah prescrit plusieurs éléments pour une même mitzva, elle en fait un tout. Accomplir partiellement une mitzva composite, c'est ne pas accomplir la mitzva.</li>
+            </ul>
+
+            <h3>📊 Tableau de synthèse de la michna</h3>
+            <table align="center" border="1" cellpadding="6" cellspacing="0">
+              <tr>
+                <th>🧩 Domaine</th>
+                <th>📌 Composantes</th>
+                <th>🔢 Nombre</th>
+                <th>📜 Source</th>
+              </tr>
+              <tr>
+                <td>🐐 Boucs de Yom Kippur</td>
+                <td>Bouc pour Dieu + bouc pour Azazel</td>
+                <td>2</td>
+                <td>Lévitique 16:5</td>
+              </tr>
+              <tr>
+                <td>🐑 Agneaux de Chavouot</td>
+                <td>Premier agneau + second agneau</td>
+                <td>2</td>
+                <td>Lévitique 23:19</td>
+              </tr>
+              <tr>
+                <td>🍞 Pains de Chavouot</td>
+                <td>Premier pain + second pain</td>
+                <td>2</td>
+                <td>Lévitique 23:17</td>
+              </tr>
+              <tr>
+                <td>🫓 Pain de Proposition</td>
+                <td>2 rangées + 2 coupes d'encens</td>
+                <td>2+2</td>
+                <td>Lévitique 24:5-7</td>
+              </tr>
+              <tr>
+                <td>🧑‍🦱 Pains du Nazir</td>
+                <td>Challot + rékikim</td>
+                <td>2</td>
+                <td>Nombres 6:15</td>
+              </tr>
+              <tr>
+                <td>🐄 Vache Rousse</td>
+                <td>Cèdre + hysope + cramoisi</td>
+                <td>3</td>
+                <td>Nombres 19:6</td>
+              </tr>
+              <tr>
+                <td>🍞 Pains de la Toda</td>
+                <td>Challot + rékikim + revukot + hamets</td>
+                <td>4</td>
+                <td>Lévitique 7:12</td>
+              </tr>
+              <tr>
+                <td>🌿 Quatre espèces</td>
+                <td>Loulav + etrog + hadas + arava</td>
+                <td>4</td>
+                <td>Lévitique 23:40</td>
+              </tr>
+              <tr>
+                <td>🐦 Purification du Metsora</td>
+                <td>Cèdre + hysope + cramoisi + oiseaux</td>
+                <td>4</td>
+                <td>Lévitique 14:4</td>
+              </tr>
+              <tr>
+                <td>🐄💧 Aspersions Vache Rousse</td>
+                <td>7 aspersions vers le Sanctuaire</td>
+                <td>7</td>
+                <td>Nombres 19:4</td>
+              </tr>
+              <tr>
+                <td>📦💧 Aspersions entre les bâtons</td>
+                <td>7 aspersions sur l'Arche</td>
+                <td>7</td>
+                <td>Lévitique 16:14</td>
+              </tr>
+              <tr>
+                <td>🪞💧 Aspersions sur le Parochet</td>
+                <td>7 aspersions sur le Rideau</td>
+                <td>7</td>
+                <td>Lévitique 16:15</td>
+              </tr>
+              <tr>
+                <td>🏅💧 Aspersions sur l'autel d'or</td>
+                <td>Aspersions sur l'autel intérieur</td>
+                <td>7</td>
+                <td>Lévitique 16:18</td>
+              </tr>
+            </table>
+
+            <h3>🔗 Liens avec les Michnayot précédentes et conclusion du chapitre</h3>
+            <ul>
+              <li>📎 La <strong>Michna 8 (27a)</strong> : établit le principe d'ikouv dans le cadre spécifique des Menahot (Komets, Isaron, vin, huile, Solète, Levona).</li>
+              <li>📎 La <strong>Michna 9 (27a)</strong> : généralise ce principe à toute la halakha — du service de Yom Kippur aux quatre espèces de Souccot, en passant par la Vache Rousse et la purification du lépreux.</li>
+              <li>🧵 Ces deux Michnayot constituent ensemble une <strong>théorie générale de l'intégralité des mitzvot</strong> : la Torah, quand elle prescrit plusieurs composantes pour une même mitzva, en fait un tout solidaire et indivisible.</li>
+              <li>📚 C'est ainsi que se conclut le chapitre 3 de Menahot — non par un cas particulier, mais par une <strong>formulation universelle</strong> qui embrasse l'ensemble du système halakhique.</li>
+            </ul>
+
+    <h2>📜 Explication Synthétique des Halakhot</h2>
+
+        <h3>TBC</h3>
+
+    </div>
+
+</div>
+
+</body>
+</html>
