@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zevachim daf 26a (Perek 2 - Michna 3) ( La précision du sang sur l’autel : le bon emplacement détermine la validité du sacrifice  )</title>
+    <title>Zevachim daf 26a (Perek 2 - Michna 3) (La précision du sang sur l'autel : le bon emplacement détermine la validité du sacrifice)</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -23,24 +23,21 @@
         h1, h2, h3 {
             text-align: center;
             color: #5a2d82;
-			border-bottom: 2px solid #7a3da5;
+            border-bottom: 2px solid #7a3da5;
             padding-bottom: 5px;
         }
         p {
             line-height: 1.6;
             margin-bottom: 1em;
-			
         }
         ul {
             list-style-type: none;
             padding-left: 20px;
-			
         }
         ul li::before {
             content: "• ";
             color: #0066cc;
             font-weight: bold;
-			
         }
         blockquote {
             background-color: #f9f9f9;
@@ -62,8 +59,8 @@
             background-color: #e3f2fd;
             border-left: 4px solid #2196f3;
         }
-		.mishna-text-comment {
-            display: none; /* Cache la zone par défaut */
+        .mishna-text-comment {
+            display: none;
             font-family: 'Times New Roman', Times, serif;
             font-size: 1.2em;
             color: #003366;
@@ -84,7 +81,7 @@
         .toggle-button:hover {
             background-color: #0057a1;
         }
-		.mishna {
+        .mishna {
             font-family: 'Times New Roman', Times, serif;
             font-size: 1.2em;
             color: #003366;
@@ -92,11 +89,73 @@
             padding: 15px;
             margin-top: 10px;
             border-radius: 5px;
-			text-align: right;
+            text-align: right;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table th {
+            background-color: #5a2d82;
+            color: white;
+            padding: 8px;
+        }
+        table td {
+            padding: 8px;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+        table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .bloc-commentateurs {
+            background-color: #fff8e1;
+            border-left: 4px solid #f9a825;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .bloc-zerika {
+            background-color: #e3f2fd;
+            border-left: 4px solid #1565c0;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .bloc-kapara {
+            background-color: #fce4ec;
+            border-left: 4px solid #c62828;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .bloc-rambam {
+            background-color: #e8f5e9;
+            border-left: 4px solid #388e3c;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .principe-box {
+            background-color: #f3e5f5;
+            border-left: 4px solid #7b1fa2;
+            padding: 12px;
+            margin: 15px 0;
+            border-radius: 4px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .source-box {
+            background-color: #e0f7fa;
+            border-left: 4px solid #00838f;
+            padding: 12px;
+            margin: 15px 0;
+            border-radius: 4px;
         }
     </style>
-	
-	<script>
+
+    <script>
         function togglemishnaTextComment() {
             var mishnaTextComment = document.getElementById("mishnaTextComment");
             if (mishnaTextComment.style.display === "none") {
@@ -109,143 +168,246 @@
 </head>
 <body>
 
-
 <div class="container">
 
 <button class="toggle-button" onclick="togglemishnaTextComment()">Afficher/Cacher la Mishna et les commentaires</button>
 
 <div id="mishnaTextComment" class="mishna-text-comment">
 
-		<div class="mishna">
+    <div class="mishna">
 
-		<h3>מַתְנִי׳</h3>																																																																																				
+        <h3>מַתְנִי׳</h3>
 
-		<ul>
-		  <li>נְתָנוֹ עַל גַּבֵּי הַכֶּבֶשׁ 🕍</li>
-		  <li>שֶׁלֹּא כְּנֶגֶד הַיְסוֹד 🧱</li>
-		  <li>נָתַן אֶת הַנִּיתָּנִין לְמַטָּה לְמַעְלָה ⬆️</li>
-		  <li>וְאֶת הַנִּיתָּנִין לְמַעְלָה לְמַטָּה ⬇️</li>
-		  <li>וְאֶת הַנִּיתָּנִין בִּפְנִים בַּחוּץ 🚪</li>
-		  <li>וְאֶת הַנִּיתָּנִין בַּחוּץ בִּפְנִים 🕊️</li>
-		  <li>– פָּסוּל, וְאֵין בּוֹ כָּרֵת ⚖️</li>
-		</ul>
-			
-		</div>
-					
-		<h1>Zevachim daf 26a (Perek 2 - Michna 3)</h1>
-																																																										
-			<h3>Traduction en français de la Michna</h3>
+        <ul>
+          <li>נְתָנוֹ עַל גַּבֵּי הַכֶּבֶשׁ 🕍</li>
+          <li>שֶׁלֹּא כְּנֶגֶד הַיְסוֹד 🧱</li>
+          <li>נָתַן אֶת הַנִּיתָּנִין לְמַטָּה לְמַעְלָה ⬆️</li>
+          <li>וְאֶת הַנִּיתָּנִין לְמַעְלָה לְמַטָּה ⬇️</li>
+          <li>וְאֶת הַנִּיתָּנִין בִּפְנִים בַּחוּץ 🚪</li>
+          <li>וְאֶת הַנִּיתָּנִין בַּחוּץ בִּפְנִים 🕊️</li>
+          <li>– פָּסוּל, וְאֵין בּוֹ כָּרֵת ⚖️</li>
+        </ul>
 
+    </div>
 
-			<ul>
-			  <li>🕍 Si le prêtre a placé le sang <strong>sur la rampe</strong> menant à l’autel, le sacrifice est disqualifié.</li>
-			  <li>🧱 S’il l’a placé <strong>sur une partie du mur de l’autel</strong> qui n’est pas en face du socle (la base), le sacrifice est disqualifié.</li>
-			  <li>⬆️ S’il a placé le sang qui devait être mis <strong>en bas</strong> au-dessus de la ligne rouge médiane, le sacrifice est invalide.</li>
-			  <li>⬇️ S’il a placé le sang qui devait être mis <strong>en haut</strong> en dessous de la ligne rouge, le sacrifice est également invalide.</li>
-			  <li>🚪 S’il a placé le sang qui devait être versé <strong>à l’intérieur du Sanctuaire</strong> à l’extérieur, le sacrifice est invalide.</li>
-			  <li>🕊️ S’il a placé le sang qui devait être versé <strong>à l’extérieur</strong> à l’intérieur du Sanctuaire, le sacrifice est aussi disqualifié.</li>
-			  <li>⚖️ Dans tous ces cas, <strong>le sacrifice est invalide</strong>, mais <strong>celui qui en mange n’est pas passible du retranchement (karet)</strong>.</li>
-			</ul>
-			
-					
-		<h2 >📖 Analyse des Commentateurs</h2>
+    <h1>Zevachim daf 26a (Perek 2 - Michna 3)</h1>
 
-			<h3>TBC</h3>
-	
-</div>
+        <h3>Traduction en français de la Michna</h3>
 
+        <ul>
+          <li>🕍 Si le prêtre a placé le sang <strong>sur la rampe (כֶּבֶשׁ)</strong> menant à l'autel, le sacrifice est disqualifié.</li>
+          <li>🧱 S'il l'a placé sur une partie du mur de l'autel <strong>sans être en face du socle (יְסוֹד)</strong>, le sacrifice est disqualifié.</li>
+          <li>⬆️ S'il a placé le sang qui devait être mis <strong>en bas</strong> (sous la ligne rouge médiane) <strong>en haut</strong>, le sacrifice est invalide.</li>
+          <li>⬇️ S'il a placé le sang qui devait être mis <strong>en haut</strong> (au-dessus de la ligne rouge) <strong>en bas</strong>, le sacrifice est invalide.</li>
+          <li>🚪 S'il a placé le sang qui devait être versé <strong>à l'intérieur du Sanctuaire à l'extérieur</strong>, le sacrifice est invalide.</li>
+          <li>🕊️ S'il a placé le sang qui devait être versé <strong>à l'extérieur à l'intérieur</strong> du Sanctuaire, le sacrifice est invalide.</li>
+          <li>⚖️ Dans tous ces cas : le sacrifice est <strong>invalide (פָּסוּל)</strong>, mais <strong>celui qui en mange n'est pas passible du retranchement (כָּרֵת)</strong>.</li>
+        </ul>
 
-    <h1>Zevachim daf 26a (Perek 2 - Michna 3) -   La précision du sang sur l’autel : le bon emplacement détermine la validité du sacrifice  </h1>
-    
-	<div class="mishna-explication">
+    <h2>📖 Analyse des Commentateurs</h2>
 
-																				
-		<h3>📌 Explication de la Michna</h3>
+        <h3>🖊️ Rachi — Zevachim 26a</h3>
+        <div class="bloc-commentateurs">
+          <ul>
+            <li>📌 Sur <strong>« sur la rampe »</strong> (עַל גַּבֵּי הַכֶּבֶשׁ) : Rachi précise qu'il s'agit d'un endroit qui <em>n'est pas désigné pour la mise du sang</em>. Il ajoute la précision sur le mur de l'autel « sans être en face du socle » — et il enseigne que par déduction (apportée plus loin dans le tractate, daf 53b), l'offrande montante (עוֹלָה) requiert une mise du sang <em>en face du socle</em>, c'est-à-dire à hauteur de la base de l'autel, pour exclure l'angle sud-est qui n'avait pas de יְסוֹד.</li>
+            <li>📌 Sur <strong>« en bas »</strong> (לְמַטָּה) : Rachi précise que cela signifie <em>sous la ligne rouge (חוּט הַסִּיקְרָא)</em> — la ligne de démarcation peinte en rouge à mi-hauteur de l'autel, qui sépare les sacrifices nécessitant une mise de sang en bas de ceux nécessitant une mise en haut.</li>
+            <li>📌 Sur <strong>« pas de karet »</strong> (אֵין בּוֹ כָּרֵת) : Rachi note que le sacrifice est certes invalide, mais que celui qui en mange n'encourt pas le retranchement — et il précise que la Guemara expliquera <em>pourquoi cela doit être enseigné explicitement</em> (למאי איצטריך למתנייה), car cela pourrait sembler aller de soi.</li>
+          </ul>
+        </div>
 
-		<ul>
-		  <li>🩸 La Michna traite ici de <strong>l’étape de l’aspersion du sang</strong> (זריקת הדם), qui constitue un moment essentiel du service sacrificiel.</li>
-		  <li>📍 Chaque type de sacrifice possède <strong>un lieu précis d’aspersion</strong> :
-			<ul>
-			  <li>Les sacrifices dont le sang est appliqué <strong>au-dessus de la ligne rouge</strong> (comme le חטאת – sacrifice expiatoire).</li>
-			  <li>Ceux dont le sang est appliqué <strong>en dessous de la ligne rouge</strong> (comme l’עולה – holocauste).</li>
-			</ul>
-		  </li>
-		  <li>⚖️ La Michna précise que toute <strong>erreur d’emplacement</strong> du sang rend le sacrifice <strong>פסול (invalide)</strong>.</li>
-		  <li>🧱 Ainsi :
-			<ul>
-			  <li>Si le sang est placé sur la <strong>rampe de l’autel</strong> au lieu de l’autel lui-même → פסול.</li>
-			  <li>Si le sang est mis sur une <strong>partie sans fondement</strong> de l’autel → פסול.</li>
-			  <li>Si le sang destiné à être en haut est mis en bas (ou inversement) → פסול.</li>
-			  <li>Si le sang est versé à l’extérieur au lieu de l’intérieur (ou inversement) → פסול.</li>
-			</ul>
-		  </li>
-		  <li>🪔 Cependant, la Michna ajoute une nuance importante : <strong>même si le sacrifice est invalide, celui qui le consomme n’est pas passible de karet</strong>. Cela signifie que l’acte reste une erreur rituelle, mais pas une transgression entraînant une sanction spirituelle grave.</li>
-		  <li>💡 Cette distinction montre que l’invalidité ici concerne la <strong>valeur rituelle du service</strong> (il n’est pas accepté par Dieu), mais non la <strong>gravité morale ou juridique</strong> du péché.</li>
-		  <li>📘 En résumé, la Michna enseigne l’importance de <strong>la précision dans l’accomplissement des rites</strong> du Temple, tout en distinguant entre invalidité rituelle et faute entraînant le retranchement.</li>
-		</ul>
-
-		<h3>📊 Tableau de synthèse</h3>
-
-		<table border="1" align="center" style="border-collapse: collapse; text-align: center;">
-		  <tr>
-			<th>🔹 Situation</th>
-			<th>🔸 Statut du sacrifice</th>
-			<th>⚖️ Sanction</th>
-		  </tr>
-		  <tr>
-			<td>Placement du sang sur la rampe</td>
-			<td>פסול (invalide)</td>
-			<td>Pas de karet</td>
-		  </tr>
-		  <tr>
-			<td>Placement sur une zone sans fondement</td>
-			<td>פסול (invalide)</td>
-			<td>Pas de karet</td>
-		  </tr>
-		  <tr>
-			<td>Placement au-dessus de la ligne rouge au lieu du dessous (et inversement)</td>
-			<td>פסול (invalide)</td>
-			<td>Pas de karet</td>
-		  </tr>
-		  <tr>
-			<td>Placement à l’intérieur au lieu de l’extérieur (et inversement)</td>
-			<td>פסול (invalide)</td>
-			<td>Pas de karet</td>
-		  </tr>
-		</table>
-
-
-    <h2>📜 Explication Synthétique des Halakhot</h2>		
-
-		<h3>TBC</h3>
-
-	
-
-	
-
-
-
-
-
+        <h3>📖 Steinsaltz — Zevachim 26a</h3>
+        <div class="bloc-commentateurs">
+          <ul>
+            <li>📌 Steinsaltz synthétise les six cas de la Mishna en distinguant clairement leurs catégories :</li>
+            <li>1️⃣ <strong>Sur la rampe</strong> : la rampe (כֶּבֶשׁ) est la montée vers l'autel — ce n'est pas l'autel lui-même, donc toute mise de sang sur la rampe est invalide.</li>
+            <li>2️⃣ <strong>Sur le mur sans socle</strong> : l'autel avait un socle (יְסוֹד) sur trois de ses côtés. L'angle sud-est n'en avait pas. Mettre le sang sur cette partie invalide le sacrifice.</li>
+            <li>3️⃣ <strong>Bas/haut inversés</strong> : le daf 26a distingue le sang d'une עוֹלָה (holocauste), qui doit être mise <em>sous</em> la mi-hauteur de l'autel, de celui d'une חַטָּאת (sacrifice expiatoire), qui doit être mis <em>au-dessus</em>. L'inversion invalide.</li>
+            <li>4️⃣ <strong>Dedans/dehors inversés</strong> : certains sacrifices spéciaux (comme le taureau du Grand Prêtre, le bouc de Yom Kippur) nécessitent des aspersions sur l'autel d'or à l'intérieur du Sanctuaire. Les mettre sur l'autel extérieur, et inversement, invalide le sacrifice.</li>
+            <li>📌 Conclusion : dans tous ces cas — פָּסוּל sans כָּרֵת. La Guemara explicitera le sens de cette précision.</li>
+          </ul>
+        </div>
 
 </div>
-	
+
+
+    <h1>Zevachim daf 26a (Perek 2 - Michna 3) — La précision du sang sur l'autel : le bon emplacement détermine la validité du sacrifice</h1>
+
+    <div class="mishna-explication">
+
+        <h3>📌 Explication de la Michna</h3>
+
+        <ul>
+          <li>🩸 La Mishna traite de l'<strong>aspersion du sang (זְרִיקַת הַדָּם)</strong>, qui constitue le moment central et décisif du service sacrificiel.</li>
+          <li>📍 Chaque type de sacrifice possède un lieu précis d'aspersion prescrit par la Torah :</li>
+          <li>⬇️ Les sacrifices dont le sang est appliqué <strong>en bas</strong> (sous la ligne rouge) : l'עוֹלָה (holocauste), les שְׁלָמִים (paix), l'אָשָׁם (réparation).</li>
+          <li>⬆️ Ceux dont le sang est appliqué <strong>en haut</strong> (sur les cornes, au-dessus de la ligne rouge) : la חַטָּאת (expiatoire).</li>
+          <li>⚖️ Toute erreur d'emplacement rend le sacrifice <strong>פָּסוּל (invalide)</strong>.</li>
+          <li>🪔 Nuance cruciale : bien qu'invalide, le sacrifice ne rend pas passible de כָּרֵת (retranchement) — l'invalidité est rituelle, non une transgression grave.</li>
+        </ul>
+
+        <h3>📊 Tableau de synthèse</h3>
+
+        <table border="1" align="center">
+          <tr>
+            <th>🔹 Situation</th>
+            <th>🔸 Statut</th>
+            <th>⚖️ Sanction</th>
+          </tr>
+          <tr>
+            <td>Sang sur la rampe (כֶּבֶשׁ)</td>
+            <td>פָּסוּל</td>
+            <td>Pas de כָּרֵת</td>
+          </tr>
+          <tr>
+            <td>Sang sur mur sans יְסוֹד</td>
+            <td>פָּסוּל</td>
+            <td>Pas de כָּרֵת</td>
+          </tr>
+          <tr>
+            <td>Bas mis en haut / haut mis en bas</td>
+            <td>פָּסוּל</td>
+            <td>Pas de כָּרֵת</td>
+          </tr>
+          <tr>
+            <td>Intérieur mis à l'extérieur / extérieur mis à l'intérieur</td>
+            <td>פָּסוּל</td>
+            <td>Pas de כָּרֵת</td>
+          </tr>
+        </table>
+
+    <h2>📜 Explication Synthétique des Halakhot</h2>
+
+        <h3>🩸 Pourquoi la זְרִיקָה (aspersion du sang) est-elle si centrale ?</h3>
+
+            <div class="principe-box">
+              ⚖️ La זְרִיקָה est l'acte le plus important du sacrifice : c'est elle — et non la combustion des membres ni la consommation de la viande — qui accomplit l'expiation (כַּפָּרָה). Si le sang est correctement aspergé, le sacrifice est valide même si les autres étapes ne sont pas accomplies.
+            </div>
+
+            <h3>📜 La source biblique fondamentale</h3>
+            <div class="source-box">
+              <ul>
+                <li>📜 <strong>Lévitique 17:11</strong> — « כִּי נֶפֶשׁ הַבָּשָׂר בַּדָּם הִוא, וַאֲנִי נְתַתִּיו לָכֶם עַל הַמִּזְבֵּחַ לְכַפֵּר עַל נַפְשֹׁתֵיכֶם, כִּי הַדָּם הוּא בַּנֶּפֶשׁ יְכַפֵּר »</li>
+                <li>🔑 Traduction : « Car l'âme de la chair est dans le sang, et Moi, Je vous l'ai donné sur l'autel pour expier vos âmes — car c'est le sang qui expie par l'âme. »</li>
+                <li>📌 Ce verset est la clé : le sang est le porteur de la <em>nefesh</em> (l'âme vitale) de l'animal. C'est pourquoi son aspersion sur l'autel — et non la combustion de la viande — est l'acte expiatoire central.</li>
+              </ul>
+            </div>
+
+            <h3>💡 Conséquence halakhique décisive — la règle de Shmuel</h3>
+            <div class="bloc-zerika">
+              <ul>
+                <li>✅ <strong>Si le sang est correctement aspergé</strong> : le sacrifice est valide et le propriétaire est quitte de son obligation — même si les membres ne sont pas brûlés sur l'autel et même si la viande n'est pas mangée par les prêtres.</li>
+                <li>❌ <strong>Si le sang n'est pas aspergé ou est aspergé au mauvais endroit</strong> : le sacrifice est invalide, quelles que soient les autres étapes accomplies.</li>
+                <li>🔗 Cette halakha illustre que l'essentiel du sacrifice est la <em>remise de la vie (nefesh) de l'animal à Dieu</em> — et non simplement la nourriture offerte à l'autel.</li>
+                <li>📌 <strong>La règle de Shmuel (Guemara, Zevachim 26b)</strong> : Shmuel apporte une nuance surprenante sur notre Mishna. Il dit que même dans les cas déclarés <em>פָּסוּל</em> par la Mishna, le propriétaire reçoit quand même l'<strong>expiation (כַּפָּרָה)</strong>. Comment ? Car Lévitique 17:11 dit que le sang expie « quand il atteint l'autel » — même un sang mal placé <em>a atteint l'autel</em>, donc la כַּפָּרָה est acquise. C'est seulement la <strong>viande qui reste interdite à la consommation</strong> (les prêtres ne peuvent pas la manger). Ainsi, selon Shmuel : פָּסוּל = la viande est interdite, mais la כַּפָּרָה est accomplie.</li>
+                <li>⚖️ Rav Moshe Shternbuch (Zivhei Kodesh) formalise cette distinction : la זְרִיקָה remplit deux fonctions distinctes — (1) la כַּפָּרָה pour le propriétaire, et (2) la permission (הֶתֵּר) de manger la viande pour les prêtres. Un sang mal placé accomplit la première fonction mais pas la seconde.</li>
+              </ul>
+            </div>
+
+            <h3>🏛️ La géographie précise de l'autel : pourquoi l'emplacement compte tant</h3>
+            <div class="bloc-zerika">
+              <ul>
+                <li>📌 L'autel des olot (מִזְבַּח הָעוֹלָה) dans la cour du Temple est divisé en deux zones par une <strong>ligne rouge (חוּט הַסִּיקְרָא)</strong> tracée à mi-hauteur.</li>
+                <li>⬆️ <strong>Au-dessus de la ligne</strong> : zone des sacrifices expiatoires (חַטָּאת) — le sang est mis sur les cornes de l'autel, qui se trouvent à son sommet.</li>
+                <li>⬇️ <strong>En dessous de la ligne</strong> : zone des holocaustes (עוֹלָה), des offrandes de paix (שְׁלָמִים) et des sacrifices de réparation (אָשָׁם) — le sang est jeté en deux aspersions sur deux angles opposés de l'autel, couvrant ainsi les quatre côtés.</li>
+                <li>🧱 Le <strong>socle (יְסוֹד)</strong> : base de l'autel sur trois de ses côtés. Le sang doit être mis en face d'un endroit où il y a un יְסוֹד — l'angle sud-est, qui n'en avait pas, est exclu.</li>
+                <li>🏛️ <strong>Intérieur vs. extérieur</strong> : certains sacrifices spéciaux (taureau du Grand Prêtre, bouc de Yom Kippur) nécessitent des aspersions sur l'<strong>autel d'or (מִזְבַּח הַזָּהָב)</strong> à l'intérieur du Heikhal, ou même dans le Saint des Saints. Mettre ce sang sur l'autel extérieur invalide le sacrifice.</li>
+              </ul>
+            </div>
+
+            <h3>📜 Le Sifra — les sources midrachiques du פָּסוּל et du כָּרֵת</h3>
+
+                <h3>📖 Sifra Tsav, Chapitre 13 §3 — pourquoi pas de כָּרֵת ?</h3>
+                <div class="source-box">
+                  <ul>
+                    <li>📌 Le Sifra soulève précisément la question que Rachi signale dans notre Mishna : <em>pourquoi la Mishna doit-elle préciser qu'il n'y a pas de כָּרֵת ?</em> N'est-ce pas évident ?</li>
+                    <li>📜 Le Sifra explique : j'aurais pu penser que ces sacrifices mal aspergés entraînent le כָּרֵת pour celui qui en mange — puisque la Torah dit « לֹא יֵרָצֶה » (il ne sera pas agréé), on pourrait déduire une gravité équivalente au פִּיגּוּל (intention de manger hors du temps), qui lui entraîne effectivement le כָּרֵת.</li>
+                    <li>📌 Le Sifra répond en citant le verset « הוּא » (Lévitique 7:18) — « lui et ses mangeurs sont passibles de כָּרֵת » : le כָּרֵת est réservé au cas du פִּיגּוּל (mauvaise intention lors de l'aspersion), et non aux autres cas de disqualification. La faute technique n'est pas la faute intentionnelle.</li>
+                    <li>🔗 Le Sifra établit ainsi une hiérarchie des fautes : le פִּיגּוּל (intention corrompue) = כָּרֵת. Les autres cas de זְרִיקָה incorrecte = פָּסוּל sans כָּרֵת.</li>
+                  </ul>
+                </div>
+
+                <h3>📖 Sifra Tsav, Section 9 §4 — l'obligation de brûler les sacrifices invalides</h3>
+                <div class="source-box">
+                  <ul>
+                    <li>📌 Le Sifra enseigne une liste de cas de sacrifices disqualifiés — dont exactement les cas de notre Mishna (sang mis en haut au lieu d'en bas, dedans au lieu de dehors, etc.) — et établit qu'ils doivent tous être <strong>brûlés</strong>.</li>
+                    <li>📜 Source : Exode 29:33-34 — « tout ce qui est saint (et qui est devenu inapte) doit être brûlé ».</li>
+                    <li>⚖️ Implication : même si le sacrifice est invalide, sa sainteté ne disparaît pas. Il doit être traité avec respect et brûlé — il ne peut pas être simplement jeté ou utilisé comme aliment ordinaire.</li>
+                  </ul>
+                </div>
+
+                <h3>📖 Sifra Tsav, Chapitre 1 §7 — le débat Rabbi Yehuda / Rabbi Shimon sur la descente de l'autel</h3>
+                <div class="source-box">
+                  <ul>
+                    <li>📌 Le Sifra rapporte un débat fondamental : si un sacrifice invalide a été déposé sur l'autel, doit-on le descendre ou le laisser ?</li>
+                    <li>📜 <strong>Rabbi Yehuda</strong> : trois exclusions (« זֹאת », « הִוא », « הָעֹלָה ») excluent trois cas qui doivent descendre de l'autel — dont le sang versé à l'extérieur des rideaux (חוּץ לָקְלָעִים).</li>
+                    <li>📜 <strong>Rabbi Shimon</strong> : le verset « זֹאת תּוֹרַת הָעֹלָה » (Lévitique 6:2) établit une loi unique pour tout ce qui monte : <em>si cela est monté, on ne le descend pas</em> — y compris les cas de notre Mishna (sang mis en haut au lieu d'en bas, dedans au lieu de dehors, etc.).</li>
+                    <li>🔗 Ce débat du Sifra est la source directe de la discussion talmudique en Zevachim 83a-b sur les sacrifices invalides qui ont été montés sur l'autel. L'autel « sanctifie » ce qu'il reçoit — une fois monté, l'objet ne descend plus.</li>
+                  </ul>
+                </div>
+
+                <h3>📖 Sifra Aharei Mot, Chapitre 10 §5 — l'extension de la responsabilité</h3>
+                <div class="source-box">
+                  <ul>
+                    <li>📌 Le Sifra précise que la responsabilité pour avoir offert un sacrifice invalide à l'extérieur (חוּץ לַמַּחֲנֶה) s'étend à une liste de cas invalides — dont encore une fois les cas de notre Mishna.</li>
+                    <li>📜 Source : Lévitique 17:4 — « il n'a pas amené (le sacrifice) à l'entrée de la tente d'assignation pour en faire une offrande » — le terme « pour en faire » inclut tout sacrifice qui est « propre à être fait » dans le Sanctuaire, même s'il a été mal aspergé.</li>
+                    <li>⚖️ Synthèse : le Sifra établit que nos cas de זְרִיקָה incorrecte sont bien פָּסוּל, entraînent une obligation de brûler, mais ne donnent pas lieu au כָּרֵת pour celui qui mange — et ne permettent pas de déduire une responsabilité pour offrande à l'extérieur du Sanctuaire.</li>
+                  </ul>
+                </div>
+
+            <h3>💭 Le sens profond de la זְרִיקָה selon les commentateurs</h3>
+
+                <h3>📖 Le Ramban (Nahmanide) — le sang comme ransom et substitution</h3>
+                <div class="bloc-kapara">
+                  <ul>
+                    <li>📌 Le Ramban explique que l'aspersion du sang sur l'autel est la mise en acte d'une <em>substitution</em> (כּוֹפֶר — rançon) : c'est le sang de l'animal qui est versé à la place du sang de l'homme.</li>
+                    <li>🩸 L'homme qui a péché méritait que son propre sang soit versé et son corps brûlé. Par la grâce divine, le sang de l'animal est accepté à sa place — « sang contre son sang, âme contre âme » (נֶפֶשׁ תַּחַת נֶפֶשׁ).</li>
+                    <li>📌 Les membres de l'animal sur l'autel représentent les membres du corps du pécheur — leur combustion lui rappelle ce qu'il aurait mérité et l'incite à la téchouva sincère.</li>
+                    <li>🔍 Le Ramban précise aussi la signification de la prohibition de manger du sang : le sang de l'animal est sa <em>nefesh</em> — son âme. Il ne peut être consommé par l'homme car « un être doté d'une âme ne peut pas manger un autre être doté d'une âme ». Le sang est réservé à l'autel précisément parce qu'il est la vie — et la vie appartient à Dieu.</li>
+                    <li>⚖️ Pour le Ramban, le mot כַּפָּרָה vient de כּוֹפֶר (rançon) — il s'agit d'un rachat de l'âme du pécheur, non d'un simple effacement symbolique de la faute.</li>
+                  </ul>
+                </div>
+
+                <h3>📖 Le Rambam (Maïmonide) — la signification historique et l'unicité de Dieu</h3>
+                <div class="bloc-rambam">
+                  <ul>
+                    <li>📌 Le Rambam dans le Guide des Égarés (III:46) donne aux sacrifices une signification historique et pédagogique : ils ont été prescrits pour détacher Israël du culte idolâtre en le redirigeant vers Dieu.</li>
+                    <li>📌 Dans les cultes païens, le sang était offert aux dieux comme nourriture ou donné aux démons — le sang était consommé par les adorateurs pour s'identifier à leurs dieux. La Torah interdit le sang et le réserve à l'autel d'un seul Dieu, brisant cette logique idolâtre.</li>
+                    <li>📌 La זְרִיקָה vers l'autel représente la <em>remise de la vie</em> (נֶפֶשׁ) à Dieu seul — geste symbolique d'abandon total et de reconnaissance de la souveraineté divine exclusive.</li>
+                    <li>📌 Mais le Rambam précise (Hilkhot Temurah 4:13) que même pour les décrets divins (חֻקִּים) il convient de chercher un sens — l'importance halakhique de la précision (bon endroit, bon moment, bonne intention) est une condition de validité absolue, car c'est la forme exacte dans laquelle Dieu a voulu recevoir ce service.</li>
+                  </ul>
+                </div>
+
+                <h3>📖 Rav Haïm Soloveitchik — l'indépendance de la זְרִיקָה</h3>
+                <div class="bloc-zerika">
+                  <ul>
+                    <li>📌 Rav Haïm de Brisk analyse la זְרִיקָה comme un acte ayant une <em>double dimension</em> : d'un côté, elle est l'acte d'expiation (כַּפָּרָה) pour le propriétaire du sacrifice ; de l'autre, elle est un acte rituel en elle-même (עֲבוֹדָה), indépendant de son effet sur le propriétaire.</li>
+                    <li>📌 Cela explique une halakha paradoxale : une זְרִיקָה effectuée avec une intention de פִּיגּוּל (manger en dehors du temps prescrit) invalide le sacrifice — non pas en raison de l'effet sur la consommation, mais parce que la זְרִיקָה elle-même, en tant qu'acte d'expiation, est viciée dans sa dimension de כַּפָּרָה.</li>
+                  </ul>
+                </div>
+
+            <h3>⚖️ פָּסוּל sans כָּרֵת : pourquoi cette distinction ?</h3>
+            <div class="bloc-kapara">
+              <ul>
+                <li>📌 La Mishna précise que le sacrifice mal aspergé est invalide, mais que manger sa viande ne rend pas passible de כָּרֵת.</li>
+                <li>⚖️ En effet, le כָּרֵת lié à la consommation de viande sacrée s'applique normalement à un sacrifice valide — manger de la viande d'un sacrifice valide en état d'impureté ou hors du Temple expose au כָּרֵת.</li>
+                <li>📌 Mais ici, le sacrifice n'a jamais été valide — il n'a jamais acquis le statut de קֹדֶשׁ accompli. La viande n'a donc jamais été « permise » de façon complète, et la consommation d'une viande dont la validité est en question n'entraîne pas le כָּרֵת.</li>
+                <li>🔗 Cette distinction — פָּסוּל sans כָּרֵת — se retrouve dans plusieurs endroits du tractate Zevachim et illustre une gradation dans les degrés de violation halakhique : l'erreur rituelle grave n'est pas automatiquement une faute entraînant la sanction spirituelle la plus sévère.</li>
+              </ul>
+            </div>
+
+            <h3>🔗 Lien avec Menahot — la זְרִיקָה et le Komets</h3>
+            <div class="source-box">
+              <ul>
+                <li>📌 Dans la Massekhet Menahot, le rôle de la זְרִיקָה (aspersion du sang) dans les offrandes animales trouve son parallèle exact dans la <strong>הַקְטָרַת הַקּוֹמֶץ</strong> (combustion de la poignée) dans les offrandes végétales.</li>
+                <li>🔗 Comme la זְרִיקָה rend la viande permise aux prêtres, la הַקְטָרָה rend les שִׁיָּרִים permis aux prêtres. Les deux sont des <strong>מַתִּירִין</strong> — des actes qui « permettent ».</li>
+                <li>📌 La Mishna de Menahot 45b (Rabbi Shimon, chapitre 4) s'appuie précisément sur ce parallèle pour expliquer pourquoi les agneaux de Chavouot bloquent les pains : sans agneaux, les pains n'ont pas de matir, tout comme sans זְרִיקָה, la viande reste interdite.</li>
+                <li>⚖️ Les deux massekhtot forment ainsi un système cohérent : Zevachim enseigne les lois de l'aspersion du sang, Menahot enseigne les lois des offrandes végétales — mais les deux convergent sur le même principe : l'acte central qui « permet » l'offrande doit être accompli exactement, au bon endroit, au bon moment, avec la bonne intention.</li>
+              </ul>
+            </div>
+
+    </div>
+
+</div>
+
 </body>
 </html>
-
-
-
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
