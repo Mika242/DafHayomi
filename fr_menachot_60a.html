@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menachot daf 60a (Perek 5 - Michna 5) (Hagasha et Tenufa : la classification des Menahot selon les rites de présentation)</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 40px;
+            padding: 0;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 30px auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            text-align: center;
+            color: #5a2d82;
+            border-bottom: 2px solid #7a3da5;
+            padding-bottom: 5px;
+        }
+        p {
+            line-height: 1.6;
+            margin-bottom: 1em;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+        ul li::before {
+            content: "• ";
+            color: #0066cc;
+            font-weight: bold;
+        }
+        blockquote {
+            background-color: #f9f9f9;
+            border-left: 4px solid #0066cc;
+            padding: 10px;
+            margin: 20px 0;
+            font-style: italic;
+        }
+        .mishna-text-comment {
+            display: none;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1.2em;
+            color: #003366;
+            background-color: #f0f0f0;
+            padding: 15px;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        .toggle-button {
+            background-color: #0066cc;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .toggle-button:hover {
+            background-color: #0057a1;
+        }
+        .mishna {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1.2em;
+            color: #003366;
+            background-color: #f0f0f0;
+            padding: 15px;
+            margin-top: 10px;
+            border-radius: 5px;
+            text-align: right;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table th {
+            background-color: #5a2d82;
+            color: white;
+            padding: 8px;
+        }
+        table td {
+            padding: 8px;
+            border: 1px solid #ccc;
+        }
+        table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .bloc-cat1 {
+            background-color: #e3f2fd;
+            border-left: 4px solid #1565c0;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .bloc-cat2 {
+            background-color: #e8f5e9;
+            border-left: 4px solid #388e3c;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .bloc-cat3 {
+            background-color: #fff8e1;
+            border-left: 4px solid #f9a825;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .bloc-cat4 {
+            background-color: #fce4ec;
+            border-left: 4px solid #c62828;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .bloc-rabbi-shimon {
+            background-color: #f3e5f5;
+            border-left: 4px solid #7b1fa2;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .bloc-commentateurs {
+            background-color: #fff8e1;
+            border-left: 4px solid #f9a825;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .bloc-halakha {
+            background-color: #e0f7fa;
+            border-left: 4px solid #00838f;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .principe-box {
+            background-color: #f3e5f5;
+            border-left: 4px solid #7b1fa2;
+            padding: 12px;
+            margin: 15px 0;
+            border-radius: 4px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .source-box {
+            background-color: #e0f7fa;
+            border-left: 4px solid #00838f;
+            padding: 12px;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+        .tension-box {
+            background-color: #fce4ec;
+            border-left: 4px solid #c62828;
+            padding: 12px;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+    </style>
+
+    <script>
+        function togglemishnaTextComment() {
+            var mishnaTextComment = document.getElementById("mishnaTextComment");
+            if (mishnaTextComment.style.display === "none") {
+                mishnaTextComment.style.display = "block";
+            } else {
+                mishnaTextComment.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<div class="container">
+
+<button class="toggle-button" onclick="togglemishnaTextComment()">Afficher/Cacher la Mishna et les commentaires</button>
+
+<div id="mishnaTextComment" class="mishna-text-comment">
+
+    <div class="mishna">
+
+        <h3>מַתְנִי׳</h3>
+
+        <h3>📋 אַרְבַּע קְטֵגוֹרִיּוֹת</h3>
+        <ul>
+          <li>יֵשׁ טְעוּנוֹת הַגָּשָׁה וְאֵין טְעוּנוֹת תְּנוּפָה. <span style="float:right;">🙌❌</span></li>
+          <li>הַגָּשָׁה וּתְנוּפָה. <span style="float:right;">🙌🌊</span></li>
+          <li>תְּנוּפָה וְלֹא הַגָּשָׁה. <span style="float:right;">🌊❌</span></li>
+          <li>לֹא תְּנוּפָה וְלֹא הַגָּשָׁה. <span style="float:right;">❌❌</span></li>
+        </ul>
+
+        <h3>🙌 הַגָּשָׁה בְּלֹא תְּנוּפָה</h3>
+        <ul>
+          <li>מִנְחַת הַסּוֹלֶת, הַמַּחֲבַת, מַרְחֶשֶׁת, הַחַלּוֹת, הָרְקִיקִין. <span style="float:right;">🌾</span></li>
+          <li>מִנְחַת כֹּהֲנִים, מִנְחַת כֹּהֵן מָשִׁיחַ, מִנְחַת גּוֹיִם, מִנְחַת נָשִׁים, מִנְחַת חוֹטֵא. <span style="float:right;">👨‍✡️</span></li>
+        </ul>
+
+        <h3>🔵 רַבִּי שִׁמְעוֹן</h3>
+        <ul>
+          <li>מִנְחַת כֹּהֲנִים וּמִנְחַת כֹּהֵן מָשִׁיחַ אֵין בָּהֶן הַגָּשָׁה, לְפִי שֶׁאֵין בָּהֶן קְמִיצָה, וְכֹל שֶׁאֵין בָּהֶן קְמִיצָה אֵין בָּהֶן הַגָּשָׁה. <span style="float:right;">🔵</span></li>
+        </ul>
+
+    </div>
+
+    <h1>Menachot daf 60a (Perek 5 - Michna 5)</h1>
+
+        <h3>Traduction en français de la Michna</h3>
+
+            <h3>📋 Les quatre catégories</h3>
+            <ul>
+              <li>🙌 Des Menahot qui requièrent la <strong>Hagasha (הַגָּשָׁה)</strong> — présentation à l'angle de l'autel — sans la Tenufa (ondoiement).</li>
+              <li>🙌🌊 Des Menahot qui requièrent les <strong>deux : Hagasha ET Tenufa</strong>.</li>
+              <li>🌊 Des Menahot qui requièrent la <strong>Tenufa</strong> sans la Hagasha.</li>
+              <li>❌ Des Menahot qui ne requièrent <strong>ni l'une ni l'autre</strong>.</li>
+            </ul>
+
+            <h3>🙌 Catégorie 1 : Hagasha sans Tenufa</h3>
+            <div class="bloc-cat1">
+              <ul>
+                <li>🌾 Minha de farine fine, Minha à la poêle plate, Minha à la poêle profonde, Minha du four (pains et galettes)</li>
+                <li>👨‍✡️ Minha des prêtres, Minha du Grand Prêtre oint (Havita), Minha de non-Juifs, Minha de femmes, Minha du pécheur</li>
+              </ul>
+            </div>
+
+            <h3>🔵 Rabbi Shimon — exception pour les Menahot de prêtres</h3>
+            <div class="bloc-rabbi-shimon">
+              <ul>
+                <li>🔵 <strong>Rabbi Shimon</strong> dit : la Minha des prêtres et la Minha du Grand Prêtre oint ne requièrent <strong>pas</strong> la Hagasha, car il n'y a pas de prélèvement du Komets en elles — et tout ce qui n'a pas de Komets n'a pas de Hagasha.</li>
+              </ul>
+            </div>
+
+    <h2>📖 Analyse des Commentateurs</h2>
+
+        <h3>🖊️ Rachi — Menachot 60a</h3>
+        <div class="bloc-commentateurs">
+          <ul>
+            <li>📌 Sur <strong>« כָּל שֶׁאֵין לָהּ קְמִיצָה אֵין לָהּ הַגָּשָׁה »</strong> : Rachi précise que la Komets est prélevée « pour rendre les Shireim permis aux prêtres ». La Hagasha est donc liée à l'existence d'une קְמִיצָה — sans קְמִיצָה (car la Minha des prêtres est entièrement brûlée sans part pour les prêtres), il n'y a pas de Hagasha selon Rabbi Shimon.</li>
+            <li>📌 Rachi cite la Beraïta : la Hagasha est exclue pour les Menahot de prêtres car <em>il n'y a rien d'elles pour les prêtres</em> (אֵין מֵהֶן לַכֹּהֲנִים) — la logique sous-jacente de Rabbi Shimon.</li>
+          </ul>
+        </div>
+
+        <h3>📖 Steinsaltz — synthèse</h3>
+        <div class="bloc-commentateurs">
+          <ul>
+            <li>📌 Steinsaltz précise le rite de la <strong>Hagasha</strong> : le prêtre tient le récipient contenant la Minha et le présente à l'<strong>angle sud-ouest de l'autel (קֶרֶן דְּרוֹמִית מַעֲרָבִית)</strong>, en contact avec la pointe de l'angle — avant le prélèvement du Komets.</li>
+            <li>📌 La <strong>Tenufa (תְּנוּפָה)</strong> est l'ondoiement : le prêtre ou l'officiant tient l'offrande et l'agite dans les quatre directions horizontalement, puis monte et descend — symbolisant que Dieu est maître dans toutes les directions de l'espace.</li>
+            <li>📌 La Minha des prêtres et la Havita sont entièrement brûlées (כָּלִיל) — sans Shireim pour les prêtres ni Komets distinct. Rabbi Shimon déduit que sans Komets (qui est l'acte-clé qui « permet » les Shireim), il n'y a pas de Hagasha non plus.</li>
+          </ul>
+        </div>
+
+        <h3>📖 Tossafot — la difficulté soulevée par la position de Rabbi Shimon</h3>
+        <div class="bloc-commentateurs">
+          <ul>
+            <li>📌 Les Tossafot relèvent une difficulté : si Rabbi Shimon dit que « tout ce qui n'a pas de Komets n'a pas de Hagasha », cela devrait aussi exclure la <strong>Minha du pécheur d'un prêtre</strong> (מִנְחַת חוֹטֵא שֶׁל כֹּהֲנִים) de la Hagasha — car selon Rabbi Shimon lui-même (Menahot 72b), la Minha du pécheur d'un prêtre <em>a</em> un Komets !</li>
+            <li>📌 Les Tossafot répondent : Rabbi Shimon n'énonce pas ici une règle causale absolue (« parce qu'il y a un Komets, il y a une Hagasha »), mais une <strong>règle inclusive générale (כְּלָל)</strong> — il énumère les cas exclus de la Hagasha par cette formule, sans prétendre que partout où il y a un Komets il y a automatiquement une Hagasha.</li>
+            <li>📌 Les Tossafot précisent aussi que la vraie raison de Rabbi Shimon (selon la Guemara) n'est pas seulement l'absence de Komets, mais l'absence de <em>part pour les prêtres</em> (אֵין מֵהֶן לַכֹּהֲנִים) — ce qui est la formulation de la Beraïta.</li>
+          </ul>
+        </div>
+
+</div>
+
+
+    <h1>Menachot daf 60a (Perek 5 - Michna 5) — Hagasha et Tenufa : la classification des Menahot selon les rites de présentation</h1>
+
+    <div class="mishna-explication">
+
+        <h3>📌 Explication de la Michna</h3>
+
+            <h3>🧠 Principe général de la michna</h3>
+            <ul>
+              <li>📌 La Mishna 5 continue la série de classifications du chapitre 5 (huile/encens en Mishna 3, sanctions en Mishna 4) en appliquant désormais la même structure à deux rites de présentation : la <strong>Hagasha (הַגָּשָׁה)</strong> et la <strong>Tenufa (תְּנוּפָה)</strong>.</li>
+              <li>📌 Comme pour la Mishna 3, la Mishna produit quatre catégories exhaustives : les quatre combinaisons possibles de présence/absence de ces deux rites.</li>
+              <li>📌 La Mishna introduit également le débat entre le Tana Kama et Rabbi Shimon sur la Hagasha des Menahot de prêtres — débat qui porte sur la logique fondamentale liant Hagasha et Komets.</li>
+            </ul>
+
+            <div class="principe-box">
+              ⚖️ Deux rites de présentation distincts : la Hagasha (approcher l'angle de l'autel) et la Tenufa (ondoiement dans les quatre directions). Chaque Minha est classifiée selon sa combinaison de ces deux rites.
+            </div>
+
+            <h3>🙌 Qu'est-ce que la Hagasha (הַגָּשָׁה) ?</h3>
+
+                <div class="source-box">
+                  <ul>
+                    <li>📜 <strong>Lévitique 2:8</strong> — « וְהֵבִיאָהּ אֶל הַכֹּהֵן וְהִגִּישָׁהּ אֶל הַמִּזְבֵּחַ » — il l'apporte au prêtre et celui-ci l'approche de l'autel.</li>
+                    <li>📜 <strong>Lévitique 6:7</strong> (Tsav) — « הַקְרֵב אוֹתָהּ בְּנֵי אַהֲרֹן לִפְנֵי ה' אֶל פְּנֵי הַמִּזְבֵּחַ » — la présenter devant l'Éternel, face à l'autel.</li>
+                    <li>📌 Le rite de la Hagasha : le prêtre tient le récipient (כְּלִי שָׁרֵת) contenant la Minha et <strong>approche l'angle sud-ouest de l'autel (קֶרֶן דְּרוֹמִית מַעֲרָבִית)</strong>, en contact avec la pointe de l'angle — ce coin de l'autel est le plus proche du Heikhal, face à l'entrée du Sanctuaire, et peut donc être dit « devant l'Éternel » (לִפְנֵי ה') et « face à l'autel ».</li>
+                    <li>⏰ Moment : la Hagasha a lieu <strong>avant</strong> le prélèvement du Komets.</li>
+                    <li>🔍 Sefer Yereim (§453) : la source de la Hagasha pour toutes les Menahot est dérivée du verset de Lévitique 2:8 — d'abord on pourrait penser que seul le Komets est approché, mais le verset dit « הַמִּנְחָה » (la Minha, avec article défini) → toutes les Menahot. On étend ensuite à la Minha du pécheur par le verset « אֶת הַמִּנְחָה ».</li>
+                  </ul>
+                </div>
+
+            <h3>🌊 Qu'est-ce que la Tenufa (תְּנוּפָה) ?</h3>
+
+                <div class="source-box">
+                  <ul>
+                    <li>📜 <strong>Lévitique 23:11</strong> — « וְהֵנִיף אֶת הָעֹמֶר לִפְנֵי ה' » — il ondoiera l'Omer devant l'Éternel.</li>
+                    <li>📌 Le rite de la Tenufa : l'officiant tient l'offrande et l'agite dans les <strong>quatre directions horizontales</strong> (est, ouest, nord, sud) puis vers le <strong>haut et vers le bas</strong>.</li>
+                    <li>🔑 Signification : la Tenufa reconnaît que Dieu est maître de toutes les directions — le ciel, la terre et les quatre points cardinaux. C'est un geste d'offrande universelle.</li>
+                    <li>📌 Rambam (Hilkhot Ma'asseh Hakorbanot 12:6) : pour les Menahot, la Tenufa n'est pas requise — sauf pour la Minha de la Sota et la Minha de l'Omer, qui requièrent à la fois Hagasha et Tenufa.</li>
+                  </ul>
+                </div>
+
+            <h3>📋 Les quatre catégories en détail</h3>
+
+                <h3>🙌 Catégorie 1 : Hagasha sans Tenufa — la norme des Menahot de particulier</h3>
+                <div class="bloc-cat1">
+                  <ul>
+                    <li>📌 C'est la catégorie la plus large : elle comprend toutes les Menahot volontaires standard et la Minha du pécheur.</li>
+                    <li>📌 Ces Menahot ont toutes une Komets prélevée — ce qui selon Rabbi Shimon est la condition de la Hagasha.</li>
+                    <li>📌 Elles n'ont pas de Tenufa car la Tenufa est réservée à des rites spécifiques (Sota, Omer) ou à des offrandes animales (agneaux de Chavouot).</li>
+                    <li>⚠️ <strong>Point de débat</strong> : le Tana Kama inclut la Minha des prêtres et la Havita dans cette catégorie. Rabbi Shimon les en exclut — voir ci-dessous.</li>
+                  </ul>
+                </div>
+
+                <h3>🙌🌊 Catégorie 2 : Hagasha ET Tenufa</h3>
+                <div class="bloc-cat2">
+                  <ul>
+                    <li>📌 La Mishna ne liste pas ici les Menahot de cette catégorie — mais d'après le Rambam (12:6) et la structure du chapitre, ce sont :</li>
+                    <li>🌾 La <strong>Minha de l'Omer</strong> : elle est ondoyée (Lévitique 23:11) ET approchée de l'autel.</li>
+                    <li>💔 La <strong>Minha de la Sota</strong> : elle est ondoyée (Nombres 5:25 — « le prêtre prend la Minha de jalousie de la main de la femme et l'ondoie ») ET approchée.</li>
+                    <li>📌 Ces deux Menahot sont des cas particuliers où la Tenufa a un sens symbolique spécifique : pour l'Omer, célébration des prémices ; pour la Sota, acte de présentation au jugement divin.</li>
+                  </ul>
+                </div>
+
+                <h3>🌊 Catégorie 3 : Tenufa sans Hagasha</h3>
+                <div class="bloc-cat3">
+                  <ul>
+                    <li>📌 La Mishna n'est pas encore complète ici — la suite du chapitre (Mishna 6) détaillera les cas. Selon le contexte général :</li>
+                    <li>🐑 Les <strong>agneaux de Chavouot (כִּבְשֵׂי עֲצֶרֶת)</strong> avec leurs pains — les agneaux sont ondoyés avec les Chtei HaLechem mais ces pains ne subissent pas de Hagasha (ils ne sont pas des Menahot ordinaires).</li>
+                    <li>📌 Dans le cadre de cette Mishna partielle, cette catégorie est implicite.</li>
+                  </ul>
+                </div>
+
+                <h3>❌ Catégorie 4 : Ni Hagasha ni Tenufa</h3>
+                <div class="bloc-cat4">
+                  <ul>
+                    <li>📌 À compléter dans la suite du chapitre — mais on peut déjà identifier :</li>
+                    <li>🍷 La <strong>Minha des libations (מִנְחַת נְסָכִים)</strong> : accompagnement du sacrifice animal, brûlée entièrement sans Komets — pas de Hagasha (sans Komets) ni de Tenufa.</li>
+                    <li>🫓 Le <strong>Pain de Proposition (לֶחֶם הַפָּנִים)</strong> et les <strong>Chtei HaLechem (שְׁתֵּי הַלֶּחֶם)</strong> : pas de Komets, pas de Hagasha standard.</li>
+                  </ul>
+                </div>
+
+            <h3>🔵 Rabbi Shimon : le principe Komets–Hagasha</h3>
+
+                <h3>📋 La position du Tana Kama</h3>
+                <div class="bloc-cat1">
+                  <ul>
+                    <li>📌 Le Tana Kama inclut la Minha des prêtres et la Havita dans la catégorie 1 (Hagasha sans Tenufa) — elles sont approchées de l'autel avant le service, même si elles sont entièrement brûlées sans Komets.</li>
+                  </ul>
+                </div>
+
+                <h3>📋 La position de Rabbi Shimon</h3>
+                <div class="bloc-rabbi-shimon">
+                  <ul>
+                    <li>🔵 Rabbi Shimon exclut la Minha des prêtres et la Havita de la Hagasha, en formulant un principe général : <strong>« כֹל שֶׁאֵין בָּהֶן קְמִיצָה אֵין בָּהֶן הַגָּשָׁה »</strong> — tout ce qui n'a pas de Komets n'a pas de Hagasha.</li>
+                    <li>📌 La Minha des prêtres et la Havita sont des Menahot entièrement brûlées (כָּלִיל) — il n'y a pas de Komets prélevé pour permettre des Shireim, car <em>il n'y a pas de Shireim</em> : les prêtres ne mangent rien d'une Minha offerte par un prêtre.</li>
+                    <li>⚖️ Pour Rabbi Shimon, la Hagasha et la Komets sont fonctionnellement liées : la Hagasha prépare l'acte de la Komets, et sans Komets, la Hagasha n'a plus de raison d'être.</li>
+                  </ul>
+                </div>
+
+                <h3>🔍 La vraie raison selon la Guemara</h3>
+                <div class="bloc-rabbi-shimon">
+                  <ul>
+                    <li>📌 Rachi précise que la Beraïta dans la Guemara formule la raison ainsi : <em>« il n'y a rien d'elles pour les prêtres »</em> (אֵין מֵהֶן לַכֹּהֲנִים) — la Hagasha est liée à l'existence d'une part sacerdotale (Shireim). Sans Shireim, il n'y a pas de Hagasha.</li>
+                    <li>📌 Rabbi Shimon utilise dans la Mishna la formule « absence de Komets » comme un <em>signe ou marqueur</em> des cas exclus — mais la vraie raison est plus profonde : c'est l'absence de la dimension sacerdotale (part des prêtres) qui supprime la Hagasha.</li>
+                  </ul>
+                </div>
+
+                <h3>⚠️ La difficulté des Tossafot et sa résolution</h3>
+                <div class="tension-box">
+                  <ul>
+                    <li>❓ <strong>Difficulté</strong> : si la règle est « sans Komets, sans Hagasha », alors la Minha du pécheur d'un prêtre — qui selon Rabbi Shimon lui-même (Menahot 72b) <em>a</em> un Komets — devrait avoir une Hagasha. Pourtant, la Mishna (Tana Kama) inclut la Minha du pécheur dans la catégorie Hagasha + pas de Tenufa, et Rabbi Shimon n'en parle pas.</li>
+                    <li>📌 <strong>Réponse des Tossafot</strong> : le principe « sans Komets, sans Hagasha » est énoncé ici comme une <em>règle générale inclusive</em> (כְּלָל) pour identifier les cas exclus — il ne dit pas que partout où il y a un Komets il y a automatiquement une Hagasha. C'est une règle de diagnostic, non une règle causale réciproque.</li>
+                    <li>⚖️ La vraie logique de Rabbi Shimon reste : pas de part pour les prêtres = pas de Hagasha. La Minha du pécheur d'un prêtre est un cas particulier (ses Shireim sont brûlés) qui nécessite une analyse séparée.</li>
+                  </ul>
+                </div>
+
+            <h3>🏛️ La géographie de la Hagasha : l'angle sud-ouest de l'autel</h3>
+            <div class="source-box">
+              <ul>
+                <li>📌 Sefer Yereim (§453) détaille la localisation précise de la Hagasha : <strong>l'angle sud-ouest (קֶרֶן דְּרוֹמִית מַעֲרָבִית)</strong> de l'autel des olot.</li>
+                <li>🔍 La raison : Lévitique 6:7 dit « לִפְנֵי ה' אֶל פְּנֵי הַמִּזְבֵּחַ » — à la fois devant l'Éternel (= face au Heikhal) et face à l'autel. Seul l'angle sud-ouest répond aux deux conditions simultanément : il est face à l'entrée du Heikhal (donc « devant l'Éternel ») et face à l'autel.</li>
+                <li>📌 Le Sefer Yereim précise : tout l'autel se trouve au nord (du Heikhal), donc l'angle le plus au sud de l'autel est le plus proche du Heikhal et peut être dit « devant l'Éternel ». C'est l'angle sud-ouest qui satisfait les deux conditions.</li>
+                <li>🔗 Ce même angle (קֶרֶן דְּרוֹמִית מַעֲרָבִית) est mentionné dans Zevachim 58b pour la localisation d'autres actes du service — confirmant l'importance particulière de cet angle dans la topographie sacrée du Temple.</li>
+              </ul>
+            </div>
+
+            <h3>📊 Tableau de synthèse de la michna</h3>
+            <table align="center" border="1" cellpadding="6" cellspacing="0">
+              <tr>
+                <th>🧩 Catégorie</th>
+                <th>🙌 Hagasha</th>
+                <th>🌊 Tenufa</th>
+                <th>📋 Exemples</th>
+                <th>🔵 Selon Rabbi Shimon</th>
+              </tr>
+              <tr style="background-color:#e3f2fd;">
+                <td>1 — Hagasha seule</td>
+                <td>✅</td>
+                <td>❌</td>
+                <td>Solète, Poêle, Four, Pécheur, Prêtres*, Havita*, Goy, Femmes</td>
+                <td>* Prêtres et Havita : ❌ Hagasha (sans Komets)</td>
+              </tr>
+              <tr style="background-color:#e8f5e9;">
+                <td>2 — Hagasha + Tenufa</td>
+                <td>✅</td>
+                <td>✅</td>
+                <td>Minha de l'Omer, Minha de la Sota</td>
+                <td>Accord implicite</td>
+              </tr>
+              <tr style="background-color:#fff8e1;">
+                <td>3 — Tenufa seule</td>
+                <td>❌</td>
+                <td>✅</td>
+                <td>Agneaux de Chavouot (avec pains)</td>
+                <td>—</td>
+              </tr>
+              <tr style="background-color:#fce4ec;">
+                <td>4 — Ni Hagasha ni Tenufa</td>
+                <td>❌</td>
+                <td>❌</td>
+                <td>Minha des libations, Pain de Proposition, Chtei HaLechem</td>
+                <td>—</td>
+              </tr>
+            </table>
+
+    <h2>📜 Explication Synthétique des Halakhot</h2>
+
+        <h3>📖 Rambam (Mishneh Torah, Hilkhot Ma'asseh Hakorbanot 12:6)</h3>
+        <div class="bloc-halakha">
+          <ul>
+            <li>📌 Règle générale : toutes les Menahot apportées à l'autel doivent être présentées (<strong>Hagasha</strong>) à l'<strong>angle sud-ouest de l'autel (קֶרֶן דְּרוֹמִית מַעֲרָבִית)</strong> — face à la pointe de l'angle.</li>
+            <li>📌 La <strong>Tenufa</strong> n'est pas requise pour les Menahot — à deux exceptions près : la Minha de la Sota et la Minha de l'Omer, qui requièrent toutes deux la Hagasha et la Tenufa.</li>
+            <li>📌 Cette codification du Rambam est conforme au Tana Kama de notre Mishna — mais sans trancher explicitement le débat avec Rabbi Shimon sur les Menahot de prêtres.</li>
+          </ul>
+        </div>
+
+        <h3>📖 Sefer Yereim (§453) — la mitzva de la Hagasha</h3>
+        <div class="bloc-halakha">
+          <ul>
+            <li>📌 Le Sefer Yereim traite la Hagasha comme une mitzva positive indépendante — distincte du prélèvement du Komets et de la combustion sur l'autel.</li>
+            <li>📌 Il cite en détail la Beraïta dérivant la Hagasha de Lévitique 2:8 et l'étendant à toutes les Menahot, y compris la Minha du pécheur.</li>
+            <li>📌 La position de l'angle sud-ouest est dérivée de la conjonction des deux conditions : « לִפְנֵי ה' » (face au Heikhal) et « אֶל פְּנֵי הַמִּזְבֵּחַ » (face à l'autel) — seul cet angle satisfait les deux simultanément.</li>
+            <li>📌 Note : Rabbi Shimon ajoute la Minha de l'Omer et la Minha de la Sota à la liste de celles qui requièrent la Hagasha (selon la Beraïta), tandis que le Tana Kama les inclut dans la catégorie 2 (Hagasha + Tenufa).</li>
+          </ul>
+        </div>
+
+        <h3>🔗 Liens avec les Michnayot précédentes du chapitre 5</h3>
+        <ul>
+          <li>📎 La <strong>Mishna 3 (59a)</strong> avait classifié les Menahot selon l'huile et l'encens.</li>
+          <li>📎 La <strong>Mishna 4 (59b)</strong> avait traité des conséquences de la violation des interdits d'huile et d'encens.</li>
+          <li>📎 La <strong>Mishna 5 (60a)</strong> applique la même structure classificatoire à la Hagasha et la Tenufa — deux nouveaux rites de présentation.</li>
+          <li>🧵 Le chapitre 5 construit ainsi une description systématique et exhaustive de toutes les composantes rituelles des Menahot : ce qu'elles contiennent (Matsah/Hamets en Mishna 1), comment elles sont préparées (eau tiède en Mishna 2), quels additifs elles requièrent (huile/encens en Mishna 3), et quels rites de présentation elles exigent (Hagasha/Tenufa en Mishna 5). Ensemble, ces Michnayot constituent un traité complet sur les Menahot et leur service.</li>
+        </ul>
+
+    </div>
+
+</div>
+
+</body>
+</html>
