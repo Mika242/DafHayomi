@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menachot daf 61a (Perek 5 - Michna 6) (La Tenufa sans Hagasha : le rite d'ondoiement et ses règles)</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 40px;
+            padding: 0;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 30px auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            text-align: center;
+            color: #5a2d82;
+            border-bottom: 2px solid #7a3da5;
+            padding-bottom: 5px;
+        }
+        p {
+            line-height: 1.6;
+            margin-bottom: 1em;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+        ul li::before {
+            content: "• ";
+            color: #0066cc;
+            font-weight: bold;
+        }
+        blockquote {
+            background-color: #f9f9f9;
+            border-left: 4px solid #0066cc;
+            padding: 10px;
+            margin: 20px 0;
+            font-style: italic;
+        }
+        .mishna-text-comment {
+            display: none;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1.2em;
+            color: #003366;
+            background-color: #f0f0f0;
+            padding: 15px;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        .toggle-button {
+            background-color: #0066cc;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .toggle-button:hover {
+            background-color: #0057a1;
+        }
+        .mishna {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1.2em;
+            color: #003366;
+            background-color: #f0f0f0;
+            padding: 15px;
+            margin-top: 10px;
+            border-radius: 5px;
+            text-align: right;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table th {
+            background-color: #5a2d82;
+            color: white;
+            padding: 8px;
+        }
+        table td {
+            padding: 8px;
+            border: 1px solid #ccc;
+        }
+        table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .bloc-tenufa-seule {
+            background-color: #e3f2fd;
+            border-left: 4px solid #1565c0;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .bloc-mechanique {
+            background-color: #e8f5e9;
+            border-left: 4px solid #388e3c;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .bloc-regles {
+            background-color: #fff8e1;
+            border-left: 4px solid #f9a825;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .bloc-rabbi-shimon {
+            background-color: #f3e5f5;
+            border-left: 4px solid #7b1fa2;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .bloc-commentateurs {
+            background-color: #fff8e1;
+            border-left: 4px solid #f9a825;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .bloc-halakha {
+            background-color: #e0f7fa;
+            border-left: 4px solid #00838f;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .principe-box {
+            background-color: #f3e5f5;
+            border-left: 4px solid #7b1fa2;
+            padding: 12px;
+            margin: 15px 0;
+            border-radius: 4px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .source-box {
+            background-color: #e0f7fa;
+            border-left: 4px solid #00838f;
+            padding: 12px;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+    </style>
+
+    <script>
+        function togglemishnaTextComment() {
+            var mishnaTextComment = document.getElementById("mishnaTextComment");
+            if (mishnaTextComment.style.display === "none") {
+                mishnaTextComment.style.display = "block";
+            } else {
+                mishnaTextComment.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<div class="container">
+
+<button class="toggle-button" onclick="togglemishnaTextComment()">Afficher/Cacher la Mishna et les commentaires</button>
+
+<div id="mishnaTextComment" class="mishna-text-comment">
+
+    <div class="mishna">
+
+        <h3>מַתְנִי׳</h3>
+
+        <h3>🌊 תְּנוּפָה בְּלֹא הַגָּשָׁה</h3>
+        <ul>
+          <li>לוֹג שֶׁמֶן שֶׁל מְצוֹרָע, וַאֲשָׁמוֹ. <span style="float:right;">🐑🫙</span></li>
+          <li>וְהַבִּכּוּרִים כְּדִבְרֵי רַבִּי אֱלִיעֶזֶר בֶּן יַעֲקֹב. <span style="float:right;">🌾</span></li>
+          <li>אֵימוּרֵי שַׁלְמֵי יָחִיד, וְחָזֶה וָשׁוֹק שֶׁלָּהֶן. <span style="float:right;">🍖</span></li>
+          <li>אֶחָד אֲנָשִׁים וְאֶחָד נָשִׁים, בְּיִשְׂרָאֵל וְלֹא בַּאֲחֵרִים. <span style="float:right;">👥</span></li>
+          <li>שְׁתֵּי הַלֶּחֶם וּשְׁנֵי כִּבְשֵׂי עֲצֶרֶת. <span style="float:right;">🍞🐑</span></li>
+        </ul>
+
+        <h3>⚙️ כֵּיצַד עוֹשֶׂה</h3>
+        <ul>
+          <li>נוֹתֵן שְׁתֵּי הַלֶּחֶם עַל גַּבֵּי שְׁנֵי כְּבָשִׂים, וּמַנִּיחַ שְׁתֵּי יָדָיו לְמַטָּה. <span style="float:right;">🙌</span></li>
+          <li>מוֹלִיךְ וּמֵבִיא, מַעֲלֶה וּמוֹרִיד. <span style="float:right;">↔️↕️</span></li>
+          <li>שֶׁנֶּאֱמַר: ״אֲשֶׁר הוּנַף וַאֲשֶׁר הוּרָם״. <span style="float:right;">📜</span></li>
+        </ul>
+
+        <h3>🧭 כְּלָלִים</h3>
+        <ul>
+          <li>תְּנוּפָה הָיְתָה בַּמִּזְרָח, וְהַגָּשָׁה בַּמַּעֲרָב. <span style="float:right;">🧭</span></li>
+          <li>תְּנוּפוֹת קוֹדְמוֹת לַהַגָּשׁוֹת. <span style="float:right;">⏳</span></li>
+        </ul>
+
+        <h3>📋 סִיכּוּם</h3>
+        <ul>
+          <li>מִנְחַת הָעוֹמֶר וּמִנְחַת קְנָאוֹת — הַגָּשָׁה וּתְנוּפָה. <span style="float:right;">✅✅</span></li>
+          <li>לֶחֶם הַפָּנִים וּמִנְחַת נְסָכִים — לֹא הַגָּשָׁה וְלֹא תְּנוּפָה. <span style="float:right;">❌❌</span></li>
+        </ul>
+
+        <h3>🔵 רַבִּי שִׁמְעוֹן</h3>
+        <ul>
+          <li>שְׁלֹשָׁה מִינִין טְעוּנִין שָׁלֹשׁ מִצְוֹת, שְׁתַּיִם בְּכׇל אַחַת וְאַחַת, וּשְׁלִישִׁית אֵין בָּהֶן. <span style="float:right;">🔵</span></li>
+          <li>שַׁלְמֵי יָחִיד: סְמִיכָה + תְּנוּפָה שְׁחוּטִין. אֵין תְּנוּפָה חַיִּים. <span style="float:right;">🐑</span></li>
+          <li>שַׁלְמֵי צִיבּוּר: תְּנוּפָה חַיִּים + שְׁחוּטִין. אֵין סְמִיכָה. <span style="float:right;">🐑🐑</span></li>
+          <li>אֲשַׁם מְצוֹרָע: סְמִיכָה + תְּנוּפָה חַי. אֵין תְּנוּפָה שָׁחוּט. <span style="float:right;">🐑🏥</span></li>
+        </ul>
+
+    </div>
+
+    <h1>Menachot daf 61a (Perek 5 - Michna 6)</h1>
+
+        <h3>Traduction en français de la Michna</h3>
+
+            <h3>🌊 Catégorie 3 : Tenufa sans Hagasha</h3>
+            <div class="bloc-tenufa-seule">
+              <ul>
+                <li>🐑🫙 Le <strong>Log d'huile du Metsora (lépreux guéri)</strong> et son <strong>sacrifice de réparation (Acham)</strong> : Lévitique 14:12 — « le prêtre prendra l'agneau… et le Log d'huile, et les ondoiera en offrande d'ondoiement devant l'Éternel. »</li>
+                <li>🌾 Les <strong>Bikkourim (prémices)</strong> — selon Rabbi Eliezer ben Yaakov.</li>
+                <li>🍖 Les <strong>Eimourim (parties grasses) des Shelamim de particulier</strong> et leur <strong>poitrine et cuisse</strong> : Lévitique 10:15 — « la cuisse de l'élévation et la poitrine de l'ondoiement… pour l'ondoyer devant l'Éternel. »</li>
+                <li>👥 Ce rite s'applique aussi bien aux Shelamim des hommes qu'à ceux des femmes — mais l'ondoiement est effectué par des hommes d'Israël, et non par d'autres.</li>
+                <li>🍞🐑 Les <strong>deux pains de Chavouot (Chtei HaLechem)</strong> et les <strong>deux agneaux de Chavouot (Kivshei Atseret)</strong>.</li>
+              </ul>
+            </div>
+
+            <h3>⚙️ Comment effectue-t-on l'ondoiement des pains et agneaux de Chavouot ?</h3>
+            <div class="bloc-mechanique">
+              <ul>
+                <li>🍞 Il place les deux pains <strong>sur</strong> les deux agneaux, et met ses deux mains <strong>en dessous</strong>.</li>
+                <li>↔️ Il <strong>étend</strong> dans les quatre directions (est, ouest, nord, sud) <strong>et ramène</strong>.</li>
+                <li>↕️ Il <strong>lève</strong> vers le haut <strong>et descend</strong> vers le bas.</li>
+                <li>📜 Source : Exode 29:27 — « אֲשֶׁר הוּנַף וַאֲשֶׁר הוּרָם » — « ce qui a été ondoyé (= mouvement horizontal) et ce qui a été élevé (= mouvement vertical). »</li>
+              </ul>
+            </div>
+
+            <h3>🧭 Deux règles de localisation et d'ordre</h3>
+            <div class="bloc-regles">
+              <ul>
+                <li>🧭 La Tenufa se faisait à l'<strong>est de l'autel</strong> — la Hagasha se faisait à l'<strong>ouest (angle sud-ouest)</strong>.</li>
+                <li>⏳ Dans les Menahot qui requièrent les deux : les <strong>Tenufot précèdent</strong> les Hagashot.</li>
+              </ul>
+            </div>
+
+            <h3>📋 Récapitulatif complet des catégories</h3>
+            <div class="bloc-regles">
+              <ul>
+                <li>✅✅ Minha de l'Omer et Minha de jalousie (Sota) : <strong>Hagasha ET Tenufa</strong>.</li>
+                <li>❌❌ Pain de Proposition et Minha des libations : <strong>ni Hagasha ni Tenufa</strong>.</li>
+              </ul>
+            </div>
+
+            <h3>🔵 Rabbi Shimon — trois types d'offrandes, trois mitzvot par paires</h3>
+            <div class="bloc-rabbi-shimon">
+              <ul>
+                <li>🔵 <strong>Rabbi Shimon</strong> : trois types d'offrandes partagent trois mitzvot — mais chacun n'en accomplit que deux sur trois.</li>
+                <li>🐑 <strong>Shelamim de particulier</strong> : Semikhah (imposition des mains) + Tenufa après shehita. Pas de Tenufa vivant.</li>
+                <li>🐑🐑 <strong>Shelamim communautaires (Kivshei Atseret)</strong> : Tenufa vivant + Tenufa après shehita. Pas de Semikhah.</li>
+                <li>🐑🏥 <strong>Acham du Metsora</strong> : Semikhah + Tenufa vivant. Pas de Tenufa après shehita.</li>
+              </ul>
+            </div>
+
+    <h2>📖 Analyse des Commentateurs</h2>
+
+        <h3>🖊️ Rachi — Menachot 61a</h3>
+        <div class="bloc-commentateurs">
+          <ul>
+            <li>📌 Sur le <strong>Log et l'Acham du Metsora</strong> : Rachi cite Lévitique 14 — « וְהִנִּיף אוֹתָם » (il les ondoiera) — source directe de l'obligation de Tenufa.</li>
+            <li>📌 Sur les <strong>Bikkourim selon Rabbi Eliezer ben Yaakov</strong> : Rachi renvoie à Souccah 47b où il est établi que les Bikkourim requièrent une Tenufa.</li>
+            <li>📌 Sur les <strong>Eimourim et poitrine/cuisse des Shelamim</strong> : Rachi cite Lévitique 10:15 — « שׁוֹק הַתְּרוּמָה וַחֲזֵה הַתְּנוּפָה » (la cuisse de l'élévation et la poitrine de l'ondoiement).</li>
+            <li>📌 Sur <strong>« à l'est »</strong> : Rachi précise — « même à l'est de l'autel il peut ondoyer, et a fortiori à l'ouest qui est plus proche du Heikhal ».</li>
+            <li>📌 Sur <strong>« les Tenufot précèdent »</strong> : Rachi dérive l'ordre depuis la Minha de la Sota (Nombres 5:25) — d'abord « il ondoiera la Minha devant l'Éternel », puis « il l'approchera de l'autel » — la Tenufa est mentionnée avant la Hagasha.</li>
+          </ul>
+        </div>
+
+        <h3>📖 Steinsaltz — synthèse</h3>
+        <div class="bloc-commentateurs">
+          <ul>
+            <li>📌 Steinsaltz clarifie le rite de l'ondoiement des Chtei HaLechem : les pains sont posés sur les agneaux (et non l'inverse), les mains du prêtre en dessous — puis mouvement en quatre directions + haut/bas.</li>
+            <li>📌 La Tenufa se fait dans la partie <strong>est de la cour</strong> (עֲזָרָה) — c'est là que tous les ondoiements sont effectués, selon le Rambam (Hilkhot Ma'asseh Hakorbanot 9:6).</li>
+            <li>📌 Sur <strong>« בְּיִשְׂרָאֵל וְלֹא בַּאֲחֵרִים »</strong> : l'ondoiement des Shelamim de femmes est requis, mais c'est un prêtre (mâle juif) qui l'effectue en mettant ses mains sous celles de la propriétaire de l'offrande.</li>
+            <li>📌 Sur la trilogie de Rabbi Shimon : Steinsaltz précise que les trois mitzvot sont la Semikhah, la Tenufa vivant, et la Tenufa après shehita — chaque type d'offrande accomplit exactement deux de ces trois.</li>
+          </ul>
+        </div>
+
+        <h3>📖 Sefer Yereim (§452) — les sources de chaque Tenufa</h3>
+        <div class="bloc-commentateurs">
+          <ul>
+            <li>📌 Le Sefer Yereim analyse en détail les sources bibliques de chaque obligation de Tenufa :</li>
+            <li>📜 Log et Acham du Metsora → Lévitique 14:12 : « וְהִנִּיף אוֹתָם תְּנוּפָה »</li>
+            <li>📜 Bikkourim → dérivé par Guezera Shava (analogie verbale) de « יָד » (main) entre les Bikkourim et les Shelamim.</li>
+            <li>📜 Eimourim des Shelamim → Lévitique 7:30 : « אֶת הַחֵלֶב עַל הַחָזֶה יְבִיאֶנּוּ לְהָנִיף »</li>
+            <li>📜 Chtei HaLechem et Kivshei Atseret → Lévitique 23:20 : « וְהֵנִיף הַכֹּהֵן אֹתָם עַל לֶחֶם הַבִּכּוּרִים »</li>
+            <li>📜 Minha de l'Omer → Lévitique 23:11 : « וְהֵנִיף אֶת הָעֹמֶר »</li>
+            <li>📜 Minha de la Sota → Nombres 5:25 : « וְהֵנִיף אֶת הַמִּנְחָה לִפְנֵי ה׳ »</li>
+          </ul>
+        </div>
+
+</div>
+
+
+    <h1>Menachot daf 61a (Perek 5 - Michna 6) — La Tenufa : le rite d'ondoiement et sa classification complète</h1>
+
+    <div class="mishna-explication">
+
+        <h3>📌 Explication de la Michna</h3>
+
+            <h3>🧠 Principe général de la michna</h3>
+            <ul>
+              <li>📌 La Mishna 6 complète la classification des Michnayot 5 en détaillant la <strong>catégorie 3 (Tenufa sans Hagasha)</strong> et en fournissant un récapitulatif général de toutes les catégories.</li>
+              <li>📌 Elle décrit en détail le <strong>rite de la Tenufa</strong> — sa mécanique, sa localisation dans la cour, et son ordre par rapport à la Hagasha.</li>
+              <li>📌 Elle se conclut par le schéma remarquable de <strong>Rabbi Shimon</strong> : trois types d'offrandes qui partagent trois mitzvot en combinaisons de deux.</li>
+            </ul>
+
+            <div class="principe-box">
+              ⚖️ La Tenufa est un rite de remise universelle à Dieu : le mouvement en quatre directions + haut/bas signifie que l'offrant reconnaît que Dieu est maître de tout l'espace — ciel, terre et les quatre horizons.
+            </div>
+
+            <h3>🌊 Catégorie 3 : Tenufa sans Hagasha — les cinq cas</h3>
+
+                <h3>🐑🫙 Cas 1 : Le Log d'huile et l'Acham du Metsora</h3>
+                <div class="bloc-tenufa-seule">
+                  <ul>
+                    <li>📜 <strong>Lévitique 14:12</strong> — « וְלָקַח הַכֹּהֵן אֶת הַכֶּבֶשׂ הָאֶחָד וְהִקְרִיב אֹתוֹ לְאָשָׁם וְאֶת לֹג הַשֶּׁמֶן וְהֵנִיף אֹתָם תְּנוּפָה לִפְנֵי ה׳ »</li>
+                    <li>📌 Le Metsora (lépreux guéri) apporte un Acham (sacrifice de réparation) accompagné d'un Log d'huile. Les deux sont ondoyés ensemble devant l'Éternel.</li>
+                    <li>🏛️ Rambam (Hilkhot Mechoussar Kippurim 4:2) : le prêtre prend l'agneau vivant et effectue la Tenufa avec lui et le Log d'huile dans la partie <strong>est de la cour</strong>. Si on les ondoie séparément, l'obligation est quand même remplie.</li>
+                    <li>📌 Ces offrandes requièrent Tenufa mais pas Hagasha — elles n'ont pas le statut de Minha (offrande végétale) pour laquelle la Hagasha est requise.</li>
+                  </ul>
+                </div>
+
+                <h3>🌾 Cas 2 : Les Bikkourim — selon Rabbi Eliezer ben Yaakov</h3>
+                <div class="bloc-tenufa-seule">
+                  <ul>
+                    <li>📜 <strong>Deutéronome 26:4</strong> — « וְלָקַח הַכֹּהֵן הַטֶּנֶא מִיָּדֶךָ » — le prêtre prend le panier de ta main.</li>
+                    <li>📌 Rabbi Eliezer ben Yaakov dérive par Guezera Shava (analogie verbale sur « יָד ») depuis les Shelamim que les Bikkourim requièrent la Tenufa.</li>
+                    <li>📌 Le rite : le propriétaire tient le panier, le prêtre met ses mains en dessous et ondoie ensemble.</li>
+                    <li>⚠️ Cette position est spécifiquement attribuée à Rabbi Eliezer ben Yaakov — les autres Tannaïm ne sont pas tous d'accord.</li>
+                  </ul>
+                </div>
+
+                <h3>🍖 Cas 3 : Eimourim, poitrine et cuisse des Shelamim de particulier</h3>
+                <div class="bloc-tenufa-seule">
+                  <ul>
+                    <li>📜 <strong>Lévitique 7:30</strong> — « אֶת הַחֵלֶב עַל הַחָזֶה יְבִיאֶנּוּ לְהָנִיף »</li>
+                    <li>📜 <strong>Lévitique 10:15</strong> — « שׁוֹק הַתְּרוּמָה וַחֲזֵה הַתְּנוּפָה עַל אִשֵּׁי הַחֲלָבִים יָבִיאוּ לְהָנִיף »</li>
+                    <li>📌 Les Eimourim (graisses internes et parties réservées à l'autel) sont ondoyés sur la paume du propriétaire, le prêtre mettant ses mains en dessous. Ensuite, poitrine et cuisse (destinées aux prêtres) sont ajoutées et ondoyées ensemble.</li>
+                    <li>🏛️ Rambam (Hilkhot Ma'asseh Hakorbanot 9:6) : le prêtre met ses mains sous celles du propriétaire et ondoie tout ensemble, « à l'est de l'autel ». C'est toujours à l'est que se font toutes les Tenufot.</li>
+                  </ul>
+                </div>
+
+                <h3>👥 Précision sur « hommes et femmes, Israël et pas les autres »</h3>
+                <div class="bloc-regles">
+                  <ul>
+                    <li>📌 La Tenufa des Shelamim s'applique aussi bien aux offrandes des hommes que des femmes.</li>
+                    <li>📌 Mais la Tenufa elle-même est effectuée par un <strong>homme juif (ish Israël)</strong> — et non par une femme ni par un non-Juif.</li>
+                    <li>📌 Quand une femme apporte ses Shelamim : c'est le prêtre qui effectue la Tenufa, en mettant ses mains sous celles de la femme propriétaire.</li>
+                    <li>🏛️ Rambam (Hilkhot Ma'asseh Hakorbanot 9:16) : quand c'est une femme qui apporte le sacrifice, elle n'effectue pas la Tenufa — c'est le prêtre qui le fait. Exception : la Sota et la Nazirite accomplissent leur propre Tenufa.</li>
+                  </ul>
+                </div>
+
+                <h3>🍞🐑 Cas 5 : Chtei HaLechem et Kivshei Atseret de Chavouot</h3>
+                <div class="bloc-tenufa-seule">
+                  <ul>
+                    <li>📜 <strong>Lévitique 23:20</strong> — « וְהֵנִיף הַכֹּהֵן אֹתָם עַל לֶחֶם הַבִּכּוּרִים תְּנוּפָה לִפְנֵי ה׳ עַל שְׁנֵי כְבָשִׂים »</li>
+                    <li>📌 D'abord, les deux agneaux sont ondoyés <strong>vivants</strong>. Puis, après shehita, la poitrine, la cuisse et les Eimourim sont posés sur les deux pains, et le tout est ondoyé ensemble.</li>
+                    <li>🏛️ Rambam (Hilkhot Temidin 8:11) : les mains du prêtre sous l'ensemble, mouvement dans les quatre directions + haut/bas. Si les ondoiements sont faits séparément (chaque pain avec un agneau), l'obligation est remplie.</li>
+                  </ul>
+                </div>
+
+            <h3>⚙️ La mécanique de la Tenufa</h3>
+
+                <h3>🔍 Description du geste</h3>
+                <div class="bloc-mechanique">
+                  <ul>
+                    <li>📌 Pour les Chtei HaLechem : pains posés <em>sur</em> les agneaux (et non l'inverse — débat dans la Guemara sur l'ordre).</li>
+                    <li>🙌 Le prêtre met ses deux mains <strong>en dessous</strong> de l'ensemble.</li>
+                    <li>↔️ <strong>הוֹלֵךְ וּמֵבִיא</strong> : étend vers l'avant (les quatre directions) et ramène.</li>
+                    <li>↕️ <strong>מַעֲלֶה וּמוֹרִיד</strong> : lève vers le haut et descend.</li>
+                  </ul>
+                </div>
+
+                <h3>📜 La source biblique du geste double</h3>
+                <div class="source-box">
+                  <ul>
+                    <li>📜 <strong>Exode 29:27</strong> (rite d'inauguration des prêtres) — « אֲשֶׁר הוּנַף וַאֲשֶׁר הוּרָם » — ce qui a été <em>ondoyé</em> (mouvement horizontal) et ce qui a été <em>élevé</em> (mouvement vertical).</li>
+                    <li>📌 Ce verset de référence établit que la Tenufa comprend obligatoirement ces deux mouvements — horizontal (הוֹלֵךְ וּמֵבִיא) et vertical (מַעֲלֶה וּמוֹרִיד).</li>
+                    <li>🔑 Symbolisme : les quatre directions horizontales proclament que Dieu règne sur les quatre coins de la terre ; le mouvement vertical proclame sa maîtrise sur le ciel et la terre.</li>
+                  </ul>
+                </div>
+
+            <h3>🧭 Tenufa à l'est, Hagasha à l'ouest — ordre des rites</h3>
+
+                <div class="bloc-regles">
+                  <ul>
+                    <li>🧭 <strong>La Tenufa se fait à l'est de l'autel</strong> — dans la partie orientale de la cour du Temple (Azara). C'est là que se font toutes les Tenufot (Rambam, Ma'asseh Hakorbanot 9:6 : « à l'est de l'autel, à l'endroit où se font toutes les ondoiements »).</li>
+                    <li>📌 Rachi précise : « même à l'est de l'autel on peut ondoyer — et a fortiori à l'ouest qui est plus proche du Heikhal ».</li>
+                    <li>🙌 <strong>La Hagasha se fait à l'ouest</strong> — précisément à l'angle sud-ouest (קֶרֶן דְּרוֹמִית מַעֲרָבִית), comme établi dans la Mishna 5.</li>
+                    <li>⏳ <strong>Les Tenufot précèdent les Hagashot</strong> : règle absolue. Source : Nombres 5:25 (Minha de la Sota) — « il ondoiera la Minha… puis il l'approchera de l'autel » — Tenufa mentionnée avant Hagasha.</li>
+                  </ul>
+                </div>
+
+            <h3>🔵 Le schéma de Rabbi Shimon : trois types, trois mitzvot, deux par deux</h3>
+
+                <h3>📋 Les trois mitzvot en question</h3>
+                <div class="bloc-rabbi-shimon">
+                  <ul>
+                    <li>1️⃣ <strong>Semikhah (סְמִיכָה)</strong> : imposition des mains sur la tête de l'animal vivant avant la shehita.</li>
+                    <li>2️⃣ <strong>Tenufa vivant (תְּנוּפָה חַי)</strong> : ondoiement de l'animal <em>avant</em> la shehita.</li>
+                    <li>3️⃣ <strong>Tenufa shehout (תְּנוּפָה שָׁחוּט)</strong> : ondoiement des parties (Eimourim, poitrine, cuisse) <em>après</em> la shehita.</li>
+                  </ul>
+                </div>
+
+                <h3>📊 La grille des trois combinaisons</h3>
+                <table align="center" border="1" cellpadding="6" cellspacing="0">
+                  <tr>
+                    <th>🐑 Type d'offrande</th>
+                    <th>1️⃣ Semikhah</th>
+                    <th>2️⃣ Tenufa vivant</th>
+                    <th>3️⃣ Tenufa shehout</th>
+                    <th>📜 Source</th>
+                  </tr>
+                  <tr style="background-color:#e3f2fd;">
+                    <td>🐑 Shelamim de particulier</td>
+                    <td>✅</td>
+                    <td>❌</td>
+                    <td>✅</td>
+                    <td>Lévitique 3:2 (semikhah) + Lévitique 7:30 (tenufa shehout)</td>
+                  </tr>
+                  <tr style="background-color:#e8f5e9;">
+                    <td>🐑🐑 Shelamim communautaires (Kivshei Atseret)</td>
+                    <td>❌</td>
+                    <td>✅</td>
+                    <td>✅</td>
+                    <td>Lévitique 23:20 (tenufa vivant et shehout)</td>
+                  </tr>
+                  <tr style="background-color:#fff8e1;">
+                    <td>🐑🏥 Acham du Metsora</td>
+                    <td>✅</td>
+                    <td>✅</td>
+                    <td>❌</td>
+                    <td>Lévitique 14:12 (tenufa vivant) + règle générale (semikhah)</td>
+                  </tr>
+                </table>
+
+                <h3>🔍 La beauté du schéma de Rabbi Shimon</h3>
+                <div class="bloc-rabbi-shimon">
+                  <ul>
+                    <li>📌 Chaque type d'offrande partage exactement <strong>deux</strong> mitzvot avec les autres types — mais jamais la même paire.</li>
+                    <li>🔗 Shelamim de particulier et Acham du Metsora partagent la <strong>Semikhah</strong>.</li>
+                    <li>🔗 Shelamim communautaires et Acham du Metsora partagent la <strong>Tenufa vivant</strong>.</li>
+                    <li>🔗 Shelamim de particulier et Shelamim communautaires partagent la <strong>Tenufa shehout</strong>.</li>
+                    <li>📌 Aucun des trois types n'accomplit les trois mitzvot — chacun en est exempt de l'une pour des raisons distinctes. Ce schéma illustre la précision et la cohérence du système halakhique des offrandes.</li>
+                    <li>📌 Sha'arei Torat Bavel note que Rabbi Shimon utilise ce même type de raisonnement en Houlin 126a — un procédé logique caractéristique de sa méthode.</li>
+                  </ul>
+                </div>
+
+            <h3>📊 Tableau récapitulatif complet — toutes les catégories Hagasha/Tenufa</h3>
+            <table align="center" border="1" cellpadding="6" cellspacing="0">
+              <tr>
+                <th>🧩 Catégorie</th>
+                <th>🙌 Hagasha</th>
+                <th>🌊 Tenufa</th>
+                <th>📋 Exemples</th>
+              </tr>
+              <tr style="background-color:#e3f2fd;">
+                <td>1 — Hagasha seule</td>
+                <td>✅ (angle SO)</td>
+                <td>❌</td>
+                <td>Solète, Poêle, Four, Pécheur, Goy, Femmes, (Prêtres*)</td>
+              </tr>
+              <tr style="background-color:#e8f5e9;">
+                <td>2 — Hagasha + Tenufa</td>
+                <td>✅</td>
+                <td>✅</td>
+                <td>Minha de l'Omer, Minha de la Sota</td>
+              </tr>
+              <tr style="background-color:#fff8e1;">
+                <td>3 — Tenufa seule</td>
+                <td>❌</td>
+                <td>✅ (à l'est)</td>
+                <td>Log+Acham Metsora, Bikkourim, Eimourim Shelamim, Chtei HaLechem+Kivshei Atseret</td>
+              </tr>
+              <tr style="background-color:#fce4ec;">
+                <td>4 — Ni Hagasha ni Tenufa</td>
+                <td>❌</td>
+                <td>❌</td>
+                <td>Pain de Proposition, Minha des libations</td>
+              </tr>
+            </table>
+
+    <h2>📜 Explication Synthétique des Halakhot</h2>
+
+        <h3>📖 Rambam (Mishneh Torah) — codification</h3>
+        <div class="bloc-halakha">
+          <ul>
+            <li>📌 <strong>Ma'asseh Hakorbanot 9:6</strong> : la Tenufa se fait toujours à <strong>l'est de l'autel</strong> — c'est là que se font tous les ondoiements.</li>
+            <li>📌 <strong>Ma'asseh Hakorbanot 9:16</strong> : une femme n'effectue pas la Tenufa de ses sacrifices — c'est le prêtre qui le fait. Exceptions : la Sota et la Nazirite accomplissent leur propre Tenufa. La Tenufa précède toujours la Hagasha.</li>
+            <li>📌 <strong>Ma'asseh Hakorbanot 12:6</strong> : la Hagasha se fait à l'<strong>angle sud-ouest de l'autel</strong>. La Tenufa n'est pas requise pour les Menahot — sauf Sota et Omer.</li>
+            <li>📌 <strong>Temidin 8:11</strong> : pour les Chtei HaLechem et Kivshei Atseret — d'abord les agneaux sont ondoyés vivants, puis après shehita, poitrine+cuisse posées sur les pains et tout ondoyé ensemble à l'est.</li>
+            <li>📌 <strong>Temidin 7:12</strong> : pour la Minha de l'Omer — ondoyée à l'est, puis approchée de l'angle sud-ouest (Hagasha).</li>
+            <li>📌 <strong>Ma'asseh Hakorbanot 2:1</strong> : la Minha des libations ne requiert ni Tenufa ni Hagasha.</li>
+          </ul>
+        </div>
+
+        <h3>🔗 Conclusion du chapitre 5 — les trois grandes classifications</h3>
+        <ul>
+          <li>📎 <strong>Mishna 3 (59a)</strong> : classification Huile/Encens — 4 catégories.</li>
+          <li>📎 <strong>Mishna 5 (60a)</strong> : classification Hagasha/Tenufa — 4 catégories (introduction).</li>
+          <li>📎 <strong>Mishna 6 (61a)</strong> : classification Hagasha/Tenufa — détails, mécanique, règles, et schéma de Rabbi Shimon.</li>
+          <li>🧵 Ces trois Michnayot forment ensemble un traité complet sur les composantes additionnelles et les rites de présentation des Menahot. Le chapitre 5 constitue ainsi une <strong>encyclopédie des règles de préparation et de présentation</strong> de toutes les offrandes végétales du Temple.</li>
+        </ul>
+
+    </div>
+
+</div>
+
+</body>
+</html>
