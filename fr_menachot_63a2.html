@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menachot daf 63a (Perek 5 - Michna 8) (Le four et ses substituts : les limites du vœu de Minha cuite au four)</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 40px;
+            padding: 0;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 30px auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            text-align: center;
+            color: #5a2d82;
+            border-bottom: 2px solid #7a3da5;
+            padding-bottom: 5px;
+        }
+        p {
+            line-height: 1.6;
+            margin-bottom: 1em;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+        ul li::before {
+            content: "• ";
+            color: #0066cc;
+            font-weight: bold;
+        }
+        blockquote {
+            background-color: #f9f9f9;
+            border-left: 4px solid #0066cc;
+            padding: 10px;
+            margin: 20px 0;
+            font-style: italic;
+        }
+        .mishna-text-comment {
+            display: none;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1.2em;
+            color: #003366;
+            background-color: #f0f0f0;
+            padding: 15px;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        .toggle-button {
+            background-color: #0066cc;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .toggle-button:hover {
+            background-color: #0057a1;
+        }
+        .mishna {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1.2em;
+            color: #003366;
+            background-color: #f0f0f0;
+            padding: 15px;
+            margin-top: 10px;
+            border-radius: 5px;
+            text-align: right;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table th {
+            background-color: #5a2d82;
+            color: white;
+            padding: 8px;
+        }
+        table td {
+            padding: 8px;
+            border: 1px solid #ccc;
+        }
+        table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .bloc-regle {
+            background-color: #e3f2fd;
+            border-left: 4px solid #1565c0;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .bloc-substituts {
+            background-color: #fce4ec;
+            border-left: 4px solid #c62828;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .bloc-rabbi-yehuda {
+            background-color: #e8f5e9;
+            border-left: 4px solid #388e3c;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .bloc-tana-kama {
+            background-color: #fff8e1;
+            border-left: 4px solid #f9a825;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .bloc-rabbi-shimon {
+            background-color: #f3e5f5;
+            border-left: 4px solid #7b1fa2;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .bloc-commentateurs {
+            background-color: #fff8e1;
+            border-left: 4px solid #f9a825;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .bloc-halakha {
+            background-color: #e0f7fa;
+            border-left: 4px solid #00838f;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .principe-box {
+            background-color: #f3e5f5;
+            border-left: 4px solid #7b1fa2;
+            padding: 12px;
+            margin: 15px 0;
+            border-radius: 4px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .source-box {
+            background-color: #e0f7fa;
+            border-left: 4px solid #00838f;
+            padding: 12px;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+    </style>
+
+    <script>
+        function togglemishnaTextComment() {
+            var mishnaTextComment = document.getElementById("mishnaTextComment");
+            if (mishnaTextComment.style.display === "none") {
+                mishnaTextComment.style.display = "block";
+            } else {
+                mishnaTextComment.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<div class="container">
+
+<button class="toggle-button" onclick="togglemishnaTextComment()">Afficher/Cacher la Mishna et les commentaires</button>
+
+<div id="mishnaTextComment" class="mishna-text-comment">
+
+    <div class="mishna">
+
+        <h3>מַתְנִי׳</h3>
+
+        <h3>🔥 תַּנּוּר — לֹא תַּחְלִיפִין</h3>
+        <ul>
+          <li>הֲרֵי עָלַי בְּתַנּוּר – לֹא יָבִיא מַאֲפֵה כוּפָּח. <span style="float:right;">🔥❌</span></li>
+          <li>וְלֹא מַאֲפֵה רְעָפִים. <span style="float:right;">🧱❌</span></li>
+          <li>וּמַאֲפֵה יוֹרוֹת הָעַרְבִיִּים. <span style="float:right;">🏺❌</span></li>
+          <li>רַבִּי יְהוּדָה אוֹמֵר: רָצָה – מֵבִיא מַאֲפֵה כוּפָּח. <span style="float:right;">🟢</span></li>
+        </ul>
+
+        <h3>🍞 מַאֲפֵה תַּנּוּר — חַלּוֹת אוֹ רְקִיקִין</h3>
+        <ul>
+          <li>הֲרֵי עָלַי מִנְחַת מַאֲפֶה – לֹא יָבִיא מֶחֱצָה חַלּוֹת וּמֶחֱצָה רְקִיקִין. <span style="float:right;">🍞🫓❌</span></li>
+          <li>רַבִּי שִׁמְעוֹן מַתִּיר, מִפְּנֵי שֶׁהוּא קׇרְבָּן אֶחָד. <span style="float:right;">🟣</span></li>
+        </ul>
+
+    </div>
+
+    <h1>Menachot daf 63a (Perek 5 - Michna 8)</h1>
+
+        <h3>Traduction en français de la Michna</h3>
+
+            <h3>🔥 Cas 1 : Vœu d'une Minha au four (תַּנּוּר)</h3>
+            <div class="bloc-regle">
+              <ul>
+                <li>🔥 Celui qui dit « il m'incombe [une Minha] au <strong>four (תַּנּוּר)</strong> » — ne peut pas apporter :</li>
+                <li>❌ Une Minha cuite dans un <strong>Koufa'h (כּוּפָּח)</strong> — petit four de fortune.</li>
+                <li>❌ Une Minha cuite sur des <strong>tuiles (רְעָפִים)</strong>.</li>
+                <li>❌ Une Minha cuite dans les <strong>fosses de cuisson arabes (יוֹרוֹת הָעַרְבִיִּים)</strong>.</li>
+              </ul>
+            </div>
+            <div class="bloc-rabbi-yehuda">
+              <ul>
+                <li>🟢 <strong>Rabbi Yehuda</strong> dit : s'il le souhaite, il peut apporter une Minha cuite dans un <strong>Koufa'h</strong> — car le Koufa'h est lui aussi un type de four.</li>
+              </ul>
+            </div>
+
+            <h3>🍞 Cas 2 : Vœu d'une Minha cuite au four — pains ou galettes</h3>
+            <div class="bloc-tana-kama">
+              <ul>
+                <li>🍞🫓 Celui qui dit « il m'incombe une Minha cuite au four (מִנְחַת מַאֲפֶה) » — ne peut pas apporter <strong>la moitié en pains (חַלּוֹת) et la moitié en galettes (רְקִיקִין)</strong>.</li>
+                <li>✅ Il doit apporter <strong>tout en pains</strong> ou <strong>tout en galettes</strong>.</li>
+              </ul>
+            </div>
+            <div class="bloc-rabbi-shimon">
+              <ul>
+                <li>🟣 <strong>Rabbi Shimon</strong> autorise la moitié en pains et la moitié en galettes — car les deux formes sont écrites dans la même Minha, ce qui en fait un seul et même sacrifice.</li>
+              </ul>
+            </div>
+
+    <h2>📖 Analyse des Commentateurs</h2>
+
+        <h3>🖊️ Rachi — Menachot 63a</h3>
+        <div class="bloc-commentateurs">
+          <ul>
+            <li>📌 Sur le <strong>Koufa'h (כּוּפָּח)</strong> : petit four, de la taille d'une seule cuisson d'une marmite. Rabbi Yehuda considère qu'il s'agit d'un type de four — le vœu « au four » peut donc être rempli avec un Koufa'h.</li>
+            <li>📌 Sur les <strong>tuiles (רְעָפִים)</strong> : Rachi traduit « טיבל"ש » (tuiles d'argile) — des briques d'argile chauffées au feu, sur lesquelles on pose la pâte.</li>
+            <li>📌 Sur les <strong>fosses arabes (יוֹרוֹת הָעַרְבִיִּים)</strong> : fosses creusées dans le sol de cette région, tapissées d'argile, chauffées de l'intérieur et utilisées pour cuire des galettes.</li>
+            <li>📌 Sur la Minha cuite au four avec pains et galettes : Rachi renvoie à Menachot 76a — « toutes les Menahot viennent en dix » ; on ne peut donc pas apporter 5 pains et 5 galettes, mais 10 pains ou 10 galettes.</li>
+            <li>📌 Sur la position de Rabbi Shimon (<em>« un seul sacrifice »</em>) : les deux formes (pains et galettes) sont mentionnées dans le même verset (Lévitique 2:4) — c'est donc un seul sacrifice avec deux formes possibles.</li>
+          </ul>
+        </div>
+
+        <h3>📖 Rabbeinu Guershom — Menachot 63a</h3>
+        <div class="bloc-commentateurs">
+          <ul>
+            <li>📌 Sur le <strong>Koufa'h</strong> : petit four, capable de cuire une seule marmite à la fois.</li>
+            <li>📌 Sur les <strong>tuiles (רְעָפִים)</strong> : des briques d'argile.</li>
+            <li>📌 Sur les <strong>fosses arabes (יוֹרוֹת הָעַרְבִיִּים)</strong> : des marmites de pierre (אַלְפָּסוֹת שֶׁל אֶבֶן) — fosses en pierre creusées dans le sol.</li>
+          </ul>
+        </div>
+
+        <h3>📖 Steinsaltz — synthèse</h3>
+        <div class="bloc-commentateurs">
+          <ul>
+            <li>📌 Steinsaltz souligne que le Koufa'h est un ustensile de cuisson de petite taille — Rabbi Yehuda estime qu'il entre dans la catégorie des « fours » au sens large, contrairement au Tana Kama qui réserve ce terme au four standard (תַּנּוּר).</li>
+            <li>📌 Les tuiles et les fosses arabes sont des méthodes de cuisson domestiques ou régionales — elles produisent certes du pain, mais dans des conditions très différentes d'un four en brique. Elles ne peuvent pas être assimilées au תַּנּוּר de la Torah.</li>
+            <li>📌 Sur le débat pains/galettes : Steinsaltz précise que les deux formes sont bien deux types distincts au sein du même type de Minha — le Tana Kama exige l'homogénéité (tout pains ou tout galettes), tandis que Rabbi Shimon permet le mélange car la Torah elle-même les mentionne ensemble.</li>
+          </ul>
+        </div>
+
+</div>
+
+
+    <h1>Menachot daf 63a (Perek 5 - Michna 8) — Le four et ses substituts : les limites du vœu de Minha cuite au four</h1>
+
+    <div class="mishna-explication">
+
+        <h3>📌 Explication de la Michna</h3>
+
+            <h3>🧠 Principe général de la michna</h3>
+            <ul>
+              <li>📌 La Mishna 8 prolonge directement la Mishna 7 (63a) sur les vœux de Menahot : après avoir établi que Mahavat et Marhesheet ne sont pas interchangeables, la Mishna traite maintenant du vœu de Minha cuite au <strong>four (תַּנּוּר)</strong>.</li>
+              <li>📌 Deux questions distinctes sont traitées :</li>
+              <li>1️⃣ Quels modes de cuisson peuvent se substituer au four ? (Tana Kama vs. Rabbi Yehuda)</li>
+              <li>2️⃣ Peut-on mélanger pains et galettes dans une même Minha du four ? (Tana Kama vs. Rabbi Shimon)</li>
+            </ul>
+
+            <div class="principe-box">
+              ⚖️ Principe du vœu : un vœu engage à l'objet précis nommé. Mais la question est : quelle est la définition précise du « four » (תַּנּוּר) ? Et les deux formes (pains/galettes) constituent-elles un ou deux types ?
+            </div>
+
+            <h3>🔥 Cas 1 : Le four (תַּנּוּר) et ses substituts rejetés</h3>
+
+                <h3>📖 Qu'est-ce que le תַּנּוּר (four) de la Torah ?</h3>
+                <div class="source-box">
+                  <ul>
+                    <li>📜 <strong>Lévitique 2:4</strong> — « וְכִי תַקְרִיב קׇרְבַּן מִנְחָה מַאֲפֵה תַנּוּר » — « Quand tu apporteras une offrande végétale cuite au four. »</li>
+                    <li>📌 Le תַּנּוּר de la Torah est le four en argile standard de l'Antiquité — un cylindre en argile chauffé par un feu intérieur, dans lequel on colle les galettes sur les parois ou on pose un plateau sur le fond.</li>
+                    <li>📌 Ce type de four produit une cuisson uniforme, une chaleur constante et enveloppante — caractéristiques qui définissent la Minha cuite au four.</li>
+                  </ul>
+                </div>
+
+                <h3>❌ Les trois substituts rejetés par le Tana Kama</h3>
+                <div class="bloc-substituts">
+                  <ul>
+                    <li>🔥 <strong>Le Koufa'h (כּוּפָּח)</strong> : petit four de fortune, de dimensions réduites — « la taille d'une seule cuisson de marmite » (Rachi, Rabbeinu Guershom). Trop petit pour être considéré comme un תַּנּוּר standard.</li>
+                    <li>🧱 <strong>Les tuiles (רְעָפִים)</strong> : briques ou tuiles d'argile chauffées au feu, sur lesquelles on pose la pâte. Ce n'est pas un four — c'est une surface chaude à l'air libre, sans enceinte fermée.</li>
+                    <li>🏺 <strong>Les fosses arabes (יוֹרוֹת הָעַרְבִיִּים)</strong> : fosses creusées dans le sol, tapissées d'argile (Steinsaltz), chauffées de l'intérieur. Méthode régionale de cuisson des pains plats — différente du four en brique.</li>
+                    <li>📌 Ce qui unit ces trois : ils produisent tous des pains ou galettes comestibles, mais par des méthodes structurellement différentes du תַּנּוּר. Pour le Tana Kama, le vœu « au four » exige le four standard.</li>
+                  </ul>
+                </div>
+
+                <h3>🟢 Rabbi Yehuda : le Koufa'h est un type de four</h3>
+                <div class="bloc-rabbi-yehuda">
+                  <ul>
+                    <li>📌 Rabbi Yehuda fait une distinction parmi les trois substituts : il accepte le <strong>Koufa'h</strong> mais pas les tuiles ni les fosses arabes.</li>
+                    <li>⚖️ Son raisonnement : le Koufa'h est structurellement un four (enceinte fermée, chaleur enveloppante) — sa petite taille ne l'exclut pas de la catégorie תַּנּוּר. Les tuiles et les fosses arabes, en revanche, sont des méthodes fondamentalement différentes.</li>
+                    <li>📌 Rabbi Yehuda applique une logique extensionnelle : ce qui partage les caractéristiques essentielles d'un four (enceinte, chaleur) entre dans la définition du תַּנּוּר.</li>
+                  </ul>
+                </div>
+
+                <h3>🔍 Le cœur du débat Tana Kama / Rabbi Yehuda</h3>
+                <div class="bloc-regle">
+                  <ul>
+                    <li>❓ Qu'est-ce qui définit un « four » pour les besoins d'un vœu ?</li>
+                    <li>📌 <strong>Tana Kama</strong> : la définition est stricte et institutionnelle — le תַּנּוּר est le four standard, celui qu'on utilise normalement pour les Menahot du Temple. Tout autre mode de cuisson, même similaire, ne remplit pas le vœu.</li>
+                    <li>📌 <strong>Rabbi Yehuda</strong> : la définition est fonctionnelle — ce qui est structurellement un four (enceinte fermée produisant une chaleur enveloppante) satisfait le vœu. Le Koufa'h entre dans cette définition.</li>
+                  </ul>
+                </div>
+
+            <h3>🍞 Cas 2 : Mélanger pains et galettes — débat Tana Kama / Rabbi Shimon</h3>
+
+                <h3>📜 La source biblique : deux formes dans un seul verset</h3>
+                <div class="source-box">
+                  <ul>
+                    <li>📜 <strong>Lévitique 2:4</strong> — « סֹלֶת חַלּוֹת מַצֹּת בְּלוּלֹת בַּשֶּׁמֶן וּרְקִיקֵי מַצּוֹת מְשֻׁחִים בַּשָּׁמֶן » — fine farine de <strong>pains non levés mélangés à l'huile</strong> et de <strong>galettes non levées enduites d'huile</strong>.</li>
+                    <li>📌 La Torah prescrit les deux formes (pains et galettes) dans le même verset pour la même Minha — ce qui pose la question : sont-ce deux types distincts, ou deux formes d'un même type ?</li>
+                  </ul>
+                </div>
+
+                <h3>📌 Règle de base : la Minha du four comprend 10 pièces</h3>
+                <div class="bloc-tana-kama">
+                  <ul>
+                    <li>📌 La Guemara (Menahot 76a) établit que toutes les Menahot viennent en <strong>dix pièces (עֶשֶׂר)</strong> par Isaron.</li>
+                    <li>📌 Pour la Minha du four : soit 10 pains, soit 10 galettes. On ne peut pas apporter 5 pains et 5 galettes.</li>
+                  </ul>
+                </div>
+
+                <h3>⚔️ Le débat</h3>
+                <div class="bloc-tana-kama">
+                  <ul>
+                    <li>❌ <strong>Tana Kama</strong> : interdit le mélange. Les pains et les galettes sont deux formes distinctes — le vœu engage à l'une ou à l'autre, pas aux deux mélangées.</li>
+                    <li>⚖️ Logique : bien que prescrites dans le même verset, les deux formes ont des modes de préparation distincts (les pains sont mélangés à l'huile ; les galettes sont enduites d'huile après cuisson). Ce sont donc deux types de Minha, et un vœu engage à un type précis.</li>
+                  </ul>
+                </div>
+                <div class="bloc-rabbi-shimon">
+                  <ul>
+                    <li>✅ <strong>Rabbi Shimon</strong> : autorise le mélange. Son raisonnement : les deux formes sont prescrites dans le <em>même verset</em> pour la <em>même Minha</em> — elles constituent donc les deux formes d'un <em>seul sacrifice</em>. Apporter les deux ensemble, c'est apporter ce sacrifice dans sa totalité.</li>
+                    <li>📌 Pour Rabbi Shimon, la prescription biblique crée une unité : Minha du four = pains ET/OU galettes = un seul type d'offrande avec deux formes possibles.</li>
+                    <li>🔗 Ce raisonnement est cohérent avec la position de Rabbi Shimon dans d'autres débats de la Massekhet : il tend à voir l'unité là où le Tana Kama voit la distinction.</li>
+                  </ul>
+                </div>
+
+            <h3>📊 Tableau de synthèse de la michna</h3>
+            <table align="center" border="1" cellpadding="6" cellspacing="0">
+              <tr>
+                <th>🧩 Cas</th>
+                <th>⚖️ Tana Kama</th>
+                <th>🟢 Rabbi Yehuda / 🟣 Rabbi Shimon</th>
+                <th>📜 Principe</th>
+              </tr>
+              <tr>
+                <td>Vœu « au four » → apporter au Koufa'h</td>
+                <td>❌ Invalide</td>
+                <td>🟢 Rabbi Yehuda : ✅ Valide</td>
+                <td>Le Koufa'h est-il un « four » ?</td>
+              </tr>
+              <tr>
+                <td>Vœu « au four » → tuiles ou fosses arabes</td>
+                <td>❌ Invalide</td>
+                <td>❌ Invalide (accord)</td>
+                <td>Modes de cuisson trop différents</td>
+              </tr>
+              <tr>
+                <td>Vœu de Minha du four → moitié pains + moitié galettes</td>
+                <td>❌ Invalide</td>
+                <td>🟣 Rabbi Shimon : ✅ Valide</td>
+                <td>Pains et galettes = un ou deux types ?</td>
+              </tr>
+            </table>
+
+            <h3>🔗 Liens avec les Michnayot précédentes</h3>
+            <ul>
+              <li>📎 La <strong>Michna 7 (63a)</strong> avait posé le principe général des vœux de Menahot : on ne peut pas substituer une Mahavat à une Marhesheet. La Mishna 8 approfondit ce principe avec deux cas supplémentaires.</li>
+              <li>📎 La distinction <strong>Tana Kama / Rabbi Yehuda</strong> sur le Koufa'h rappelle la tension permanente entre la définition stricte d'un terme et sa définition fonctionnelle.</li>
+              <li>📎 La position de <strong>Rabbi Shimon</strong> sur les pains/galettes est cohérente avec sa méthode générale : chercher l'unité là où les Sages voient la distinction — comme dans la Michna 7 du chapitre 3 (26a) où il validait le Komets sans kli sharet.</li>
+            </ul>
+
+    <h2>📜 Explication Synthétique des Halakhot</h2>
+
+        <h3>📖 Rambam (Mishneh Torah) — codification</h3>
+        <div class="bloc-halakha">
+          <ul>
+            <li>📌 <strong>Hilkhot Ma'asseh Hakorbanot 17:1</strong> : « Celui qui fait vœu d'apporter une Minha cuite au four ne peut pas apporter une cuite dans un Koufa'h, ni une cuite sur des tuiles, ni une cuite dans des fosses arabes. » Le Rambam codifie comme le Tana Kama — sans mentionner la permission de Rabbi Yehuda pour le Koufa'h.</li>
+            <li>📌 La règle des dix pièces (Menahot 76a) s'applique à toutes les Menahot — la Minha du four doit être soit 10 pains soit 10 galettes, pas un mélange.</li>
+          </ul>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
