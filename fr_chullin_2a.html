@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chullin daf 2a (Perek 1 - Michna 1) (הַכֹּל שׁוֹחֲטִין : qui peut effectuer une Shehita valide ?)</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 40px;
+            padding: 0;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 30px auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            text-align: center;
+            color: #5a2d82;
+            border-bottom: 2px solid #7a3da5;
+            padding-bottom: 5px;
+        }
+        p {
+            line-height: 1.6;
+            margin-bottom: 1em;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+        ul li::before {
+            content: "• ";
+            color: #0066cc;
+            font-weight: bold;
+        }
+        blockquote {
+            background-color: #f9f9f9;
+            border-left: 4px solid #0066cc;
+            padding: 10px;
+            margin: 20px 0;
+            font-style: italic;
+        }
+        .mishna-text-comment {
+            display: none;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1.2em;
+            color: #003366;
+            background-color: #f0f0f0;
+            padding: 15px;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        .toggle-button {
+            background-color: #0066cc;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .toggle-button:hover {
+            background-color: #0057a1;
+        }
+        .mishna {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1.2em;
+            color: #003366;
+            background-color: #f0f0f0;
+            padding: 15px;
+            margin-top: 10px;
+            border-radius: 5px;
+            text-align: right;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table th {
+            background-color: #5a2d82;
+            color: white;
+            padding: 8px;
+        }
+        table td {
+            padding: 8px;
+            border: 1px solid #ccc;
+        }
+        table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .bloc-regel {
+            background-color: #e3f2fd;
+            border-left: 4px solid #1565c0;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .bloc-exception {
+            background-color: #fce4ec;
+            border-left: 4px solid #c62828;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .bloc-bedieved {
+            background-color: #e8f5e9;
+            border-left: 4px solid #388e3c;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .bloc-commentateurs {
+            background-color: #fff8e1;
+            border-left: 4px solid #f9a825;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .bloc-halakha {
+            background-color: #e0f7fa;
+            border-left: 4px solid #00838f;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .bloc-agadah {
+            background-color: #f3e5f5;
+            border-left: 4px solid #7b1fa2;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .principe-box {
+            background-color: #f3e5f5;
+            border-left: 4px solid #7b1fa2;
+            padding: 12px;
+            margin: 15px 0;
+            border-radius: 4px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .source-box {
+            background-color: #e0f7fa;
+            border-left: 4px solid #00838f;
+            padding: 12px;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+        .tension-box {
+            background-color: #fce4ec;
+            border-left: 4px solid #c62828;
+            padding: 12px;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+    </style>
+
+    <script>
+        function togglemishnaTextComment() {
+            var mishnaTextComment = document.getElementById("mishnaTextComment");
+            if (mishnaTextComment.style.display === "none") {
+                mishnaTextComment.style.display = "block";
+            } else {
+                mishnaTextComment.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<div class="container">
+
+<button class="toggle-button" onclick="togglemishnaTextComment()">Afficher/Cacher la Mishna et les commentaires</button>
+
+<div id="mishnaTextComment" class="mishna-text-comment">
+
+    <div class="mishna">
+
+        <h3>מַתְנִי׳</h3>
+
+        <ul>
+          <li>הַכֹּל שׁוֹחֲטִין וּשְׁחִיטָתָן כְּשֵׁרָה. <span style="float:right;">🔪✅</span></li>
+          <li>חוּץ מֵחֵרֵשׁ שׁוֹטֶה וְקָטָן, שֶׁמָּא יְקַלְקְלוּ אֶת שְׁחִיטָתָן. <span style="float:right;">⚠️</span></li>
+          <li>וְכוּלָּן שֶׁשָּׁחֲטוּ וַאֲחֵרִים רוֹאִין אוֹתָן – שְׁחִיטָתָן כְּשֵׁרָה. <span style="float:right;">👁️✅</span></li>
+        </ul>
+
+    </div>
+
+    <h1>Chullin daf 2a (Perek 1 - Michna 1)</h1>
+
+        <h3>Traduction en français de la Michna</h3>
+
+            <h3>✅ La règle générale : tout le monde peut pratiquer la Shehita</h3>
+            <div class="bloc-regel">
+              <ul>
+                <li>🔪 <strong>Tout le monde (הַכֹּל)</strong> peut effectuer la Shehita (abattage rituel) — et leur Shehita est <strong>valide (כְּשֵׁרָה)</strong>.</li>
+                <li>📌 Cela inclut : hommes et femmes, Juifs et même certains non-Juifs dans certains contextes, prêtres et Israélites, personnes pures et impures.</li>
+              </ul>
+            </div>
+
+            <h3>⚠️ L'exception : le Sourd-muet, l'Imbécile et le Mineur</h3>
+            <div class="bloc-exception">
+              <ul>
+                <li>❌ Sauf le <strong>sourd-muet (חֵרֵשׁ)</strong>, l'<strong>imbécile (שׁוֹטֶה)</strong> et le <strong>mineur (קָטָן)</strong> — de peur qu'ils ne gâchent leur abattage.</li>
+                <li>📌 Note : « שֶׁמָּא יְקַלְקְלוּ » est au futur — ils <em>pourraient</em> abîmer — ce qui suggère une interdiction préventive (<em>le'atkhila</em>), et non une invalidation automatique (<em>be'diavad</em>).</li>
+              </ul>
+            </div>
+
+            <h3>👁️ La règle du supervision : valide avec témoins</h3>
+            <div class="bloc-bedieved">
+              <ul>
+                <li>✅ Si tous ceux-là ont néanmoins effectué la Shehita <strong>et que d'autres les regardaient</strong> — leur Shehita est <strong>valide</strong>.</li>
+              </ul>
+            </div>
+
+    <h2>📖 Analyse des Commentateurs</h2>
+
+        <h3>🖊️ Rachi — Chullin 2a</h3>
+        <div class="bloc-commentateurs">
+          <ul>
+            <li>📌 Sur <strong>« הַכֹּל »</strong> (tout le monde) : Rachi explique que la Guemara discute de qui est inclus dans ce « tout le monde » — selon certains : un impur dans le cadre de la viande ordinaire (חוּלִין) ; selon d'autres : un Samaritain ou un apostat.</li>
+            <li>📌 Sur <strong>« וְכוּלָּן »</strong> (et tous ceux-là) : Rachi renvoie à la Guemara pour l'identification de ces cas.</li>
+          </ul>
+        </div>
+
+        <h3>📖 Rabbeinu Guershom — Chullin 2a</h3>
+        <div class="bloc-commentateurs">
+          <ul>
+            <li>📌 Relève la tension apparente de la Mishna : « הַכֹּל שׁוֹחֲטִין » (tout le monde abat) suggère une permission <em>le'atkhila</em> (a priori), mais « שְׁחִיטָתָן כְּשֵׁרָה » (leur abattage est valide) suggère une validation <em>be'diavad</em> (a posteriori). Risha versus Seifa — une contradiction interne que la Guemara cherche à résoudre.</li>
+          </ul>
+        </div>
+
+        <h3>📖 Rambam — Hilkhot Shehita 4:4-5</h3>
+        <div class="bloc-commentateurs">
+          <ul>
+            <li>📌 <strong>4:4</strong> : quiconque connaît les lois de la Shehita et les a pratiquées devant un sage jusqu'à acquérir la maîtrise est appelé « expert ». Tout expert peut abattre seul, même initialement — y compris les femmes et les esclaves.</li>
+            <li>📌 <strong>4:5</strong> : le sourd-muet, le déséquilibré, le mineur et l'ivrogne dont l'esprit est embrumé — leur Shehita est invalide, car ils n'ont pas de contrôle mental adéquat. Si cependant ils ont abattu en présence d'une personne compétente qui a vu qu'ils ont procédé correctement — leur Shehita est valide.</li>
+          </ul>
+        </div>
+
+        <h3>📖 Rashba — Chullin 2a</h3>
+        <div class="bloc-commentateurs">
+          <ul>
+            <li>📌 Explique la tension entre le début et la fin de la Mishna : la formule « שֶׁמָּא יְקַלְקְלוּ » (de peur qu'ils ne gâchent) au futur signifie qu'on ne leur confie pas de bêtes <em>le'atkhila</em> — mais si malgré tout ils ont abattu, on peut valider <em>be'diavad</em> en présence de témoins. C'est le style habituel des Tannaïm : « on ne fait pas <em>le'atkhila</em>, mais si on a fait — c'est valide ».</li>
+          </ul>
+        </div>
+
+        <h3>📖 Tossafot — Chullin 2a</h3>
+        <div class="bloc-commentateurs">
+          <ul>
+            <li>📌 Réfutent la position des « Halakhot Eretz Yisrael » qui disent que les femmes ne doivent pas abattre (car leur esprit serait trop sensible et risquerait de défaillir) — preuve que dans le Talmud de Babylone les femmes abattent même <em>le'atkhila</em>, y compris dans les sacrifices du Temple (Zevachim 31b).</li>
+            <li>📌 Explication de « שֶׁמָּא יְקַלְקְלוּ » au futur (et non « שֶׁמָּא קִלְקְלוּ » au passé) : pour enseigner qu'on ne leur confie pas de bêtes <em>le'atkhila</em>.</li>
+          </ul>
+        </div>
+
+        <h3>📖 Penei Yehoshua — Chullin 2a</h3>
+        <div class="bloc-commentateurs">
+          <ul>
+            <li>📌 Aborde la question de la foi accordée au Shehita face à la règle « une bête vivante est présumée interdite (non-shéhitée) ». Pourquoi suffit-il de voir la bête proprement shéhitée pour l'autoriser, sans deux témoins ?</li>
+            <li>📌 Réponse : quand la situation change (la bête n'est plus en vie), la présomption d'interdit est déjà affaiblie. C'est alors qu'un seul témoignage ou même le fait « בְּידוֹ » (en son pouvoir) suffit.</li>
+          </ul>
+        </div>
+
+        <h3>📖 Dor Revi'i — Chullin 2a (déracha agadique)</h3>
+        <div class="bloc-commentateurs">
+          <ul>
+            <li>📌 Propose une lecture morale de la Mishna : « הַכֹּל שׁוֹחֲטִין » = tout homme d'Israël digne peut manger de la viande. Les exceptions (חרש שוטה וקטן) symbolisent trois catégories d'hommes qui ne méritent pas de manger de la viande car ils ne permettent pas l'élévation spirituelle de l'animal.</li>
+            <li>📌 Le חֵרֵשׁ symbolise celui qui ne reçoit ni ne donne (ni écoute ni parle) — ni apprenant ni enseignant.</li>
+            <li>📌 Le שׁוֹטֶה symbolise celui qui donne sans recevoir — qui soutient les sages mais n'apprend pas d'eux.</li>
+            <li>📌 Le קָטָן symbolise celui qui reçoit sans donner — qui profite de la Torah mais ne la transmet pas.</li>
+          </ul>
+        </div>
+
+        <h3>📖 Choulhan Aroukh (YD 1:1) + Rema</h3>
+        <div class="bloc-commentateurs">
+          <ul>
+            <li>📌 <strong>Choulhan Aroukh</strong> : tout le monde peut abattre <em>le'atkhila</em> — y compris les femmes. On se repose sur la présomption que la plupart de ceux qui abattent régulièrement sont des experts.</li>
+            <li>📌 <strong>Rema</strong> : certains posqim disent que les femmes ne doivent pas abattre car la coutume s'est établie ainsi. De fait, dans la pratique actuelle, les femmes n'abattent généralement pas.</li>
+            <li>📌 <strong>Rema</strong> aussi : tout Shehita nécessite une ordination (<em>kabbalah</em>) reçue d'un maître compétent. Un shohète ne peut abattre sans kabbalah préalable.</li>
+          </ul>
+        </div>
+
+</div>
+
+
+    <h1>Chullin daf 2a (Perek 1 - Michna 1) — הַכֹּל שׁוֹחֲטִין : qui peut effectuer une Shehita valide ?</h1>
+
+    <div class="mishna-explication">
+
+        <h3>📌 Explication de la Michna</h3>
+
+            <h3>🧠 Contexte général : ouverture de la Massekhet Chullin</h3>
+            <ul>
+              <li>📌 La Massekhet Chullin (חוּלִין — « choses ordinaires/profanes ») traite des lois d'abattage rituel (Shehita), des interdits alimentaires, et de la séparation de la viande et du lait.</li>
+              <li>📌 C'est la Massekhet la plus directement liée à la vie quotidienne de tout Juif — bien plus que les Massekhtot du Temple ou des sacrifices.</li>
+              <li>📌 La Mishna d'ouverture pose immédiatement la règle fondamentale : <strong>la Shehita n'est pas réservée à une classe sacerdotale ou à des experts — elle est accessible à tout le monde</strong>.</li>
+              <li>📌 En cela, la Massekhet Chullin s'oppose à la logique du Temple (où les sacrifices sont réservés aux prêtres) : l'abattage ordinaire des animaux pour la consommation est un acte laïque, accessible à tous.</li>
+            </ul>
+
+            <div class="principe-box">
+              ⚖️ Principe d'ouverture : la Shehita est accessible à tous — hommes, femmes, Juifs laïcs, esclaves affranchis. La compétence technique suffit. L'exception concerne ceux qui manquent de la conscience nécessaire pour exécuter les règles correctement.
+            </div>
+
+            <h3>📜 La tension interne de la Mishna : le'atkhila ou be'diavad ?</h3>
+            <div class="tension-box">
+              <ul>
+                <li>❓ <strong>La contradiction apparente</strong> :</li>
+                <li>📌 « הַכֹּל שׁוֹחֲטִין » — « tout le monde abat » → formulation active, <em>le'atkhila</em> (a priori)</li>
+                <li>📌 « שְׁחִיטָתָן כְּשֵׁרָה » — « leur Shehita est valide » → formulation de validation, <em>be'diavad</em> (a posteriori)</li>
+                <li>📌 <strong>La résolution</strong> (Rashba, Rabbeinu Guershom) : « הַכֹּל שׁוֹחֲטִין » s'applique aux personnes compétentes — elles peuvent abattre <em>le'atkhila</em>. La clause « שְׁחִיטָתָן כְּשֵׁרָה » concerne les cas où l'on a des doutes sur la compétence — <em>be'diavad</em>. Les deux propositions ne parlent pas des mêmes personnes.</li>
+                <li>📌 Rabbeinu Guershom souligne cette tension comme la question herméneutique centrale de la Guemara sur cette Mishna.</li>
+              </ul>
+            </div>
+
+            <h3>🔪 Bloc 1 : « הַכֹּל » — qui est inclus ?</h3>
+
+                <div class="source-box">
+                  <ul>
+                    <li>📜 <strong>Deutéronome 12:21</strong> — « וְזָבַחְתָּ מִבְּקָרְךָ וּמִצֹּאנְךָ » — « tu abattras de ton bétail et de ton petit bétail. » La source principale des lois de Shehita en dehors du Temple.</li>
+                    <li>📌 La Guemara discute du sens précis de « הַכֹּל » — selon certains Amoraïm, il vient inclure l'impur dans le cas des Choullin ; selon d'autres, le Samaritain ou l'apostat.</li>
+                    <li>📌 Ce qui est clair : la liste des personnes habilitées est <em>extensive</em>. La Mishna commence par l'inclusion maximale, puis pose ses exceptions.</li>
+                  </ul>
+                </div>
+
+                <div class="bloc-regel">
+                  <ul>
+                    <li>✅ <strong>Inclus dans « הַכֹּל »</strong> :</li>
+                    <li>👨 Hommes israélites ordinaires (זָרִים)</li>
+                    <li>👩 Femmes (selon le Talmud babylonien — voir ci-dessous)</li>
+                    <li>🛡️ Esclaves affranchis (עֲבָדִים)</li>
+                    <li>🩸 Personnes impures (טְמֵאִים) pour la viande ordinaire (pas pour les sacrifices)</li>
+                    <li>👨‍✡️ Prêtres et Lévites (ils n'ont pas de monopole en dehors du Temple)</li>
+                  </ul>
+                </div>
+
+            <h3>⚠️ Bloc 2 : L'exception — חֵרֵשׁ שׁוֹטֶה וְקָטָן</h3>
+
+                <h3>📖 Définitions halakhiques</h3>
+                <div class="bloc-exception">
+                  <ul>
+                    <li>🦻 <strong>חֵרֵשׁ (Heresh)</strong> : techniquement, dans la halakha rabbinique, désigne le sourd-muet — celui qui n'entend pas ET ne parle pas. Dans la Choulhan Aroukh (YD 1:5), cette définition est précisée : celui qui ne parle pas mais entend, s'il est expert, peut abattre <em>le'atkhila</em> avec quelqu'un qui fait la bénédiction à sa place.</li>
+                    <li>🤯 <strong>שׁוֹטֶה (Shotè)</strong> : la Mishna (Hagiga 3b) définit le Shotè par quatre comportements : sort seul la nuit, déchire ses vêtements, dort dans les cimetières, détruit ce qu'on lui donne. Même un seul de ces comportements de façon pathologique suffit.</li>
+                    <li>👶 <strong>קָטָן (Katan)</strong> : mineur — celui qui n'a pas encore atteint la maturité (bar-mitzva / bat-mitzva). Le Choulhan Aroukh (YD 1:5) précise : un mineur qui sait maîtriser ses mains peut abattre en présence d'un adulte qui surveille.</li>
+                  </ul>
+                </div>
+
+                <h3>🔍 Pourquoi ces trois catégories spécifiques ?</h3>
+                <div class="bloc-exception">
+                  <ul>
+                    <li>📌 Ces trois catégories partagent une caractéristique commune : elles sont <strong>déficientes en matière de conscience (דַּעַת)</strong> — non pas nécessairement en capacité physique, mais en capacité de vigilance, d'intentionnalité et de contrôle continu.</li>
+                    <li>📌 La Shehita requiert une exécution précise et continue de cinq règles (שְׁהִיָּה, דְּרָסָה, חַלְדָּה, הַגְרָמָה, עִיקּוּר). Un moment d'inattention peut invalider l'ensemble.</li>
+                    <li>📌 <strong>« שֶׁמָּא יְקַלְקְלוּ »</strong> au futur : le risque est permanent et structurel — ils sont « destinés » à toujours risquer de mal abattre, pas seulement ponctuellement.</li>
+                  </ul>
+                </div>
+
+            <h3>👁️ Bloc 3 : La supervision — וְכוּלָּן שֶׁשָּׁחֲטוּ וַאֲחֵרִים רוֹאִין</h3>
+
+                <div class="bloc-bedieved">
+                  <ul>
+                    <li>📌 Même les exceptions (sourd-muet, imbécile, mineur) — si d'autres les ont surveillés pendant l'abattage et ont vu que tout s'est déroulé correctement — leur Shehita est valide.</li>
+                    <li>📌 La surveillance compense le déficit de conscience interne : la vigilance de l'observateur externe remplace celle qui manque à l'exécutant.</li>
+                    <li>📌 <strong>Question importante</strong> (Tossafot, Rambam 4:5) : que faut-il exactement que l'observateur voie ? Il doit avoir observé l'ensemble de la Shehita du début à la fin, en vérifiant que les cinq défauts n'ont pas eu lieu.</li>
+                  </ul>
+                </div>
+
+            <h3>👩 La question des femmes : débat halakhique</h3>
+            <div class="source-box">
+              <ul>
+                <li>📌 <strong>Position du Talmud babylonien</strong> (et Tossafot, Rosh, Rambam) : les femmes abattent <em>le'atkhila</em>, y compris dans les sacrifices du Temple. Preuve : Zevachim 31b — « כָּל הַפְּסוּלִין שֶׁשָּׁחֲטוּ, דִּיעֲבַד אִין לְכַתְּחִלָּה לֹא, וּרְמִינְהִי — וְשָׁחַט » — la Guemara conclut que même les femmes abattent <em>le'atkhila</em>.</li>
+                <li>📌 <strong>Position des « Halakhot Eretz Yisrael »</strong> : les femmes ne doivent pas abattre car leur sensibilité pourrait les faire défaillir. Tossafot réfutent cette position.</li>
+                <li>📌 <strong>Rema (YD 1:1)</strong> : la coutume s'est établie que les femmes n'abattent pas. Cette coutume (<em>minhag</em>) est aujourd'hui généralement suivie.</li>
+              </ul>
+            </div>
+
+            <h3>🏛️ Les cinq défauts invalidants de la Shehita</h3>
+            <div class="bloc-halakha">
+              <ul>
+                <li>📌 La Guemara (Chullin 9a) et le Rambam citent les cinq défauts que le Shohète doit éviter :</li>
+                <li>⏸️ <strong>שְׁהִיָּה (Shehiya)</strong> : pause dans le mouvement de coupe — interrompu et repris.</li>
+                <li>⬇️ <strong>דְּרָסָה (Derrasa)</strong> : pression excessive — écraser au lieu de couper.</li>
+                <li>↪️ <strong>חַלְדָּה (Halada)</strong> : enfouissement du couteau sous les tissus.</li>
+                <li>📐 <strong>הַגְרָמָה (Haggrama)</strong> : couper au mauvais endroit — hors de la zone prescrite.</li>
+                <li>✂️ <strong>עִיקּוּר (Ikkour)</strong> : arrachement des conduits avant qu'ils soient coupés.</li>
+              </ul>
+            </div>
+
+            <h3>🌟 La dimension spirituelle de la Shehita (Dor Revi'i)</h3>
+            <div class="bloc-agadah">
+              <ul>
+                <li>📌 Le Dor Revi'i propose une lecture profonde fondée sur Pessa'him 49b : « Tout celui qui est engagé dans la Torah a le droit de manger de la viande de bétail et de volaille. » L'autorisation de manger de la viande est conditionnée au fait que l'homme soit digne d'élever l'âme de l'animal au rang du monde spirituel.</li>
+                <li>📌 Selon cette philosophie, la bête sacrifiée passe du règne animal (חַי) au règne de la parole (מְדַבֵּר) — mais seulement si l'homme qui la consomme est lui-même dans une position d'élévation spirituelle.</li>
+                <li>📌 La lecture symbolique des trois exceptions : חֵרֵשׁ = ne reçoit pas et ne donne pas ; שׁוֹטֶה = donne sans recevoir ; קָטָן = reçoit sans donner. Tous trois sont dans un rapport déséquilibré avec la Torah et la communauté — ils ne peuvent donc pas « élever » l'animal par leur consommation.</li>
+              </ul>
+            </div>
+
+            <h3>📊 Tableau de synthèse de la michna</h3>
+            <table align="center" border="1" cellpadding="6" cellspacing="0">
+              <tr>
+                <th>🧩 Catégorie</th>
+                <th>🔪 Le'atkhila (a priori)</th>
+                <th>✅ Be'diavad sans surveillance</th>
+                <th>✅ Be'diavad avec surveillance</th>
+                <th>📜 Raison</th>
+              </tr>
+              <tr style="background-color:#e3f2fd;">
+                <td>Expert compétent</td>
+                <td>✅ Oui</td>
+                <td>✅ Oui</td>
+                <td>✅ Oui</td>
+                <td>Connaissance + maîtrise technique</td>
+              </tr>
+              <tr style="background-color:#e3f2fd;">
+                <td>Femme (selon TB)</td>
+                <td>✅ Oui</td>
+                <td>✅ Oui</td>
+                <td>✅ Oui</td>
+                <td>Incluse dans « הַכֹּל »</td>
+              </tr>
+              <tr style="background-color:#fce4ec;">
+                <td>Sourd-muet (חֵרֵשׁ)</td>
+                <td>❌ Non</td>
+                <td>❌ Non</td>
+                <td>✅ Oui</td>
+                <td>Déficit de conscience (דַּעַת)</td>
+              </tr>
+              <tr style="background-color:#fce4ec;">
+                <td>Imbécile (שׁוֹטֶה)</td>
+                <td>❌ Non</td>
+                <td>❌ Non</td>
+                <td>✅ Oui</td>
+                <td>Déficit de conscience (דַּעַת)</td>
+              </tr>
+              <tr style="background-color:#fce4ec;">
+                <td>Mineur (קָטָן)</td>
+                <td>❌ Non*</td>
+                <td>❌ Non</td>
+                <td>✅ Oui</td>
+                <td>Manque de maîtrise / maturité</td>
+              </tr>
+            </table>
+            <p style="font-size:0.9em; text-align:center;">* Un mineur qui maîtrise ses mains peut abattre <em>le'atkhila</em> sous surveillance selon certains avis.</p>
+
+    <h2>📜 Explication Synthétique des Halakhot</h2>
+
+        <h3>📖 Rambam (Hilkhot Shehita 4:4-5) — codification</h3>
+        <div class="bloc-halakha">
+          <ul>
+            <li>📌 <strong>4:4</strong> : l'expert (who knows the five defects and has practiced under supervision) peut abattre seul <em>le'atkhila</em>. Les femmes et les esclaves sont inclus dans cette catégorie.</li>
+            <li>📌 <strong>4:5</strong> : חרש שוטה וקטן — leur Shehita est invalide car ils manquent de contrôle mental suffisant. Si abattage en présence d'un témoin compétent qui vérifie — valide.</li>
+          </ul>
+        </div>
+
+        <h3>📖 Choulhan Aroukh (YD 1:1 et 1:5)</h3>
+        <div class="bloc-halakha">
+          <ul>
+            <li>📌 <strong>YD 1:1</strong> : tout le monde peut abattre <em>le'atkhila</em>. Rema : les femmes ne devraient pas abattre selon la coutume établie. Obligation de kabbalah (ordination) d'un maître.</li>
+            <li>📌 <strong>YD 1:5</strong> : חרש שוטה וקטן — ne peuvent abattre ni <em>le'atkhila</em> ni sans surveillance, même pour donner aux chiens. En présence de surveillants — valide <em>be'diavad</em>. Un mineur qui maîtrise ses mains + un adulte qui surveille — peut abattre <em>le'atkhila</em>.</li>
+          </ul>
+        </div>
+
+        <h3>🔗 Lien avec la Massekhet Menahot</h3>
+        <div class="source-box">
+          <ul>
+            <li>📌 La Massekhet Menahot que nous venons d'étudier traitait principalement des offrandes végétales du Temple — un domaine réservé aux prêtres et au service sacré.</li>
+            <li>📌 La Massekhet Chullin ouvre sur un domaine entièrement différent : la vie alimentaire quotidienne de chaque Juif. La même rigueur halakhique s'applique — les cinq défauts invalidants de la Shehita ont leur parallèle dans les conditions de validité des Menahot (les cinq défauts de l'ikouv, les règles de préparation, etc.).</li>
+            <li>📌 Mais le sujet change profondément : ici, pas de prêtre, pas de Temple, pas de Komets — juste un couteau, un animal, et un homme ou une femme ordinaire qui doit exécuter un acte précis pour que la viande soit permise à la consommation.</li>
+            <li>📌 La halakha ne réserve pas l'accès à la nourriture kasher à une élite — elle l'ouvre à tous, avec les règles qui en garantissent la dignité.</li>
+          </ul>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
