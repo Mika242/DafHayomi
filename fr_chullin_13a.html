@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chullin daf 13a (Perek 1 - Michna 2) (שְׁחִיטַת נׇכְרִי נְבֵלָה : la Shehita du non-Juif est une Nevelah)</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 40px;
+            padding: 0;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 30px auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            text-align: center;
+            color: #5a2d82;
+            border-bottom: 2px solid #7a3da5;
+            padding-bottom: 5px;
+        }
+        p {
+            line-height: 1.6;
+            margin-bottom: 1em;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+        ul li::before {
+            content: "• ";
+            color: #0066cc;
+            font-weight: bold;
+        }
+        blockquote {
+            background-color: #f9f9f9;
+            border-left: 4px solid #0066cc;
+            padding: 10px;
+            margin: 20px 0;
+            font-style: italic;
+        }
+        .mishna-text-comment {
+            display: none;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1.2em;
+            color: #003366;
+            background-color: #f0f0f0;
+            padding: 15px;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        .toggle-button {
+            background-color: #0066cc;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .toggle-button:hover {
+            background-color: #0057a1;
+        }
+        .mishna {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1.2em;
+            color: #003366;
+            background-color: #f0f0f0;
+            padding: 15px;
+            margin-top: 10px;
+            border-radius: 5px;
+            text-align: right;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table th {
+            background-color: #5a2d82;
+            color: white;
+            padding: 8px;
+        }
+        table td {
+            padding: 8px;
+            border: 1px solid #ccc;
+        }
+        table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .bloc-regle {
+            background-color: #fce4ec;
+            border-left: 4px solid #c62828;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .bloc-source-rambam {
+            background-color: #e8f5e9;
+            border-left: 4px solid #388e3c;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .bloc-source-tosafot {
+            background-color: #e3f2fd;
+            border-left: 4px solid #1565c0;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .bloc-commentateurs {
+            background-color: #fff8e1;
+            border-left: 4px solid #f9a825;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .bloc-halakha {
+            background-color: #e0f7fa;
+            border-left: 4px solid #00838f;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .principe-box {
+            background-color: #f3e5f5;
+            border-left: 4px solid #7b1fa2;
+            padding: 12px;
+            margin: 15px 0;
+            border-radius: 4px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .source-box {
+            background-color: #e0f7fa;
+            border-left: 4px solid #00838f;
+            padding: 12px;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+        .tension-box {
+            background-color: #fce4ec;
+            border-left: 4px solid #c62828;
+            padding: 12px;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+        .dorrevii-box {
+            background-color: #f3e5f5;
+            border-left: 4px solid #7b1fa2;
+            padding: 12px;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+    </style>
+
+    <script>
+        function togglemishnaTextComment() {
+            var mishnaTextComment = document.getElementById("mishnaTextComment");
+            if (mishnaTextComment.style.display === "none") {
+                mishnaTextComment.style.display = "block";
+            } else {
+                mishnaTextComment.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<div class="container">
+
+<button class="toggle-button" onclick="togglemishnaTextComment()">Afficher/Cacher la Mishna et les commentaires</button>
+
+<div id="mishnaTextComment" class="mishna-text-comment">
+
+    <div class="mishna">
+
+        <h3>מַתְנִי׳</h3>
+
+        <ul>
+          <li>
+            שְׁחִיטַת נׇכְרִי נְבֵלָה, וּמְטַמְּאָה בְּמַשָּׂא.
+            <span style="float:right;">🚫🩸</span>
+          </li>
+        </ul>
+
+    </div>
+
+    <h1>Chullin daf 13a (Perek 1 - Michna 2)</h1>
+
+        <h3>Traduction en français de la Michna</h3>
+
+            <h3>🚫 La règle</h3>
+            <div class="bloc-regle">
+              <ul>
+                <li>🔪 La <strong>Shehita effectuée par un non-Juif (נׇכְרִי)</strong> confère à l'animal le statut de <strong>Nevelah (נְבֵלָה)</strong> — animal non abattu rituellement.</li>
+                <li>☠️ Et cette Nevelah <strong>transmet l'impureté rituelle par le port (מַשָּׂא)</strong> — porter l'animal invalidé rend impur.</li>
+                <li>📌 Cette règle s'applique même si le non-Juif a procédé correctement selon toutes les règles techniques, même si un Juif le supervisait, même si le couteau était parfait.</li>
+              </ul>
+            </div>
+
+    <h2>📖 Analyse des Commentateurs</h2>
+
+        <h3>🖊️ Rachi — Chullin 13a</h3>
+        <div class="bloc-commentateurs">
+          <ul>
+            <li>📌 Rachi précise : « שְׁחִיטַת נׇכְרִי » — même si elle a été effectuée selon toutes les règles halakhiques et même si d'autres la surveillaient.</li>
+            <li>📌 Sur « וּמְטַמְּאָה בְּמַשָּׂא » : Rachi note que la Guemara demande « פְּשִׁיטָא » (c'est évident !) — puisque toute Nevelah transmet l'impureté par le port, pourquoi la Mishna le précise-t-elle ? La Guemara explicitera la réponse.</li>
+          </ul>
+        </div>
+
+        <h3>📖 Steinsaltz — synthèse</h3>
+        <div class="bloc-commentateurs">
+          <ul>
+            <li>📌 La Shehita du non-Juif fait de l'animal une Nevelah — et comme toute Nevelah, elle transmet l'impureté par le port (מַשָּׂא), c'est-à-dire que porter l'animal invalide rend impur.</li>
+          </ul>
+        </div>
+
+        <h3>📖 Meiri — Chullin 13a</h3>
+        <div class="bloc-commentateurs">
+          <ul>
+            <li>📌 Le Meiri explique en citant le Rambam : la raison de l'interdiction de la Shehita du non-Juif est que la <em>pensée habituelle du non-Juif est tournée vers l'idolâtrie</em>. Cela ne signifie pas qu'il a effectivement eu une intention idolâtre lors de cette Shehita, mais que sa nature le rend structurellement inapte.</li>
+            <li>📌 Il distingue deux catégories de non-Juifs pratiquant le culte idolâtre : (1) ceux qui comprennent les dimensions spirituelles et cosmiques de leur culte ; (2) ceux qui suivent simplement la tradition de leurs ancêtres sans compréhension profonde. Ces derniers sont qualifiés par les Sages : « les non-Juifs en dehors d'Israël ne pratiquent pas vraiment l'idolâtrie — ils ne font que perpétuer la coutume de leurs ancêtres. »</li>
+          </ul>
+        </div>
+
+        <h3>📖 Rosh — Chullin 1:5</h3>
+        <div class="bloc-commentateurs">
+          <ul>
+            <li>📌 Le Rosh cite deux sources distinctes pour l'interdiction :</li>
+            <li>📜 <strong>Position de Rabbi Yitzhak (Tossafot)</strong> : le verset « וְזָבַחְתָּ וְאָכַלְתָּ » (tu abattras et tu mangeras) signifie que seul celui qui peut manger de ses abattages peut valablement abattre — or le non-Juif est <em>bar zviha</em> (apte à abattre) mais pas de la même façon qu'un Juif.</li>
+            <li>📜 <strong>Position du Rambam</strong> : le verset « וְקָרָא לְךָ וְאָכַלְתָּ מִזִּבְחוֹ » (il t'appellera et tu mangeras de son sacrifice) — puisque la Torah avertit de ne pas manger de son sacrifice, on déduit que son sacrifice est interdit.</li>
+            <li>📌 Le Rosh note que la logique du Rambam semble faible car ce verset parle spécifiquement d'un sacrifice idolâtre, pas de toute Shehita ordinaire d'un non-Juif.</li>
+          </ul>
+        </div>
+
+        <h3>📖 Chatan Sofer — Chullin 13a</h3>
+        <div class="bloc-commentateurs">
+          <ul>
+            <li>📌 Le Chatan Sofer analyse la distinction du Rambam : le non-Juif adorateur d'idoles voit sa Shehita interdite de la Torah en raison de l'aspect « taqrouvet avoda zara » (offrande à l'idolâtrie). Un non-Juif qui n'adore pas les idoles — son interdiction n'est que rabbinique selon le Rambam.</li>
+            <li>📌 Quant à la question de l'impureté par le port : le Chatan Sofer explique la position du Rambam (Hilkhot Avot HaTuma'a 2:10) — même pour un non-Juif adorateur d'idoles, l'impureté par le port n'est peut-être que rabbinique, car la Shehita pourrait théoriquement l'avoir « purifiée » de l'état de Nevelah, comme la Shehita d'une bête <em>tréfa</em>.</li>
+          </ul>
+        </div>
+
+        <h3>📖 Dor Revi'i — Chullin 13a (analyse approfondie)</h3>
+        <div class="bloc-commentateurs">
+          <ul>
+            <li>📌 Le Dor Revi'i soulève une difficulté structurelle majeure : si, comme les Tossafot l'enseignent, l'interdiction vient du verset « וְזָבַחְתָּ וְאָכַלְתָּ » (qui exclut celui qui n'est pas <em>bar zviha</em>), pourquoi la Mishna de la Nevelah du couteau tombé (daf 31a) utilise le même verset — alors que la Mishna ici ne le mentionne pas ? Il y a une incohérence dans la présentation.</li>
+            <li>📌 Le Dor Revi'i tranche en faveur du Rambam : le non-Juif n'est pas invalidé par le verset « וְזָבַחְתָּ » (car on ne peut pas l'exclure de ce verset de la même façon qu'un objet inanimé), mais par le verset « וְקָרָא לְךָ וְאָכַלְתָּ מִזִּבְחוֹ » en raison de sa connexion à l'idolâtrie.</li>
+            <li>📌 Il réfute la position du Raavad qui assimilerait le non-Juif à un animal ou un singe : « le non-Juif est créé à l'image de Dieu et est tenu aux sept commandements noahides qui lui ouvrent la voie à la vie du monde à venir — il serait indigne de le comparer à un singe ou à une bête. »</li>
+          </ul>
+        </div>
+
+</div>
+
+
+    <h1>Chullin daf 13a (Perek 1 - Michna 2) — שְׁחִיטַת נׇכְרִי נְבֵלָה : la Shehita du non-Juif est une Nevelah</h1>
+
+    <div class="mishna-explication">
+
+        <h3>📌 Explication de la Michna</h3>
+
+            <h3>🧠 Principe général de la michna</h3>
+            <ul>
+              <li>📌 La Mishna 2 est le pendant direct et le contrepoint de la Mishna 1 (Chullin 2a). Là où la Mishna 1 avait établi que « tout le monde peut abattre » avec ses exceptions limitées, la Mishna 2 établit une exception globale et absolue : <strong>le non-Juif</strong>.</li>
+              <li>📌 La règle est formulée de façon laconique — une seule phrase — mais ses implications sont majeures et font l'objet d'un débat profond entre les Rishonim sur sa <em>source biblique</em> et son <em>niveau d'obligation</em> (Torah ou rabbinique).</li>
+              <li>📌 La Mishna ajoute un second élément : la Shehita du non-Juif ne rend pas seulement l'animal interdit à la consommation — elle lui confère le statut halakhique complet de <strong>Nevelah</strong>, avec toutes ses conséquences en matière de <em>tum'ah</em> (impureté).</li>
+            </ul>
+
+            <div class="principe-box">
+              ⚖️ Règle absolue : la Shehita d'un non-Juif est une Nevelah — sans exception, sans remède. Même parfaite techniquement, même supervisée par un Juif, même avec un couteau impeccable. La validité de la Shehita ne dépend pas seulement de la technique mais de l'identité de celui qui abat.
+            </div>
+
+            <h3>📜 Le contraste avec la Mishna 1 : exceptions limitées vs. invalidation absolue</h3>
+            <div class="tension-box">
+              <ul>
+                <li>📌 <strong>Michna 1</strong> : les exceptions (חֵרֵשׁ שׁוֹטֶה וְקָטָן) peuvent être réhabilitées par la surveillance d'autres — leur Shehita devient valide be'diavad sous supervision.</li>
+                <li>📌 <strong>Michna 2</strong> : la Shehita du non-Juif est invalide même sous supervision d'un Juif. Aucune surveillance ne peut la valider.</li>
+                <li>📌 La différence fondamentale : dans la Mishna 1, le problème est un déficit de <em>technique et de vigilance</em> — réparable par un regard extérieur. Dans la Mishna 2, le problème est un déficit de <em>statut halakhique</em> — irréparable par la surveillance.</li>
+              </ul>
+            </div>
+
+            <h3>📜 Les deux grandes sources de l'interdiction : le grand débat</h3>
+
+                <h3>🔵 Position des Tossafot et du Rosh : « וְזָבַחְתָּ וְאָכַלְתָּ »</h3>
+                <div class="bloc-source-tosafot">
+                  <ul>
+                    <li>📜 <strong>Deutéronome 12:21</strong> — « וְזָבַחְתָּ מִבְּקָרְךָ וּמִצֹּאנְךָ… וְאָכַלְתָּ » — « tu abattras de ton bétail… et tu mangeras. »</li>
+                    <li>📌 Logique : « מה שאתה זובח אתה אוכל » — ce que <em>toi</em> tu abats, <em>toi</em> tu peux manger. Celui qui n'est pas « bar zviha » (apte à abattre selon la Torah) ne peut pas valider une Shehita.</li>
+                    <li>📌 Le non-Juif n'est pas « bar zviha » au sens plein — la Torah s'adresse à Israël pour les commandements alimentaires, donc sa Shehita n'est pas une Shehita halakhique valide.</li>
+                    <li>⚖️ Conséquence : l'interdiction est <strong>d'origine biblique (de-Oraïta)</strong> pour tous les non-Juifs, qu'ils soient idolâtres ou non.</li>
+                  </ul>
+                </div>
+
+                <h3>🟢 Position du Rambam : « וְקָרָא לְךָ וְאָכַלְתָּ מִזִּבְחוֹ »</h3>
+                <div class="bloc-source-rambam">
+                  <ul>
+                    <li>📜 <strong>Exode 34:15</strong> — « פֶּן תִּכְרֹת בְּרִית לְיוֹשֵׁב הָאָרֶץ… וְקָרָא לְךָ וְאָכַלְתָּ מִזִּבְחוֹ » — « Garde-toi de conclure une alliance avec les habitants du pays… car il t'invitera et tu mangeras de son sacrifice. »</li>
+                    <li>📌 Logique du Rambam (Hilkhot Shehita 4:11) : puisque la Torah avertit « tu ne mangeras pas de son sacrifice », on déduit que son sacrifice (זִבְחוֹ) est interdit. Ce verset concerne spécifiquement le non-Juif idolâtre.</li>
+                    <li>📌 Conséquence majeure pour le Rambam : un non-Juif qui n'est <em>pas</em> adorateur d'idoles — son interdiction n'est que <strong>rabbinique</strong>. Seul le non-Juif pratiquant l'idolâtrie est visé par le verset.</li>
+                    <li>⚖️ Le Rambam ajoute (Hilkhot Avot HaTuma'a 2:10) : même pour le non-Juif idolâtre, l'<em>impureté par le port</em> de sa Shehita n'est peut-être que rabbinique — car l'impureté des offrandes idolâtres est elle-même rabbinique, et sa Shehita pourrait théoriquement le « purifier » de l'état de Nevelah (comme la Shehita d'un animal tréfa).</li>
+                  </ul>
+                </div>
+
+            <h3>🔑 Analyse du débat et ses conséquences pratiques</h3>
+
+                <table align="center" border="1" cellpadding="6" cellspacing="0">
+                  <tr>
+                    <th>🧩 Question</th>
+                    <th>🔵 Tossafot / Rosh</th>
+                    <th>🟢 Rambam</th>
+                  </tr>
+                  <tr>
+                    <td>Source biblique</td>
+                    <td>« וְזָבַחְתָּ וְאָכַלְתָּ » (Dt 12:21)</td>
+                    <td>« וְקָרָא לְךָ וְאָכַלְתָּ מִזִּבְחוֹ » (Ex 34:15)</td>
+                  </tr>
+                  <tr>
+                    <td>Non-Juif idolâtre</td>
+                    <td>❌ Interdit de la Torah</td>
+                    <td>❌ Interdit de la Torah</td>
+                  </tr>
+                  <tr>
+                    <td>Non-Juif non idolâtre (guer toshav)</td>
+                    <td>❌ Interdit de la Torah (même verset)</td>
+                    <td>⚠️ Interdit rabbinique seulement</td>
+                  </tr>
+                  <tr>
+                    <td>Impureté de la Nevelah (mashà)</td>
+                    <td>✅ De la Torah (comme toute Nevelah)</td>
+                    <td>⚠️ Peut-être seulement rabbinique</td>
+                  </tr>
+                  <tr>
+                    <td>Supervision d'un Juif</td>
+                    <td>❌ Ne change rien — toujours invalide</td>
+                    <td>❌ Ne change rien — toujours invalide</td>
+                  </tr>
+                </table>
+
+            <h3>☠️ La Nevelah et son impureté par le port (מַשָּׂא)</h3>
+            <div class="source-box">
+              <ul>
+                <li>📜 <strong>Lévitique 11:39-40</strong> — « Si une bête permise vient à mourir, celui qui touche sa carcasse sera impur jusqu'au soir. Celui qui mange de sa carcasse lavera ses vêtements et sera impur jusqu'au soir. Celui qui porte sa carcasse (נֹשֵׂא נִבְלָתָהּ) lavera ses vêtements et sera impur jusqu'au soir. »</li>
+                <li>📌 La Torah prescrit trois niveaux de contact transmettant l'impureté de la Nevelah : toucher (מַגָּע), manger, et porter (מַשָּׂא). La Mishna mentionne spécifiquement le port — le niveau intermédiaire.</li>
+                <li>📌 Rachi note : la Guemara demande « פְּשִׁיטָא ! » (c'est évident !) — puisque toute Nevelah transmet l'impureté par le port, pourquoi la Mishna le dit-elle explicitement ? La Guemara explique que c'est pour inclure même l'impureté par le port — et non seulement l'interdit de consommation.</li>
+              </ul>
+            </div>
+
+            <h3>🌍 La dimension éthique et théologique : le Dor Revi'i</h3>
+            <div class="dorrevii-box">
+              <ul>
+                <li>📌 Le Dor Revi'i consacre une longue analyse à réfuter la position qui assimilerait le non-Juif à un animal ou un singe pour les besoins de la Shehita (position attribuée au Raavad dans certaines lectures).</li>
+                <li>📌 Sa position est explicite : « Le non-Juif est créé à l'image de Dieu (בְּצֶלֶם אֱלֹהִים), est tenu aux sept commandements noahides qui lui ouvrent la voie à la vie du monde à venir. Il serait indigne et incorrect de l'assimiler à un singe ou à une bête — Dieu préserve ! »</li>
+                <li>📌 L'invalidité de la Shehita du non-Juif n'est donc pas une question de mépris ou d'infériorité ontologique, mais une question de <em>statut halakhique et rituel</em> : les commandements alimentaires d'Israël font partie d'un système de sanctification qui est propre à la communauté d'Israël.</li>
+                <li>📌 L'invalidité de sa Shehita est comparable à l'invalidité d'une Torah écrite par un non-Juif : non pas parce qu'il est inférieur, mais parce que certains actes rituels sont constitutifs d'une appartenance et d'une obligation spécifiques.</li>
+              </ul>
+            </div>
+
+            <h3>📋 Cas particuliers traités par les Rishonim</h3>
+            <div class="bloc-commentateurs">
+              <ul>
+                <li>📌 <strong>Non-Juif + Juif supervisant</strong> : invalide — la supervision ne change pas le statut de l'exécutant.</li>
+                <li>📌 <strong>Non-Juif expert connaissant les lois de la Shehita</strong> : invalide — la compétence technique ne supplée pas au statut halakhique.</li>
+                <li>📌 <strong>Juif apostat (מוּמָר)</strong> : selon le Rambam (et le Tur), s'il est apostat pour l'idolâtrie ou la violation publique du Chabbat, il est traité comme un non-Juif intégral. Pour d'autres transgressions, le Tur rapporte un débat entre Rosh et Rambam — le Rosh permette avec vérification du couteau, le Rambam exige aussi la vérification.</li>
+                <li>📌 <strong>Shehita commune (Juif + non-Juif sur le même couteau)</strong> : le Tur conclut que c'est invalide — même si chacun a coupé sa part des conduits.</li>
+              </ul>
+            </div>
+
+            <h3>📊 Tableau de synthèse de la michna</h3>
+            <table align="center" border="1" cellpadding="6" cellspacing="0">
+              <tr>
+                <th>🧩 Situation</th>
+                <th>🔪 Statut de la Shehita</th>
+                <th>☠️ Impureté Nevelah</th>
+                <th>📜 Source</th>
+              </tr>
+              <tr>
+                <td>Non-Juif idolâtre — Shehita correcte</td>
+                <td>❌ Nevelah</td>
+                <td>✅ Oui (Torah ou rabbinique ?)</td>
+                <td>Rambam : Ex 34:15 | Tossafot : Dt 12:21</td>
+              </tr>
+              <tr>
+                <td>Non-Juif idolâtre — avec surveillance juive</td>
+                <td>❌ Nevelah</td>
+                <td>✅ Oui</td>
+                <td>Unanimité</td>
+              </tr>
+              <tr>
+                <td>Non-Juif non idolâtre (guer toshav)</td>
+                <td>❌ Nevelah</td>
+                <td>✅ Oui (rabbinique selon Rambam)</td>
+                <td>Rambam : rabbinique | Tossafot : Torah</td>
+              </tr>
+              <tr>
+                <td>Juif apostat (idolâtrie/Chabbat)</td>
+                <td>❌ Nevelah</td>
+                <td>✅ Oui</td>
+                <td>Comme non-Juif intégral</td>
+              </tr>
+              <tr style="background-color:#e8f5e9;">
+                <td>Juif compétent — Shehita correcte</td>
+                <td>✅ Valide</td>
+                <td>❌ Purifiée par la Shehita</td>
+                <td>Règle générale Mishna 1</td>
+              </tr>
+            </table>
+
+            <h3>🔗 Liens avec la Massekhet Menahot et les chapitres précédents</h3>
+            <ul>
+              <li>📎 La notion de « statut de l'exécutant » (non-Juif vs. Juif dans la Shehita) a son parallèle dans la Massekhet Menahot : les prêtres ne peuvent pas manger des Menahot offertes pour eux-mêmes (Michna Perek 4), et certains actes du service sacré ne peuvent être accomplis que par des Cohanim. Le statut de l'exécutant est toujours pertinent.</li>
+              <li>📎 La Mishna 1 (Chullin 2a) avait établi l'accessibilité universelle de la Shehita pour les Juifs. La Mishna 2 établit la limite absolue de cette universalité : le non-Juif en est exclu, quelle que soit sa compétence.</li>
+              <li>📎 Cette structure — règle générale inclusive puis exception absolue — est caractéristique de la méthode mishnique : poser le principe de la façon la plus large possible, puis définir ses limites.</li>
+            </ul>
+
+    <h2>📜 Explication Synthétique des Halakhot</h2>
+
+        <h3>📖 Rambam (Hilkhot Shehita 4:11 + Hilkhot Avot HaTuma'a 2:10)</h3>
+        <div class="bloc-halakha">
+          <ul>
+            <li>📌 <strong>Hilkhot Shehita 4:11</strong> : « Quand un non-Juif abat, même en présence d'un Juif, avec un couteau parfaitement affûté, même s'il était mineur — sa Shehita est une Nevelah. On est passible de flagellation de la Torah pour en manger, car [Ex 34:15] : "il t'appellera et tu mangeras de son sacrifice." Il ne peut être comparé à un Juif qui ne connaît pas les lois de la Shehita. »</li>
+            <li>📌 <strong>Hilkhot Avot HaTuma'a 2:10</strong> : « Quand un non-Juif abat un animal, c'est comme une Nevelah et transmet l'impureté par le port. Cela s'applique même si un Juif le supervise et même s'il a abattu correctement… Selon mon estimation, c'est aussi un décret rabbinique, car l'impureté des idoles et de ce qui leur est offert est un décret rabbinique. »</li>
+          </ul>
+        </div>
+
+        <h3>📖 Choulhan Aroukh (YD 2:1) + Rema</h3>
+        <div class="bloc-halakha">
+          <ul>
+            <li>📌 <strong>YD 2:1</strong> : « La Shehita d'un non-Juif est une Nevelah — même s'il est mineur, même s'il n'adore pas les idoles [ex. : un résident légal — Rema] — et même si d'autres le surveillent. »</li>
+            <li>📌 La règle est codifiée sans exception de compétence ou de surveillance — le statut est absolu.</li>
+          </ul>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
